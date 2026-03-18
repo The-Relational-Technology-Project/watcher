@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+{% set active_page = "feed" %}
+
+{% block title %}Feed - Relational Tech Network{% endblock %}
+
+{% block content %}
+<p class="stats">{{ feed|length }} recent updates from {{ total_projects }} projects</p>
+
+{% if all_tags %}
+<div class="filter-bar" id="filters">
+    <span class="tag" data-tag="all" onclick="filterByTag('all')">All</span>
+    {% for tag in all_tags[:20] %}
+    <span class="tag" data-tag="{{ tag }}" onclick="filterByTag('{{ tag }}')">{{ tag }}</span>
+    {% endfor %}
+</div>
+{% endif %}
+
+<div id="feed">
+{% for entry in feed %}
+<div class="feed-entry {{ entry.entry_type or '' }} {{ entry.change.significance if entry.change else '' }}" data-tags="{{ entry.tags|join(' ') if entry.tags else '' }}">
+    <div class="entry-meta">
+        <span class="entry-project">
+            {% if entry.entry_type == 'welcome' %}New: {% endif %}
+            {% if entry.repo.url %}
+                <a href="{{ entry.repo.url }}">{{ entry.repo.name }}</a>
+            {% else %}
+                {{ entry.repo.name }}
+            {% endif %}
+        </span>
+        {% if entry.repo.neighborhood %}
+        <span class="entry-neighborhood">{{ entry.repo.neighborhood }}</span>
+        {% endif %}
+        <span class="entry-date">{{ entry.timestamp[:10] }}</span>
+    </div>
+
+    <p class="entry-summary">{{ entry.summary }}</p>
+
+    {% if entry.change and entry.change.url %}
+    <p class="entry-change-link">
+        <a href="{{ entry.change.url }}">View {{ entry.change.type|replace('_', ' ') }} &rarr;</a>
+    </p>
+    {% endif %}
+
+    {% if entry.tags %}
+    <div class="tags">
+        {% for tag in entry.tags %}
+        <span class="tag">{{ tag }}</span>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if entry.matches %}
+    <div class="matches">
+        <strong>Related projects:</strong>
+        {% for match in entry.matches %}
+            {{ match.builder }}{% if match.reason %} ({{ match.reason }}){% endif %}{% if not loop.last %}, {% endif %}
+        {% endfor %}
+    </div>
+    {% endif %}
+</div>
+{% endfor %}
+</div>
+
+{% if not feed %}
+<div class="feed-entry">
+    <p class="entry-summary">
+        The network is quiet right now. As builders tag their repos with
+        <code>relational-tech</code>, updates will appear here.
+    </p>
+</div>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+<script>
+function filterByTag(tag) {
+    const entries = document.querySelectorAll('.feed-entry');
+    const tags = document.querySelectorAll('.filter-bar .tag');
+
+    tags.forEach(t => t.classList.remove('active'));
+    document.querySelector(`.filter-bar .tag[data-tag="${tag}"]`)?.classList.add('active');
+
+    entries.forEach(entry => {
+        if (tag === 'all') {
+            entry.style.display = '';
+        } else {
+            const entryTags = entry.dataset.tags || '';
+            entry.style.display = entryTags.includes(tag) ? '' : 'none';
+        }
+    });
+}
+</script>
+{% endblock %}
