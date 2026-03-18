@@ -1,38 +1,6 @@
 [
   {
     "id": "welcome-cozy-corner",
-    "timestamp": "2026-03-18T05:28:39.249837+00:00",
-    "entry_type": "welcome",
-    "repo": {
-      "name": "cozy-corner",
-      "full_name": "The-Relational-Technology-Project/community-supplies",
-      "url": "https://github.com/The-Relational-Technology-Project/community-supplies",
-      "neighborhood": null,
-      "builder": null,
-      "description": "Neighbor hub for 48th Ave in the Outer Sunset"
-    },
-    "summary": "Welcome to the network, cozy-corner! \ud83c\udf89 This neighbor hub for 48th Ave in the Outer Sunset is a wonderful addition to our growing community of relational tech projects. We're so glad you're here and can't wait to see the connections you help build.",
-    "tags": [],
-    "matches": []
-  },
-  {
-    "id": "welcome-cozy-corner",
-    "timestamp": "2026-03-18T05:28:41.548937+00:00",
-    "entry_type": "welcome",
-    "repo": {
-      "name": "cozy-corner",
-      "full_name": "The-Relational-Technology-Project/cozy-corner",
-      "url": "https://github.com/The-Relational-Technology-Project/cozy-corner",
-      "neighborhood": null,
-      "builder": null,
-      "description": "Neighbor hub for 48th Ave in the Outer Sunset"
-    },
-    "summary": "Welcome to the network, cozy-corner! \ud83c\udf89 This neighbor hub for 48th Ave in the Outer Sunset is a wonderful addition to our growing community of relational projects. We're so glad you're here and can't wait to see the connections you help foster.",
-    "tags": [],
-    "matches": []
-  },
-  {
-    "id": "welcome-cozy-corner",
     "timestamp": "2026-03-18T05:28:43.396870+00:00",
     "entry_type": "welcome",
     "repo": {
