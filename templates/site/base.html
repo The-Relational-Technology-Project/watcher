@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Relational Tech Network{% endblock %}</title>
     <meta name="description" content="Meaningful changes across the relational tech ecosystem.">
-    <link rel="alternate" type="application/rss+xml" title="Relational Tech Updates" href="/feed.xml">
+    <link rel="alternate" type="application/rss+xml" title="Relational Tech Updates" href="feed.xml">
     <style>
         :root {
             --color-bg: #faf9f7;
@@ -268,10 +268,10 @@
             <h1>Relational Tech Network</h1>
             <p>What's growing across the ecosystem</p>
             <nav>
-                <a href="/" {% if active_page == 'feed' %}class="active"{% endif %}>Feed</a>
-                <a href="/projects.html" {% if active_page == 'projects' %}class="active"{% endif %}>Projects</a>
-                <a href="/about.html" {% if active_page == 'about' %}class="active"{% endif %}>About</a>
-                <a href="/feed.xml">RSS</a>
+                <a href="./" {% if active_page == 'feed' %}class="active"{% endif %}>Feed</a>
+                <a href="projects.html" {% if active_page == 'projects' %}class="active"{% endif %}>Projects</a>
+                <a href="about.html" {% if active_page == 'about' %}class="active"{% endif %}>About</a>
+                <a href="feed.xml">RSS</a>
             </nav>
         </header>
 
