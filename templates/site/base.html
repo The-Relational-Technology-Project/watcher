@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Relational Tech Network{% endblock %}</title>
+    <meta name="description" content="Meaningful changes across the relational tech ecosystem.">
+    <link rel="alternate" type="application/rss+xml" title="Relational Tech Updates" href="/feed.xml">
+    <style>
+        :root {
+            --color-bg: #faf9f7;
+            --color-surface: #ffffff;
+            --color-text: #2d2d2d;
+            --color-text-secondary: #666;
+            --color-accent: #4a7c59;
+            --color-accent-light: #e8f0eb;
+            --color-highlight: #d4a843;
+            --color-highlight-light: #fef9ec;
+            --color-border: #e5e2dd;
+            --color-tag-bg: #f0ede8;
+            --max-width: 720px;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            background: var(--color-bg);
+            color: var(--color-text);
+            line-height: 1.6;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+
+        header {
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 2px solid var(--color-border);
+        }
+
+        header h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        header p {
+            color: var(--color-text-secondary);
+            font-size: 0.95rem;
+        }
+
+        nav {
+            margin-top: 1rem;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        nav a {
+            color: var(--color-accent);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        nav a:hover { text-decoration: underline; }
+        nav a.active { border-bottom: 2px solid var(--color-accent); }
+
+        .feed-entry {
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: 8px;
+            padding: 1.25rem 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .feed-entry.highlight {
+            border-left: 3px solid var(--color-highlight);
+            background: var(--color-highlight-light);
+        }
+
+        .feed-entry.welcome {
+            border-left: 3px solid var(--color-accent);
+            background: var(--color-accent-light);
+        }
+
+        .entry-meta {
+            display: flex;
+            align-items: baseline;
+            gap: 0.75rem;
+            margin-bottom: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .entry-project {
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
+        .entry-project a {
+            color: var(--color-text);
+            text-decoration: none;
+        }
+
+        .entry-project a:hover { text-decoration: underline; }
+
+        .entry-neighborhood {
+            color: var(--color-text-secondary);
+            font-size: 0.85rem;
+        }
+
+        .entry-date {
+            color: var(--color-text-secondary);
+            font-size: 0.8rem;
+            margin-left: auto;
+        }
+
+        .entry-summary {
+            font-size: 0.95rem;
+            line-height: 1.65;
+            margin-bottom: 0.75rem;
+        }
+
+        .entry-change-link {
+            font-size: 0.85rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .entry-change-link a {
+            color: var(--color-accent);
+            text-decoration: none;
+        }
+
+        .entry-change-link a:hover { text-decoration: underline; }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.35rem;
+        }
+
+        .tag {
+            background: var(--color-tag-bg);
+            color: var(--color-text-secondary);
+            padding: 0.15rem 0.5rem;
+            border-radius: 3px;
+            font-size: 0.75rem;
+        }
+
+        .matches {
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid var(--color-border);
+            font-size: 0.85rem;
+            color: var(--color-text-secondary);
+        }
+
+        .matches strong { color: var(--color-text); font-weight: 500; }
+
+        .project-card {
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: 8px;
+            padding: 1.25rem 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .project-card h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .project-card h3 a {
+            color: var(--color-text);
+            text-decoration: none;
+        }
+
+        .project-card h3 a:hover { text-decoration: underline; }
+
+        .project-card p {
+            color: var(--color-text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .filter-bar {
+            margin-bottom: 1.5rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.35rem;
+        }
+
+        .filter-bar .tag {
+            cursor: pointer;
+            transition: background 0.15s;
+        }
+
+        .filter-bar .tag:hover,
+        .filter-bar .tag.active {
+            background: var(--color-accent);
+            color: white;
+        }
+
+        .stats {
+            color: var(--color-text-secondary);
+            font-size: 0.85rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .section-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .about-content {
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+        .about-content h2 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-top: 2rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .about-content p { margin-bottom: 1rem; }
+
+        .about-content code {
+            background: var(--color-tag-bg);
+            padding: 0.1rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+
+        .about-content pre {
+            background: #2d2d2d;
+            color: #f0ede8;
+            padding: 1rem;
+            border-radius: 6px;
+            overflow-x: auto;
+            margin-bottom: 1rem;
+            font-size: 0.85rem;
+            line-height: 1.5;
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--color-border);
+            color: var(--color-text-secondary);
+            font-size: 0.8rem;
+            text-align: center;
+        }
+
+        footer a { color: var(--color-accent); text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Relational Tech Network</h1>
+            <p>What's growing across the ecosystem</p>
+            <nav>
+                <a href="/" {% if active_page == 'feed' %}class="active"{% endif %}>Feed</a>
+                <a href="/projects.html" {% if active_page == 'projects' %}class="active"{% endif %}>Projects</a>
+                <a href="/about.html" {% if active_page == 'about' %}class="active"{% endif %}>About</a>
+                <a href="/feed.xml">RSS</a>
+            </nav>
+        </header>
+
+        {% block content %}{% endblock %}
+
+        <footer>
+            <p>
+                A project of the <a href="https://relationaltechproject.org">Relational Tech Project</a>.
+                Watching {{ total_projects }} projects across the network.
+            </p>
+            <p>Last updated {{ last_updated }}.</p>
+        </footer>
+    </div>
+
+    {% block scripts %}{% endblock %}
+</body>
+</html>

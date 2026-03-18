@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% set active_page = "projects" %}
+
+{% block title %}Projects - Relational Tech Network{% endblock %}
+
+{% block content %}
+<p class="stats">{{ total_projects }} projects in the network</p>
+
+{% for project in projects %}
+<div class="project-card">
+    <h3>
+        {% if project.url %}
+            <a href="{{ project.url }}">{{ project.name }}</a>
+        {% else %}
+            {{ project.name }}
+        {% endif %}
+    </h3>
+    {% if project.description %}
+    <p>{{ project.description }}</p>
+    {% endif %}
+    <div class="entry-meta">
+        {% if project.neighborhood %}
+        <span class="entry-neighborhood">{{ project.neighborhood }}</span>
+        {% endif %}
+        {% if project.builder %}
+        <span class="entry-neighborhood">Built by {{ project.builder }}</span>
+        {% endif %}
+    </div>
+    {% if project.tags %}
+    <div class="tags" style="margin-top: 0.5rem;">
+        {% for tag in project.tags %}
+        <span class="tag">{{ tag }}</span>
+        {% endfor %}
+    </div>
+    {% endif %}
+</div>
+{% endfor %}
+
+{% if not projects %}
+<div class="project-card">
+    <p>No projects in the network yet. <a href="/about.html">Learn how to join.</a></p>
+</div>
+{% endif %}
+{% endblock %}
