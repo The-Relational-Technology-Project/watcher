@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feed - Relational Tech Network</title>
+    <title>About - Relational Tech Network</title>
     <meta name="description" content="Meaningful changes across the relational tech ecosystem.">
     <link rel="alternate" type="application/rss+xml" title="Relational Tech Updates" href="/feed.xml">
     <style>
@@ -268,86 +268,103 @@
             <h1>Relational Tech Network</h1>
             <p>What's growing across the ecosystem</p>
             <nav>
-                <a href="/" class="active">Feed</a>
+                <a href="/" >Feed</a>
                 <a href="/projects.html" >Projects</a>
-                <a href="/about.html" >About</a>
+                <a href="/about.html" class="active">About</a>
                 <a href="/feed.xml">RSS</a>
             </nav>
         </header>
 
         
-<p class="stats">3 recent updates from 3 projects</p>
+<div class="about-content">
+    <p>
+        The Relational Tech Network watcher scans public GitHub repositories that have
+        opted into the network, surfaces meaningful changes, and helps builders learn
+        from each other's work across neighborhoods.
+    </p>
+    <p>
+        Think of it as a neighborhood newsletter for the relational tech ecosystem.
+        When a community calendar project in San Francisco adds multilingual support,
+        a builder working on a similar tool in Detroit might want to know.
+    </p>
 
+    <h2>How to join</h2>
+    <p>
+        Add the topic <code>relational-tech</code> to your GitHub repository. That's it.
+        The watcher will discover your repo on its next scan and add it to the network.
+    </p>
+    <p>
+        On your GitHub repo page, click the gear icon next to "About" in the right sidebar.
+        In the Topics field, type <code>relational-tech</code> and save.
+    </p>
 
+    <h2>For richer participation</h2>
+    <p>
+        Optionally, add a <code>.reltech.yml</code> file to your repo root. This lets
+        you describe your project, set privacy preferences, and declare what you're
+        interested in hearing about from other projects.
+    </p>
+    <pre>
+# .reltech.yml
+version: 1
 
-<div id="feed">
+project:
+  name: "Your Project Name"
+  description: "What this project does"
+  neighborhood: "Your City / Neighborhood"
+  builder: "Your Name"
 
-<div class="feed-entry welcome " data-tags="">
-    <div class="entry-meta">
-        <span class="entry-project">
-            New: 
-            
-                <a href="https://github.com/The-Relational-Technology-Project/sunsetpeople">cozy-corner</a>
-            
-        </span>
-        
-        <span class="entry-date">2026-03-18</span>
-    </div>
+tags:
+  - community-calendar
+  - events
+  - multilingual
 
-    <p class="entry-summary">Welcome to the network, cozy-corner! 🎉 This neighbor hub for 48th Ave in the Outer Sunset is a wonderful addition to our growing community of relational tech projects. We&#39;re so glad to have you here and can&#39;t wait to see the connections you help build!</p>
+watch:
+  signals: ["releases", "prs"]
+  threshold: "minor"
 
-    
+preferences:
+  name_contributors: false
 
-    
+interests:
+  - accessibility
+  - translation
+  - event-aggregation</pre>
 
-    
+    <h2>What the watcher does and doesn't do</h2>
+    <p>
+        The watcher reads public metadata: repo descriptions, commit messages, PR titles
+        and descriptions, release notes, and READMEs. It uses these to generate short,
+        human-readable summaries of what's happening across the network.
+    </p>
+    <p>
+        The watcher never clones your code, indexes source files, or reproduces
+        proprietary logic. It does not monitor issues, discussions, or contributor
+        activity patterns. It attributes work to projects, not individuals (unless
+        your manifest says otherwise).
+    </p>
+
+    <h2>Opting out</h2>
+    <p>
+        Remove the <code>relational-tech</code> topic from your repo. The watcher's
+        next scan will notice and stop watching your repo. If you want to stay in the
+        project directory but stop generating feed entries, add <code>watch: none</code>
+        to your <code>.reltech.yml</code>.
+    </p>
+
+    <h2>Principles</h2>
+    <p>
+        This tool is built by the
+        <a href="https://relationaltechproject.org">Relational Tech Project</a>,
+        which supports people in cultivating healthy relational soil --
+        the conditions in which agency, belonging, and trust can grow.
+    </p>
+    <p>
+        The watcher is designed to celebrate what builders ship, not surveil
+        what they're working on. It respects boundaries, honors consent, and
+        treats every repo's preferences as authoritative.
+    </p>
 </div>
-
-<div class="feed-entry welcome " data-tags="">
-    <div class="entry-meta">
-        <span class="entry-project">
-            New: 
-            
-                <a href="https://github.com/The-Relational-Technology-Project/cozy-corner">cozy-corner</a>
-            
-        </span>
-        
-        <span class="entry-date">2026-03-18</span>
-    </div>
-
-    <p class="entry-summary">Welcome to the network, cozy-corner! 🎉 This neighbor hub for 48th Ave in the Outer Sunset is a wonderful addition to our growing community of relational projects. We&#39;re so glad you&#39;re here and can&#39;t wait to see the connections you help foster.</p>
-
-    
-
-    
-
-    
-</div>
-
-<div class="feed-entry welcome " data-tags="">
-    <div class="entry-meta">
-        <span class="entry-project">
-            New: 
-            
-                <a href="https://github.com/The-Relational-Technology-Project/community-supplies">cozy-corner</a>
-            
-        </span>
-        
-        <span class="entry-date">2026-03-18</span>
-    </div>
-
-    <p class="entry-summary">Welcome to the network, cozy-corner! 🎉 This neighbor hub for 48th Ave in the Outer Sunset is a wonderful addition to our growing community of relational tech projects. We&#39;re so glad you&#39;re here and can&#39;t wait to see the connections you help build.</p>
-
-    
-
-    
-
-    
-</div>
-
-</div>
-
-
 
 
         <footer>
@@ -355,29 +372,10 @@
                 A project of the <a href="https://relationaltechproject.org">Relational Tech Project</a>.
                 Watching 3 projects across the network.
             </p>
-            <p>Last updated March 18, 2026.</p>
+            <p>Last updated .</p>
         </footer>
     </div>
 
     
-<script>
-function filterByTag(tag) {
-    const entries = document.querySelectorAll('.feed-entry');
-    const tags = document.querySelectorAll('.filter-bar .tag');
-
-    tags.forEach(t => t.classList.remove('active'));
-    document.querySelector(`.filter-bar .tag[data-tag="${tag}"]`)?.classList.add('active');
-
-    entries.forEach(entry => {
-        if (tag === 'all') {
-            entry.style.display = '';
-        } else {
-            const entryTags = entry.dataset.tags || '';
-            entry.style.display = entryTags.includes(tag) ? '' : 'none';
-        }
-    });
-}
-</script>
-
 </body>
 </html>

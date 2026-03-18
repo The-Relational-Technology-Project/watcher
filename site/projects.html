@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feed - Relational Tech Network</title>
+    <title>Projects - Relational Tech Network</title>
     <meta name="description" content="Meaningful changes across the relational tech ecosystem.">
     <link rel="alternate" type="application/rss+xml" title="Relational Tech Updates" href="/feed.xml">
     <style>
@@ -268,84 +268,65 @@
             <h1>Relational Tech Network</h1>
             <p>What's growing across the ecosystem</p>
             <nav>
-                <a href="/" class="active">Feed</a>
-                <a href="/projects.html" >Projects</a>
+                <a href="/" >Feed</a>
+                <a href="/projects.html" class="active">Projects</a>
                 <a href="/about.html" >About</a>
                 <a href="/feed.xml">RSS</a>
             </nav>
         </header>
 
         
-<p class="stats">3 recent updates from 3 projects</p>
+<p class="stats">3 projects in the network</p>
 
 
-
-<div id="feed">
-
-<div class="feed-entry welcome " data-tags="">
-    <div class="entry-meta">
-        <span class="entry-project">
-            New: 
-            
-                <a href="https://github.com/The-Relational-Technology-Project/sunsetpeople">cozy-corner</a>
-            
-        </span>
+<div class="project-card">
+    <h3>
         
-        <span class="entry-date">2026-03-18</span>
-    </div>
-
-    <p class="entry-summary">Welcome to the network, cozy-corner! 🎉 This neighbor hub for 48th Ave in the Outer Sunset is a wonderful addition to our growing community of relational tech projects. We&#39;re so glad to have you here and can&#39;t wait to see the connections you help build!</p>
-
-    
-
-    
-
-    
-</div>
-
-<div class="feed-entry welcome " data-tags="">
-    <div class="entry-meta">
-        <span class="entry-project">
-            New: 
-            
-                <a href="https://github.com/The-Relational-Technology-Project/cozy-corner">cozy-corner</a>
-            
-        </span>
+            <a href="https://github.com/The-Relational-Technology-Project/cozy-corner">cozy-corner</a>
         
-        <span class="entry-date">2026-03-18</span>
-    </div>
-
-    <p class="entry-summary">Welcome to the network, cozy-corner! 🎉 This neighbor hub for 48th Ave in the Outer Sunset is a wonderful addition to our growing community of relational projects. We&#39;re so glad you&#39;re here and can&#39;t wait to see the connections you help foster.</p>
-
+    </h3>
     
-
+    <p>Neighbor hub for 48th Ave in the Outer Sunset</p>
     
-
-    
-</div>
-
-<div class="feed-entry welcome " data-tags="">
     <div class="entry-meta">
-        <span class="entry-project">
-            New: 
-            
-                <a href="https://github.com/The-Relational-Technology-Project/community-supplies">cozy-corner</a>
-            
-        </span>
         
-        <span class="entry-date">2026-03-18</span>
+        
     </div>
-
-    <p class="entry-summary">Welcome to the network, cozy-corner! 🎉 This neighbor hub for 48th Ave in the Outer Sunset is a wonderful addition to our growing community of relational tech projects. We&#39;re so glad you&#39;re here and can&#39;t wait to see the connections you help build.</p>
-
-    
-
-    
-
     
 </div>
 
+<div class="project-card">
+    <h3>
+        
+            <a href="https://github.com/The-Relational-Technology-Project/community-supplies">cozy-corner</a>
+        
+    </h3>
+    
+    <p>Neighbor hub for 48th Ave in the Outer Sunset</p>
+    
+    <div class="entry-meta">
+        
+        
+    </div>
+    
 </div>
+
+<div class="project-card">
+    <h3>
+        
+            <a href="https://github.com/The-Relational-Technology-Project/sunsetpeople">cozy-corner</a>
+        
+    </h3>
+    
+    <p>Neighbor hub for 48th Ave in the Outer Sunset</p>
+    
+    <div class="entry-meta">
+        
+        
+    </div>
+    
+</div>
+
 
 
 
@@ -360,24 +341,5 @@
     </div>
 
     
-<script>
-function filterByTag(tag) {
-    const entries = document.querySelectorAll('.feed-entry');
-    const tags = document.querySelectorAll('.filter-bar .tag');
-
-    tags.forEach(t => t.classList.remove('active'));
-    document.querySelector(`.filter-bar .tag[data-tag="${tag}"]`)?.classList.add('active');
-
-    entries.forEach(entry => {
-        if (tag === 'all') {
-            entry.style.display = '';
-        } else {
-            const entryTags = entry.dataset.tags || '';
-            entry.style.display = entryTags.includes(tag) ? '' : 'none';
-        }
-    });
-}
-</script>
-
 </body>
 </html>
