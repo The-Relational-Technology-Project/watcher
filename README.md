@@ -64,7 +64,7 @@ The site deploys to GitHub Pages automatically when `site/` or `state/feed.json`
 
 ## Architecture
 
-See [reltech-watcher-architecture.md](../reltech-watcher-architecture.md) for the full design document.
+See [reltech-watcher-architecture.md]([../reltech-watcher-architecture.md](https://github.com/The-Relational-Technology-Project/watcher/blob/main/reltech-watcher-architecture.md)) for the full design document.
 
 ## License
 
