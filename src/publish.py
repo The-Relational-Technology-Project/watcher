@@ -219,7 +219,15 @@ def publish(
     Append new entries to the feed and regenerate the site.
     """
     feed = load_feed()
-    feed.extend(new_entries)
+
+    # Deduplicate: skip new entries whose ID already exists in the feed
+    existing_ids = {entry.get("id") for entry in feed}
+    deduplicated = [e for e in new_entries if e.get("id") not in existing_ids]
+    if len(deduplicated) < len(new_entries):
+        logger.info(
+            f"  Skipped {len(new_entries) - len(deduplicated)} duplicate entries"
+        )
+    feed.extend(deduplicated)
 
     # Cap feed at 500 entries (oldest get dropped)
     if len(feed) > 500:
