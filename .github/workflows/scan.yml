@@ -1,0 +1,40 @@
+name: Scan relational tech repos
+
+on:
+  schedule:
+    # Run twice daily: 8am and 6pm UTC
+    - cron: "0 8,18 * * *"
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run watcher scan
+        env:
+          GITHUB_TOKEN: ${{ secrets.WATCHER_GITHUB_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -m src.main
+
+      - name: Commit updated state and feed
+        run: |
+          git config user.name "reltech-watcher[bot]"
+          git config user.email "watcher@relationaltechproject.org"
+          git add state/ site/
+          # Only commit if there are changes
+          git diff --staged --quiet || git commit -m "Update feed: $(date -u +%Y-%m-%d-%H%M)"
+          git push
