@@ -33,7 +33,7 @@
         "interests": [],
         "_has_manifest": false
       },
-      "last_checked": "2026-03-19T08:28:47.745776+00:00",
+      "last_checked": "2026-03-19T18:39:09.509994+00:00",
       "first_seen": "2026-03-18T05:28:46.021437+00:00"
     },
     "The-Relational-Technology-Project/community-supplies": {
@@ -69,7 +69,7 @@
         "interests": [],
         "_has_manifest": false
       },
-      "last_checked": "2026-03-19T08:28:51.339985+00:00",
+      "last_checked": "2026-03-19T18:39:12.771331+00:00",
       "first_seen": "2026-03-18T05:28:48.925962+00:00"
     },
     "The-Relational-Technology-Project/sunsetpeople": {
@@ -105,8 +105,44 @@
         "interests": [],
         "_has_manifest": false
       },
-      "last_checked": "2026-03-19T08:28:54.843338+00:00",
+      "last_checked": "2026-03-19T18:39:15.666496+00:00",
       "first_seen": "2026-03-18T05:28:51.515766+00:00"
+    },
+    "The-Relational-Technology-Project/neighborhood-api": {
+      "full_name": "The-Relational-Technology-Project/neighborhood-api",
+      "url": "https://github.com/The-Relational-Technology-Project/neighborhood-api",
+      "description": "Creating an API for our neighborhoods",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "cozy-corner",
+          "description": "Neighbor hub for 48th Ave in the Outer Sunset",
+          "neighborhood": null,
+          "builder": null
+        },
+        "tags": [],
+        "watch": {
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false
+        },
+        "interests": [],
+        "_has_manifest": false
+      },
+      "last_checked": "2026-03-19T18:39:18.696562+00:00",
+      "first_seen": "2026-03-19T18:39:18.696574+00:00"
     }
   }
 }
