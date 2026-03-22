@@ -8,9 +8,19 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+# Don't overlap with an in-progress deploy
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  scan:
+  scan-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -38,3 +48,16 @@ jobs:
           # Only commit if there are changes
           git diff --staged --quiet || git commit -m "Update feed: $(date -u +%Y-%m-%d-%H%M)"
           git push
+
+      # Deploy the updated site to GitHub Pages
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site to Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './site'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
