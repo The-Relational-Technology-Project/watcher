@@ -14,8 +14,15 @@
         },
         "tags": [],
         "watch": {
-          "branches": ["main", "master"],
-          "signals": ["releases", "prs", "commits"],
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
           "threshold": "minor"
         },
         "preferences": {
@@ -27,7 +34,7 @@
         "interests": [],
         "_has_manifest": false
       },
-      "last_checked": "2026-03-22T05:16:42.345754+00:00",
+      "last_checked": "2026-03-22T05:22:29.640644+00:00",
       "first_seen": "2026-03-18T05:28:46.021437+00:00"
     },
     "The-Relational-Technology-Project/community-supplies": {
@@ -44,8 +51,15 @@
         },
         "tags": [],
         "watch": {
-          "branches": ["main", "master"],
-          "signals": ["releases", "prs", "commits"],
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
           "threshold": "minor"
         },
         "preferences": {
@@ -57,7 +71,7 @@
         "interests": [],
         "_has_manifest": false
       },
-      "last_checked": "2026-03-22T05:16:45.842898+00:00",
+      "last_checked": "2026-03-22T05:22:32.894265+00:00",
       "first_seen": "2026-03-18T05:28:48.925962+00:00"
     },
     "The-Relational-Technology-Project/sunsetpeople": {
@@ -74,8 +88,15 @@
         },
         "tags": [],
         "watch": {
-          "branches": ["main", "master"],
-          "signals": ["releases", "prs", "commits"],
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
           "threshold": "minor"
         },
         "preferences": {
@@ -87,7 +108,7 @@
         "interests": [],
         "_has_manifest": false
       },
-      "last_checked": "2026-03-22T05:16:49.141060+00:00",
+      "last_checked": "2026-03-22T05:22:36.351276+00:00",
       "first_seen": "2026-03-18T05:28:51.515766+00:00"
     },
     "The-Relational-Technology-Project/neighborhood-api": {
@@ -104,8 +125,15 @@
         },
         "tags": [],
         "watch": {
-          "branches": ["main", "master"],
-          "signals": ["releases", "prs", "commits"],
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
           "threshold": "minor"
         },
         "preferences": {
@@ -117,7 +145,7 @@
         "interests": [],
         "_has_manifest": false
       },
-      "last_checked": "2026-03-22T05:16:52.439476+00:00",
+      "last_checked": "2026-03-22T05:22:39.770865+00:00",
       "first_seen": "2026-03-19T18:39:18.696574+00:00"
     }
   }
