@@ -3,6 +3,7 @@ Discover repos that have opted into the relational tech network
 by adding the 'relational-tech' GitHub topic.
 """
 
+import copy
 import json
 import logging
 import yaml
@@ -33,7 +34,7 @@ def fetch_manifest(repo) -> dict:
     Returns the parsed manifest merged with defaults, or defaults alone
     if no manifest exists.
     """
-    manifest = dict(DEFAULT_MANIFEST)
+    manifest = copy.deepcopy(DEFAULT_MANIFEST)
 
     try:
         content = repo.get_contents(".reltech.yml")

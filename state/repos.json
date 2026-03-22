@@ -14,15 +14,8 @@
         },
         "tags": [],
         "watch": {
-          "branches": [
-            "main",
-            "master"
-          ],
-          "signals": [
-            "releases",
-            "prs",
-            "commits"
-          ],
+          "branches": ["main", "master"],
+          "signals": ["releases", "prs", "commits"],
           "threshold": "minor"
         },
         "preferences": {
@@ -44,22 +37,15 @@
       "manifest": {
         "version": 1,
         "project": {
-          "name": "cozy-corner",
-          "description": "Neighbor hub for 48th Ave in the Outer Sunset",
+          "name": "community-supplies",
+          "description": "Supplies sharing site for the Sunset and Richmond community",
           "neighborhood": null,
           "builder": null
         },
         "tags": [],
         "watch": {
-          "branches": [
-            "main",
-            "master"
-          ],
-          "signals": [
-            "releases",
-            "prs",
-            "commits"
-          ],
+          "branches": ["main", "master"],
+          "signals": ["releases", "prs", "commits"],
           "threshold": "minor"
         },
         "preferences": {
@@ -81,22 +67,15 @@
       "manifest": {
         "version": 1,
         "project": {
-          "name": "cozy-corner",
-          "description": "Neighbor hub for 48th Ave in the Outer Sunset",
+          "name": "sunsetpeople",
+          "description": "Guide for finding community in the Sunset",
           "neighborhood": null,
           "builder": null
         },
         "tags": [],
         "watch": {
-          "branches": [
-            "main",
-            "master"
-          ],
-          "signals": [
-            "releases",
-            "prs",
-            "commits"
-          ],
+          "branches": ["main", "master"],
+          "signals": ["releases", "prs", "commits"],
           "threshold": "minor"
         },
         "preferences": {
@@ -118,22 +97,15 @@
       "manifest": {
         "version": 1,
         "project": {
-          "name": "cozy-corner",
-          "description": "Neighbor hub for 48th Ave in the Outer Sunset",
+          "name": "neighborhood-api",
+          "description": "Creating an API for our neighborhoods",
           "neighborhood": null,
           "builder": null
         },
         "tags": [],
         "watch": {
-          "branches": [
-            "main",
-            "master"
-          ],
-          "signals": [
-            "releases",
-            "prs",
-            "commits"
-          ],
+          "branches": ["main", "master"],
+          "signals": ["releases", "prs", "commits"],
           "threshold": "minor"
         },
         "preferences": {
