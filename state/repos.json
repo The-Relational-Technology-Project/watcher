@@ -1,5 +1,91 @@
 {
   "repos": {
+    "antler-browser/local-first-auth-simulator": {
+      "full_name": "antler-browser/local-first-auth-simulator",
+      "url": "https://github.com/antler-browser/local-first-auth-simulator",
+      "description": "Development tool for testing Local First Auth mini-apps. Injects window.localFirstAuth into a regular browser to help you test Local First Auth host apps while in development environments.",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "local-first-auth-simulator",
+          "description": "Development tool for testing Local First Auth mini-apps. Injects window.localFirstAuth into a regular browser to help you test Local First Auth host apps while in development environments.",
+          "neighborhood": null,
+          "builder": null
+        },
+        "tags": [],
+        "watch": {
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false
+        },
+        "interests": [],
+        "_has_manifest": false
+      },
+      "last_checked": "2026-03-22T18:20:05.610369+00:00",
+      "first_seen": "2026-03-22T18:20:05.610382+00:00"
+    },
+    "antler-browser/local-first-auth": {
+      "full_name": "antler-browser/local-first-auth",
+      "url": "https://github.com/antler-browser/local-first-auth",
+      "description": "Easily add auth to your web app with this library. This library implements the local-first / client-side auth, allowing you to skip having to enter in an email and password",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "Local First Auth",
+          "description": "Simple client-side auth for web apps using decentralized identity (DID) \u2014 no servers, no passwords, no third-party auth providers",
+          "neighborhood": null,
+          "builder": "Daniel Mathews"
+        },
+        "tags": [
+          "local-first-auth",
+          "client-side-auth",
+          "authentication",
+          "decentralized-identity",
+          "privacy",
+          "onboarding"
+        ],
+        "watch": {
+          "branches": [
+            "main"
+          ],
+          "signals": [
+            "releases",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false,
+          "contact": "danny@taddy.org"
+        },
+        "interests": [
+          "local-first-auth",
+          "client-side-auth",
+          "decentralized-identity",
+          "authentxication",
+          "onboarding"
+        ],
+        "_has_manifest": true
+      },
+      "last_checked": "2026-03-22T18:20:10.105920+00:00",
+      "first_seen": "2026-03-22T18:20:10.105934+00:00"
+    },
     "The-Relational-Technology-Project/cozy-corner": {
       "full_name": "The-Relational-Technology-Project/cozy-corner",
       "url": "https://github.com/The-Relational-Technology-Project/cozy-corner",
@@ -34,7 +120,7 @@
         "interests": [],
         "_has_manifest": false
       },
-      "last_checked": "2026-03-22T08:20:15.347750+00:00",
+      "last_checked": "2026-03-22T18:20:13.806553+00:00",
       "first_seen": "2026-03-18T05:28:46.021437+00:00"
     },
     "The-Relational-Technology-Project/community-supplies": {
@@ -71,7 +157,7 @@
         "interests": [],
         "_has_manifest": false
       },
-      "last_checked": "2026-03-22T08:20:18.649813+00:00",
+      "last_checked": "2026-03-22T18:20:17.157022+00:00",
       "first_seen": "2026-03-18T05:28:48.925962+00:00"
     },
     "The-Relational-Technology-Project/sunsetpeople": {
@@ -108,7 +194,7 @@
         "interests": [],
         "_has_manifest": false
       },
-      "last_checked": "2026-03-22T08:20:21.955940+00:00",
+      "last_checked": "2026-03-22T18:20:20.579955+00:00",
       "first_seen": "2026-03-18T05:28:51.515766+00:00"
     },
     "The-Relational-Technology-Project/neighborhood-api": {
@@ -145,7 +231,7 @@
         "interests": [],
         "_has_manifest": false
       },
-      "last_checked": "2026-03-22T08:20:25.244944+00:00",
+      "last_checked": "2026-03-22T18:20:23.892368+00:00",
       "first_seen": "2026-03-19T18:39:18.696574+00:00"
     }
   }

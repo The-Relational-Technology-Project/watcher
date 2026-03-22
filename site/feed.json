@@ -1,5 +1,72 @@
 [
   {
+    "id": "welcome-local-first-auth-simulator",
+    "timestamp": "2026-03-22T18:20:01.103735+00:00",
+    "entry_type": "welcome",
+    "repo": {
+      "name": "local-first-auth-simulator",
+      "full_name": "antler-browser/local-first-auth-simulator",
+      "url": "https://github.com/antler-browser/local-first-auth-simulator",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Development tool for testing Local First Auth mini-apps. Injects window.localFirstAuth into a regular browser to help you test Local First Auth host apps while in development environments."
+    },
+    "summary": "Welcome to the network, local-first-auth-simulator! \ud83c\udf89 This handy development tool makes it easier to test Local First Auth mini-apps by injecting window.localFirstAuth directly into your browser during development. We're thrilled to have this project in the community and can't wait to see how it supports builders working in the local-first space!",
+    "tags": [],
+    "matches": []
+  },
+  {
+    "id": "welcome-local first auth",
+    "timestamp": "2026-03-22T18:19:58.195598+00:00",
+    "entry_type": "welcome",
+    "repo": {
+      "name": "Local First Auth",
+      "full_name": "antler-browser/local-first-auth",
+      "url": "https://github.com/antler-browser/local-first-auth",
+      "neighborhood": null,
+      "builder": "Daniel Mathews",
+      "description": "Simple client-side auth for web apps using decentralized identity (DID) \u2014 no servers, no passwords, no third-party auth providers"
+    },
+    "summary": "Welcome to the network, Local First Auth! \ud83c\udf89 This project is bringing something exciting to the local-first ecosystem: simple, client-side authentication for web apps using decentralized identity, with no servers, no passwords, and no third-party auth providers required. We're thrilled to have you here and can't wait to see how your work connects with others building toward a more user-controlled web.",
+    "tags": [
+      "local-first-auth",
+      "client-side-auth",
+      "authentication",
+      "decentralized-identity",
+      "privacy",
+      "onboarding"
+    ],
+    "matches": []
+  },
+  {
+    "id": "local-first-auth-simulator-commit-group-e12f076d",
+    "timestamp": "2026-03-22T15:53:54+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "local-first-auth-simulator",
+      "full_name": "antler-browser/local-first-auth-simulator",
+      "url": "https://github.com/antler-browser/local-first-auth-simulator",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Development tool for testing Local First Auth mini-apps. Injects window.localFirstAuth into a regular browser to help you test Local First Auth host apps while in development environments."
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "3 commits by dmathewwws",
+      "url": "https://github.com/antler-browser/local-first-auth-simulator/commit/2100783eb8a6ae78ece2e4554f0e7b52097af8d9",
+      "significance": "mention"
+    },
+    "summary": "The local-first-auth-simulator has been updated to version 1.5.0, renamed to align with the Local First Auth naming convention, and now includes documentation for the Relational Tech Network. This tool helps developers building community apps test authentication flows in their browser without needing a full production environment, making it easier to iterate quickly on local-first neighborhood tools.",
+    "tags": [
+      "local-first",
+      "authentication",
+      "developer-tools",
+      "testing",
+      "documentation"
+    ],
+    "matches": []
+  },
+  {
     "id": "welcome-cozy-corner",
     "timestamp": "2026-03-18T05:28:43.396870+00:00",
     "entry_type": "welcome",
