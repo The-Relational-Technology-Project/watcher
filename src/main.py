@@ -49,11 +49,10 @@ def run():
     all_changes = watch(state)
 
     if not all_changes and not new_repos:
-        logger.info("No new changes found across the network. Done.")
+        logger.info("No new changes found across the network.")
         save_repos_state(state)
-        # Still regenerate site in case repo list changed
-        if removed_repos:
-            publish([], state["repos"])
+        # Always regenerate the site so project metadata stays current
+        publish([], state["repos"])
         return
 
     # 4. Filter + Summarize + Match for each repo's changes
