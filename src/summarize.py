@@ -54,12 +54,23 @@ def score_significance(change: dict, repo_info: dict) -> str:
     change_text = change.get("body") or change.get("message") or change.get("title", "")
     change_title = change.get("title", change.get("message", "")[:100])
 
+    # For commit groups, build richer context
+    change_type = change.get("type")
+    commit_count_note = ""
+    if change_type == "commit_group":
+        count = change.get("commit_count", 0)
+        commit_count_note = (
+            f"\nThis is a group of {count} direct commits (not a PR or release). "
+            f"Many solo developers and AI-assisted tools (Lovable, Claude Code, etc.) "
+            f"commit directly to main. These commits together represent a body of work."
+        )
+
     prompt = f"""You are evaluating whether a change in a community technology project would be interesting to other builders in the relational tech network -- people building apps and tools for neighborhood connection, mutual aid, community calendars, local information, and civic engagement.
 
 Project: {project_name}
 Project description: {project_desc}
-Change type: {change.get("type")}
-Change title: {change_title}
+Change type: {change_type}
+Change title: {change_title}{commit_count_note}
 Change details:
 {change_text[:1500]}
 
@@ -102,6 +113,20 @@ def generate_summary(change: dict, repo_info: dict) -> dict:
 
     template = load_prompt_template()
 
+    # Add commit group context for the summarizer
+    commit_group_note = ""
+    if change_type == "commit_group":
+        count = change.get("commit_count", 0)
+        stats = change.get("stats", {})
+        commit_group_note = (
+            f"\nNote: This is a group of {count} direct commits "
+            f"({stats.get('additions', 0)} lines added, "
+            f"{stats.get('deletions', 0)} lines removed). "
+            f"Solo developers and AI-assisted tools often commit directly "
+            f"without PRs. Summarize the overall body of work, not each "
+            f"individual commit. Frame this the same way you would a merged PR."
+        )
+
     prompt = f"""{template}
 
 Project: {project_name}
@@ -109,7 +134,7 @@ Description: {project_desc}
 Neighborhood: {neighborhood or "not specified"}
 Existing project tags: {", ".join(existing_tags) if existing_tags else "none"}
 Change type: {change_type}
-Change title: {change_title}
+Change title: {change_title}{commit_group_note}
 
 Change details:
 {change_text[:2000]}

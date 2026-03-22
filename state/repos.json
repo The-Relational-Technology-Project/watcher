@@ -20,7 +20,8 @@
           ],
           "signals": [
             "releases",
-            "prs"
+            "prs",
+            "commits"
           ],
           "threshold": "minor"
         },
@@ -56,7 +57,8 @@
           ],
           "signals": [
             "releases",
-            "prs"
+            "prs",
+            "commits"
           ],
           "threshold": "minor"
         },
@@ -92,7 +94,8 @@
           ],
           "signals": [
             "releases",
-            "prs"
+            "prs",
+            "commits"
           ],
           "threshold": "minor"
         },
@@ -128,7 +131,8 @@
           ],
           "signals": [
             "releases",
-            "prs"
+            "prs",
+            "commits"
           ],
           "threshold": "minor"
         },

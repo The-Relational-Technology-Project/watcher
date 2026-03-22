@@ -45,13 +45,27 @@ def has_reltech_label(labels: list[str]) -> str | None:
 
 def is_trivial_commit(change: dict) -> bool:
     """Check if a commit is too small to be interesting."""
-    if change.get("type") != "commit":
+    if change.get("type") not in ("commit", "commit_group"):
         return False
     stats = change.get("stats", {})
     total_changes = stats.get("total", 0)
-    # A commit touching fewer than 5 lines total is likely trivial
-    # (unless it's a config change, which could matter -- the LLM will catch that)
+    # Single commit: < 5 lines is trivial
+    # Commit group: < 10 lines total across all commits is trivial
+    if change.get("type") == "commit_group":
+        return total_changes < 10
     return total_changes < 5
+
+
+def _commit_group_all_skip_patterns(change: dict) -> bool:
+    """
+    For a commit group, check if ALL individual commit messages match skip
+    patterns. If even one commit has a meaningful message, let it through.
+    """
+    message = change.get("message", "")
+    lines = [line.lstrip("- ").strip() for line in message.strip().split("\n") if line.strip()]
+    if not lines:
+        return True
+    return all(matches_skip_pattern(line) for line in lines)
 
 
 def structural_filter(change: dict, manifest: dict) -> str:
@@ -78,7 +92,14 @@ def structural_filter(change: dict, manifest: dict) -> str:
     if is_trivial_commit(change):
         return "skip"
 
-    # Skip commits matching noise patterns
+    # For commit groups, check if all messages are skip-worthy
+    if change.get("type") == "commit_group":
+        if _commit_group_all_skip_patterns(change):
+            return "skip"
+        # Commit groups with real content always go to semantic filter
+        return "pass"
+
+    # Skip individual commits matching noise patterns
     message = change.get("message", change.get("title", ""))
     if matches_skip_pattern(message):
         return "skip"
@@ -95,7 +116,7 @@ def apply_threshold(changes: list[dict], threshold: str) -> list[dict]:
     """
     Apply the repo's declared significance threshold.
     - 'patch': surface everything that passes structural filters
-    - 'minor': surface PRs, releases, and multi-file commits (default)
+    - 'minor': surface PRs, releases, commit groups, and multi-file commits (default)
     - 'major': only surface releases and explicitly highlighted items
     """
     if threshold == "patch":
@@ -108,10 +129,13 @@ def apply_threshold(changes: list[dict], threshold: str) -> list[dict]:
             or c.get("_significance") == "highlight"
         ]
 
-    # 'minor' (default): skip single-file commits unless highlighted
+    # 'minor' (default): skip single-file individual commits unless highlighted.
+    # Commit groups always pass 'minor' threshold -- they represent a body of work
+    # that the LLM should evaluate as a whole (solo dev / AI-assisted workflows).
     return [
         c for c in changes
-        if c.get("type") != "commit"
+        if c.get("type") == "commit_group"  # groups always pass minor
+        or c.get("type") != "commit"  # non-commit types pass
         or c.get("changed_files", c.get("stats", {}).get("total", 0)) > 1
         or c.get("_significance") == "highlight"
     ]

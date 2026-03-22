@@ -60,7 +60,7 @@ watch:
   # Which branches matter? Default: main/master only
   branches: ["main"]
   # What counts as notable? Options: releases, prs, commits, readme-changes
-  signals: ["releases", "prs"]
+  signals: ["releases", "prs", "commits"]
   # Minimum significance -- skip typo fixes etc. Options: patch, minor, major
   threshold: "minor"
 
@@ -102,7 +102,7 @@ GitHub Topic Search ("relational-tech")
         ├── Has .reltech.yml? → Use rich config
         │
         └── No manifest? → Use sensible defaults
-                            (watch main branch, releases + PRs,
+                            (watch main branch, releases + PRs + commits,
                              minor threshold, no contributor names)
 ```
 
@@ -151,6 +151,9 @@ This is the editorial heart of the watcher. Not a simple keyword match -- it nee
 - Is this from a known automation bot account? (dependabot, renovate, github-actions[bot]) → Skip
 
 **A note on AI-assisted commits:** Many relational tech builders use AI coding tools (Claude Code, Cursor, Copilot, etc.). These commits typically show the builder as author (or co-author) and represent real intentional work -- a builder deciding what to build and using AI to help build it. The watcher should treat AI-assisted commits the same as hand-written commits. The filter criteria is "is this change interesting?" not "how was it made?" The automation we skip is infrastructure automation (dependency bots, CI-generated files, auto-formatters) -- things with no human intent behind the specific change. If a builder uses an AI tool to implement a whole new feature, that's the builder's work and should be surfaced.
+
+**Commit grouping (solo dev / AI-assisted workflows):**
+Many relational tech builders work solo, committing directly to main without PRs or formal releases. AI-assisted tools like Lovable and Claude Code also commit directly. Without grouping, a productive day might generate 10-15 individual feed entries, drowning out other projects. The watcher groups related commits by the same author within a 6-hour window into a single logical change. This grouped change is then scored and summarized as a whole, so "12 commits by Maria" becomes one feed entry like "Sunset Calendar added Spanish language support and a new events API." Commits that are part of a merged PR are excluded from direct commit tracking to avoid double-counting.
 
 **Semantic analysis (more expensive, run on candidates):**
 - Use an LLM to read the PR description / commit messages and answer: "Would another community tech builder find this interesting? Why?"

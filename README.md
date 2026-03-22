@@ -9,7 +9,7 @@ Built by the [Relational Tech Project](https://relationaltechproject.org).
 The watcher runs on a schedule (via GitHub Actions) and:
 
 1. **Discovers** repos with the `relational-tech` GitHub topic
-2. **Watches** for new releases, merged PRs, and significant commits
+2. **Watches** for new releases, merged PRs, and direct commits (including solo dev and AI-assisted workflows)
 3. **Filters** out noise (bot commits, dependency bumps, trivial changes)
 4. **Summarizes** meaningful changes in plain language using AI
 5. **Matches** changes to other projects that share interests

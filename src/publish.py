@@ -29,13 +29,18 @@ def save_feed(entries: list[dict]):
 def make_entry_id(repo_name: str, change: dict) -> str:
     """Generate a stable ID for a feed entry."""
     change_type = change.get("type", "change")
-    # Use PR number, release tag, or commit sha for uniqueness
-    identifier = (
-        change.get("tag")
-        or str(change.get("number", ""))
-        or change.get("sha", "")
-        or change.get("timestamp", "")[:10]
-    )
+    # Use PR number, release tag, commit sha, or grouped shas for uniqueness
+    if change_type == "commit_group":
+        # Use the first sha in the group for a stable ID
+        shas = change.get("shas", [])
+        identifier = shas[0] if shas else change.get("timestamp", "")[:10]
+    else:
+        identifier = (
+            change.get("tag")
+            or str(change.get("number", ""))
+            or change.get("sha", "")
+            or change.get("timestamp", "")[:10]
+        )
     slug = f"{repo_name}-{change_type}-{identifier}".lower()
     # Clean up for use as an ID
     return "".join(c if c.isalnum() or c == "-" else "-" for c in slug).strip("-")

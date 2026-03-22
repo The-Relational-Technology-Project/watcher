@@ -32,7 +32,7 @@ DEFAULT_MANIFEST = {
     "tags": [],
     "watch": {
         "branches": ["main", "master"],
-        "signals": ["releases", "prs"],
+        "signals": ["releases", "prs", "commits"],
         "threshold": "minor",
     },
     "preferences": {

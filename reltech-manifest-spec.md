@@ -24,7 +24,7 @@ tags:
 
 watch:
   branches: ["main"]
-  signals: ["releases", "prs"]
+  signals: ["releases", "prs", "commits"]
   threshold: "minor"
 
 preferences:
@@ -71,8 +71,10 @@ Controls what the watcher pays attention to.
 | Field | Type | Default | Description |
 |-------|------|---------|-------------|
 | `branches` | list of strings | `["main", "master"]` | Which branches to watch for commits |
-| `signals` | list of strings | `["releases", "prs"]` | What types of changes to look for. Options: `releases`, `prs`, `commits`, `readme-changes` |
+| `signals` | list of strings | `["releases", "prs", "commits"]` | What types of changes to look for. Options: `releases`, `prs`, `commits`, `readme-changes` |
 | `threshold` | string | `"minor"` | Minimum significance. `patch` = surface everything. `minor` = skip single-file commits (default). `major` = only releases and explicitly highlighted items. |
+
+**Solo developers and AI-assisted workflows:** The default signals include `commits` because many builders (especially solo developers and those using tools like Lovable or Claude Code) commit directly to main without PRs or formal releases. The watcher automatically groups related commits into logical changes, so a day's work appears as one feed entry rather than fifteen individual commits. If your project uses a PR-based workflow and you don't want direct commits surfaced, set `signals: ["releases", "prs"]`.
 
 Setting `watch` to the string `"none"` (instead of an object) will keep the project in the directory but stop generating feed entries.
 

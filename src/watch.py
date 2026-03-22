@@ -1,6 +1,10 @@
 """
 Watch repos for new activity since the last scan.
 Checks releases, merged PRs, and significant commits.
+
+Supports solo dev / direct-commit workflows by grouping related commits
+into logical changes, so a day's work becomes one feed entry instead of
+fifteen individual commits.
 """
 
 import logging
@@ -12,6 +16,9 @@ logger = logging.getLogger(__name__)
 
 # How far back to look on first scan of a new repo (don't flood the feed)
 FIRST_SCAN_LOOKBACK_DAYS = 7
+
+# Commit grouping: commits within this window by the same author are grouped
+COMMIT_GROUP_WINDOW_HOURS = 6
 
 
 def get_recent_releases(repo, since: datetime) -> list[dict]:
@@ -64,17 +71,23 @@ def get_merged_prs(repo, since: datetime) -> list[dict]:
                 "additions": pr.additions,
                 "deletions": pr.deletions,
                 "changed_files": pr.changed_files,
+                "_pr_merge_sha": pr.merge_commit_sha,
             })
     except GithubException as e:
         logger.warning(f"Failed to fetch PRs for {repo.full_name}: {e}")
     return prs
 
 
-def get_recent_commits(repo, since: datetime, branches: list[str]) -> list[dict]:
+def get_recent_commits(
+    repo, since: datetime, branches: list[str], pr_shas: set[str] | None = None
+) -> list[dict]:
     """
     Get commits since the given timestamp on watched branches.
-    Only returns commits that aren't already represented by a PR.
+    Filters out commits already represented by a merged PR (using pr_shas).
     """
+    if pr_shas is None:
+        pr_shas = set()
+
     commits = []
     seen_shas = set()
 
@@ -86,6 +99,10 @@ def get_recent_commits(repo, since: datetime, branches: list[str]) -> list[dict]
                     continue
                 seen_shas.add(commit.sha)
 
+                # Skip commits that are part of a merged PR
+                if commit.sha in pr_shas:
+                    continue
+
                 author_login = None
                 if commit.author:
                     author_login = commit.author.login
@@ -95,6 +112,7 @@ def get_recent_commits(repo, since: datetime, branches: list[str]) -> list[dict]
                 commits.append({
                     "type": "commit",
                     "sha": commit.sha[:8],
+                    "full_sha": commit.sha,
                     "message": commit.commit.message,
                     "author": author_login,
                     "url": commit.html_url,
@@ -112,6 +130,130 @@ def get_recent_commits(repo, since: datetime, branches: list[str]) -> list[dict]
             )
 
     return commits
+
+
+def _collect_pr_commit_shas(repo, prs: list[dict]) -> set[str]:
+    """
+    Collect SHAs of commits that belong to merged PRs so we can
+    exclude them from direct-commit results (avoid double counting).
+    """
+    pr_shas = set()
+    for pr_data in prs:
+        # The merge commit SHA
+        merge_sha = pr_data.get("_pr_merge_sha")
+        if merge_sha:
+            pr_shas.add(merge_sha)
+        # Also try to get the PR's individual commits
+        try:
+            pr_number = pr_data.get("number")
+            if pr_number:
+                pr_obj = repo.get_pull(pr_number)
+                for commit in pr_obj.get_commits():
+                    pr_shas.add(commit.sha)
+        except GithubException:
+            pass
+    return pr_shas
+
+
+def group_commits(commits: list[dict]) -> list[dict]:
+    """
+    Group related commits into logical changes for the feed.
+
+    Solo developers and AI-assisted tools (Lovable, Claude Code, etc.) often
+    commit directly to main without PRs. A day's work might be 10-15 commits
+    that together represent one meaningful change. Grouping prevents feed spam
+    while still capturing the full story of what was built.
+
+    Grouping rules:
+    - Same author
+    - Within COMMIT_GROUP_WINDOW_HOURS of each other
+    - Combined into a single "commit_group" change with aggregate stats
+
+    Single commits that don't group with anything remain as individual "commit"
+    entries (the filter/summarize pipeline handles them normally).
+    """
+    if not commits:
+        return []
+
+    # Sort by timestamp
+    def parse_ts(c):
+        ts = c.get("timestamp")
+        if ts:
+            return datetime.fromisoformat(ts).replace(tzinfo=timezone.utc)
+        return datetime.min.replace(tzinfo=timezone.utc)
+
+    sorted_commits = sorted(commits, key=parse_ts)
+
+    groups = []
+    current_group = [sorted_commits[0]]
+
+    for commit in sorted_commits[1:]:
+        prev = current_group[-1]
+        prev_ts = parse_ts(prev)
+        curr_ts = parse_ts(commit)
+        same_author = (commit.get("author") or "").lower() == (prev.get("author") or "").lower()
+        within_window = (curr_ts - prev_ts) <= timedelta(hours=COMMIT_GROUP_WINDOW_HOURS)
+
+        if same_author and within_window:
+            current_group.append(commit)
+        else:
+            groups.append(current_group)
+            current_group = [commit]
+
+    groups.append(current_group)
+
+    # Convert groups to changes
+    results = []
+    for group in groups:
+        if len(group) == 1:
+            # Single commit -- pass through as-is
+            results.append(group[0])
+        else:
+            # Multiple commits -- create a grouped entry
+            results.append(_make_commit_group(group))
+
+    return results
+
+
+def _make_commit_group(commits: list[dict]) -> dict:
+    """
+    Combine a list of related commits into a single commit_group change.
+    Aggregates stats, collects all messages for the LLM to summarize,
+    and links to the most recent commit.
+    """
+    total_additions = sum(c.get("stats", {}).get("additions", 0) for c in commits)
+    total_deletions = sum(c.get("stats", {}).get("deletions", 0) for c in commits)
+
+    # Build a combined message: first lines of each commit
+    commit_messages = []
+    for c in commits:
+        first_line = c.get("message", "").strip().split("\n")[0]
+        if first_line:
+            commit_messages.append(f"- {first_line}")
+
+    combined_message = "\n".join(commit_messages)
+
+    # Use the latest commit's URL and timestamp
+    latest = commits[-1]
+    earliest = commits[0]
+
+    return {
+        "type": "commit_group",
+        "title": f"{len(commits)} commits by {latest.get('author', 'unknown')}",
+        "message": combined_message,
+        "commit_count": len(commits),
+        "author": latest.get("author"),
+        "url": latest.get("url"),
+        "urls": [c.get("url") for c in commits],
+        "shas": [c.get("sha") for c in commits],
+        "timestamp": latest.get("timestamp"),
+        "first_timestamp": earliest.get("timestamp"),
+        "stats": {
+            "additions": total_additions,
+            "deletions": total_deletions,
+            "total": total_additions + total_deletions,
+        },
+    }
 
 
 def check_readme_changed(repo, since: datetime) -> dict | None:
@@ -160,7 +302,9 @@ def watch(state: dict) -> dict:
             continue
 
         manifest = repo_info.get("manifest", {})
-        signals = manifest.get("watch", {}).get("signals", ["releases", "prs"])
+        signals = manifest.get("watch", {}).get(
+            "signals", ["releases", "prs", "commits"]
+        )
         branches = manifest.get("watch", {}).get("branches", ["main", "master"])
 
         # Determine the "since" timestamp
@@ -176,11 +320,31 @@ def watch(state: dict) -> dict:
         if "releases" in signals:
             changes.extend(get_recent_releases(repo, since))
 
+        # Fetch PRs first so we can deduplicate commits
+        prs = []
         if "prs" in signals:
-            changes.extend(get_merged_prs(repo, since))
+            prs = get_merged_prs(repo, since)
+            changes.extend(prs)
 
         if "commits" in signals:
-            changes.extend(get_recent_commits(repo, since, branches))
+            # Collect PR commit SHAs so we don't double-count
+            pr_shas = set()
+            if prs:
+                pr_shas = _collect_pr_commit_shas(repo, prs)
+
+            raw_commits = get_recent_commits(repo, since, branches, pr_shas)
+
+            # Group related commits (solo dev / AI-assisted workflows)
+            grouped = group_commits(raw_commits)
+            changes.extend(grouped)
+
+            if raw_commits:
+                n_raw = len(raw_commits)
+                n_grouped = len(grouped)
+                if n_grouped < n_raw:
+                    logger.info(
+                        f"  Grouped {n_raw} commits into {n_grouped} logical changes"
+                    )
 
         # Always check for README changes (lightweight)
         if manifest.get("preferences", {}).get("summarize_readme", True):
