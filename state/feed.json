@@ -14,5 +14,90 @@
     "summary": "Welcome to the network, cozy-corner! \ud83c\udf89 This neighbor hub for 48th Ave in the Outer Sunset is a wonderful addition to our growing community of relational tech projects. We're so glad to have you here and can't wait to see the connections you help build!",
     "tags": [],
     "matches": []
+  },
+  {
+    "id": "cozy-corner-commit-group-ad554790",
+    "timestamp": "2026-03-04T17:19:06+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "cozy-corner",
+      "full_name": "The-Relational-Technology-Project/cozy-corner",
+      "url": "https://github.com/The-Relational-Technology-Project/cozy-corner",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Neighbor hub for 48th Ave in the Outer Sunset"
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "15 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/cozy-corner/commit/3fafbc624095082e2ac20d31f003c404d8e6730f",
+      "significance": "mention"
+    },
+    "summary": "The Cozy Corner hub for 48th Ave got a significant expansion to its bulletin board, including a new footer section and a Community Guide card that surfaces local resources for neighbors. These additions give the hub more surface area for sharing neighborhood context and connecting residents to what matters on their block. Other builders working on hyper-local neighbor hubs may find this a useful reference for how to layer community information into a compact interface.",
+    "tags": [
+      "bulletin-board",
+      "neighbor-hub",
+      "community-resources",
+      "local-information",
+      "hyperlocal"
+    ],
+    "matches": []
+  },
+  {
+    "id": "cozy-corner-commit-group-7785b773",
+    "timestamp": "2026-03-18T04:42:55+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "cozy-corner",
+      "full_name": "The-Relational-Technology-Project/cozy-corner",
+      "url": "https://github.com/The-Relational-Technology-Project/cozy-corner",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Neighbor hub for 48th Ave in the Outer Sunset"
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "8 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/cozy-corner/commit/c7f9ce0388ece4525d0dfdcb05db702bead0572a",
+      "significance": "highlight"
+    },
+    "summary": "Cozy Corner, the neighbor hub for 48th Ave in the Outer Sunset, now supports SMS reminders alongside its existing notification options, letting residents get street and event reminders sent directly to their phones. This is a meaningful accessibility win for neighbors who rely on text messaging rather than apps or email to stay connected with their block. Builders working on neighborhood tools with mixed communication needs can look to this as a working example of supporting multiple reminder channels in one system.",
+    "tags": [
+      "sms",
+      "notifications",
+      "multi-channel",
+      "reminders",
+      "neighbor-hub",
+      "accessibility"
+    ],
+    "matches": []
+  },
+  {
+    "id": "community-supplies-commit-group-f4c733cf",
+    "timestamp": "2026-03-17T04:48:11+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "community-supplies",
+      "full_name": "The-Relational-Technology-Project/community-supplies",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Supplies sharing site for the Sunset and Richmond community"
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "7 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies/commit/bde08716f71e2ba94a4f3b0a034d38c80dd089b5",
+      "significance": "highlight"
+    },
+    "summary": "The community-supplies project for Sunset and Richmond got a significant overhaul, including a redesigned homepage, a new flow for starting a community, and a table for tracking steward requests. These additions make it easier for neighbors to step up as stewards and for new communities to get started with supplies sharing. Builders working on mutual aid or resource-sharing tools may find the steward request and community onboarding patterns here worth a look.",
+    "tags": [
+      "mutual-aid",
+      "supplies-sharing",
+      "onboarding",
+      "stewardship",
+      "resource-sharing"
+    ],
+    "matches": []
   }
 ]
