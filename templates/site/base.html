@@ -166,6 +166,74 @@
 
         .entry-change-link a:hover { opacity: 0.8; }
 
+        .entry-contributor {
+            font-size: 0.85rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .entry-contributor a {
+            color: var(--color-accent);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .entry-contributor a:hover { opacity: 0.8; }
+
+        .entry-contact {
+            font-size: 0.85rem;
+            color: var(--color-text-secondary);
+            margin-bottom: 0.5rem;
+            padding: 0.5rem 0.75rem;
+            background: var(--color-muted-bg);
+            border-radius: 8px;
+            line-height: 1.5;
+        }
+
+        .entry-contact a {
+            color: var(--color-accent);
+            text-decoration: none;
+        }
+
+        .entry-contact a:hover { opacity: 0.8; }
+
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 0.5rem;
+        }
+
+        .entry-header-left {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .copy-btn {
+            background: none;
+            border: 1px solid var(--color-border);
+            border-radius: 8px;
+            padding: 0.35rem 0.5rem;
+            cursor: pointer;
+            color: var(--color-text-secondary);
+            font-size: 0.8rem;
+            transition: all 0.2s;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+            font-family: var(--font-body);
+        }
+
+        .copy-btn:hover {
+            border-color: var(--color-accent);
+            color: var(--color-accent);
+        }
+
+        .copy-btn.copied {
+            border-color: var(--color-accent);
+            color: var(--color-accent);
+        }
+
         .tags {
             display: flex;
             flex-wrap: wrap;

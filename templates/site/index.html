@@ -18,27 +18,47 @@
 <div id="feed">
 {% for entry in feed %}
 <div class="feed-entry {{ entry.entry_type or '' }} {{ entry.change.significance if entry.change else '' }}" data-tags="{{ entry.tags|join(' ') if entry.tags else '' }}">
-    <div class="entry-meta">
-        <span class="entry-project">
-            {% if entry.entry_type == 'welcome' %}New: {% endif %}
-            {% if entry.repo.url %}
-                <a href="{{ entry.repo.url }}">{{ entry.repo.name }}</a>
-            {% else %}
-                {{ entry.repo.name }}
-            {% endif %}
-        </span>
-        {% if entry.repo.neighborhood %}
-        <span class="entry-neighborhood">{{ entry.repo.neighborhood }}</span>
-        {% endif %}
-        <span class="entry-date">{{ entry.timestamp[:10] }}</span>
+    <div class="entry-header">
+        <div class="entry-header-left">
+            <div class="entry-meta">
+                <span class="entry-project">
+                    {% if entry.entry_type == 'welcome' %}New: {% endif %}
+                    {% if entry.repo.url %}
+                        <a href="{{ entry.repo.url }}">{{ entry.repo.name }}</a>
+                    {% else %}
+                        {{ entry.repo.name }}
+                    {% endif %}
+                </span>
+                {% if entry.repo.neighborhood %}
+                <span class="entry-neighborhood">{{ entry.repo.neighborhood }}</span>
+                {% endif %}
+                <span class="entry-date">{{ entry.timestamp[:10] }}</span>
+            </div>
+        </div>
+        <button class="copy-btn" onclick="copyEntry(this)" title="Copy update text">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            <span>Copy</span>
+        </button>
     </div>
 
     <p class="entry-summary">{{ entry.summary }}</p>
+
+    {% if entry.contributor %}
+    <p class="entry-contributor">
+        Built by <a href="{{ entry.contributor.url }}">@{{ entry.contributor.login }}</a>
+    </p>
+    {% endif %}
 
     {% if entry.change and entry.change.url %}
     <p class="entry-change-link">
         <a href="{{ entry.change.url }}">View {{ entry.change.type|replace('_', ' ') }} &rarr;</a>
     </p>
+    {% endif %}
+
+    {% if entry.contact %}
+    <div class="entry-contact">
+        {{ entry.contact }}
+    </div>
     {% endif %}
 
     {% if entry.tags %}
@@ -87,6 +107,32 @@ function filterByTag(tag) {
             const entryTags = entry.dataset.tags || '';
             entry.style.display = entryTags.includes(tag) ? '' : 'none';
         }
+    });
+}
+
+function copyEntry(btn) {
+    const entry = btn.closest('.feed-entry');
+    const project = entry.querySelector('.entry-project').textContent.trim();
+    const summary = entry.querySelector('.entry-summary').textContent.trim();
+    const link = entry.querySelector('.entry-change-link a');
+    const contributor = entry.querySelector('.entry-contributor a');
+
+    let text = `${project}: ${summary}`;
+    if (contributor) {
+        text += `\n\nBuilder: ${contributor.href}`;
+    }
+    if (link) {
+        text += `\n${link.href}`;
+    }
+
+    navigator.clipboard.writeText(text).then(() => {
+        const label = btn.querySelector('span');
+        label.textContent = 'Copied!';
+        btn.classList.add('copied');
+        setTimeout(() => {
+            label.textContent = 'Copy';
+            btn.classList.remove('copied');
+        }, 2000);
     });
 }
 </script>

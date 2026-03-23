@@ -6,6 +6,7 @@ by adding the 'relational-tech' GitHub topic.
 import copy
 import json
 import logging
+import re
 import yaml
 from github import Github, GithubException
 from .config import GITHUB_TOKEN, GITHUB_TOPIC, DEFAULT_MANIFEST, REPOS_STATE_FILE
@@ -66,6 +67,30 @@ def fetch_manifest(repo) -> dict:
     return manifest
 
 
+def fetch_contact_from_readme(repo):
+    """
+    Look for a ## Builder or ## Contact section in the repo's README.
+    Returns the text of that section, or None if not found.
+    """
+    for readme_name in ["README.md", "README.rst", "README.txt", "README"]:
+        try:
+            content = repo.get_contents(readme_name)
+            text = content.decoded_content.decode("utf-8")
+
+            # Look for ## Builder, ## Contact, ## Get in Touch (case-insensitive)
+            pattern = r'(?:^|\n)##\s+(?:Builder|Contact|Get\s+in\s+Touch)\s*\n(.*?)(?=\n##\s|\Z)'
+            match = re.search(pattern, text, re.IGNORECASE | re.DOTALL)
+            if match:
+                section = match.group(1).strip()
+                # Cap at a reasonable length
+                if section and len(section) < 1000:
+                    return section
+            return None
+        except (GithubException, UnicodeDecodeError):
+            continue
+    return None
+
+
 def discover() -> tuple[dict, list[str], list[str]]:
     """
     Search GitHub for repos with the relational-tech topic.
@@ -88,11 +113,15 @@ def discover() -> tuple[dict, list[str], list[str]]:
 
         manifest = fetch_manifest(repo)
 
+        # Try to pull contact info from README
+        contact = fetch_contact_from_readme(repo)
+
         found_repos[full_name] = {
             "full_name": full_name,
             "url": repo.html_url,
             "description": repo.description or "",
             "manifest": manifest,
+            "contact": contact,
             "last_checked": state["repos"].get(full_name, {}).get("last_checked"),
             "first_seen": state["repos"].get(full_name, {}).get("first_seen"),
         }

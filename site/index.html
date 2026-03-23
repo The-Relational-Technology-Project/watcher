@@ -166,6 +166,74 @@
 
         .entry-change-link a:hover { opacity: 0.8; }
 
+        .entry-contributor {
+            font-size: 0.85rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .entry-contributor a {
+            color: var(--color-accent);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .entry-contributor a:hover { opacity: 0.8; }
+
+        .entry-contact {
+            font-size: 0.85rem;
+            color: var(--color-text-secondary);
+            margin-bottom: 0.5rem;
+            padding: 0.5rem 0.75rem;
+            background: var(--color-muted-bg);
+            border-radius: 8px;
+            line-height: 1.5;
+        }
+
+        .entry-contact a {
+            color: var(--color-accent);
+            text-decoration: none;
+        }
+
+        .entry-contact a:hover { opacity: 0.8; }
+
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 0.5rem;
+        }
+
+        .entry-header-left {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .copy-btn {
+            background: none;
+            border: 1px solid var(--color-border);
+            border-radius: 8px;
+            padding: 0.35rem 0.5rem;
+            cursor: pointer;
+            color: var(--color-text-secondary);
+            font-size: 0.8rem;
+            transition: all 0.2s;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+            font-family: var(--font-body);
+        }
+
+        .copy-btn:hover {
+            border-color: var(--color-accent);
+            color: var(--color-accent);
+        }
+
+        .copy-btn.copied {
+            border-color: var(--color-accent);
+            color: var(--color-accent);
+        }
+
         .tags {
             display: flex;
             flex-wrap: wrap;
@@ -369,15 +437,23 @@
 <div id="feed">
 
 <div class="feed-entry welcome " data-tags="">
-    <div class="entry-meta">
-        <span class="entry-project">
-            New: 
-            
-                <a href="https://github.com/antler-browser/local-first-auth-simulator">local-first-auth-simulator</a>
-            
-        </span>
-        
-        <span class="entry-date">2026-03-22</span>
+    <div class="entry-header">
+        <div class="entry-header-left">
+            <div class="entry-meta">
+                <span class="entry-project">
+                    New: 
+                    
+                        <a href="https://github.com/antler-browser/local-first-auth-simulator">local-first-auth-simulator</a>
+                    
+                </span>
+                
+                <span class="entry-date">2026-03-22</span>
+            </div>
+        </div>
+        <button class="copy-btn" onclick="copyEntry(this)" title="Copy update text">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            <span>Copy</span>
+        </button>
     </div>
 
     <p class="entry-summary">Welcome to the network, local-first-auth-simulator! 🎉 This handy development tool makes it easier to test Local First Auth mini-apps by injecting window.localFirstAuth directly into your browser during development. We&#39;re thrilled to have this project in the community and can&#39;t wait to see how it supports builders working in the local-first space!</p>
@@ -387,21 +463,37 @@
     
 
     
+
+    
+
+    
 </div>
 
 <div class="feed-entry welcome " data-tags="local-first-auth client-side-auth authentication decentralized-identity privacy onboarding">
-    <div class="entry-meta">
-        <span class="entry-project">
-            New: 
-            
-                <a href="https://github.com/antler-browser/local-first-auth">Local First Auth</a>
-            
-        </span>
-        
-        <span class="entry-date">2026-03-22</span>
+    <div class="entry-header">
+        <div class="entry-header-left">
+            <div class="entry-meta">
+                <span class="entry-project">
+                    New: 
+                    
+                        <a href="https://github.com/antler-browser/local-first-auth">Local First Auth</a>
+                    
+                </span>
+                
+                <span class="entry-date">2026-03-22</span>
+            </div>
+        </div>
+        <button class="copy-btn" onclick="copyEntry(this)" title="Copy update text">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            <span>Copy</span>
+        </button>
     </div>
 
     <p class="entry-summary">Welcome to the network, Local First Auth! 🎉 This project is bringing something exciting to the local-first ecosystem: simple, client-side authentication for web apps using decentralized identity, with no servers, no passwords, and no third-party auth providers required. We&#39;re thrilled to have you here and can&#39;t wait to see how your work connects with others building toward a more user-controlled web.</p>
+
+    
+
+    
 
     
 
@@ -427,23 +519,35 @@
 </div>
 
 <div class="feed-entry change mention" data-tags="local-first authentication developer-tools testing documentation">
-    <div class="entry-meta">
-        <span class="entry-project">
-            
-            
-                <a href="https://github.com/antler-browser/local-first-auth-simulator">local-first-auth-simulator</a>
-            
-        </span>
-        
-        <span class="entry-date">2026-03-22</span>
+    <div class="entry-header">
+        <div class="entry-header-left">
+            <div class="entry-meta">
+                <span class="entry-project">
+                    
+                    
+                        <a href="https://github.com/antler-browser/local-first-auth-simulator">local-first-auth-simulator</a>
+                    
+                </span>
+                
+                <span class="entry-date">2026-03-22</span>
+            </div>
+        </div>
+        <button class="copy-btn" onclick="copyEntry(this)" title="Copy update text">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            <span>Copy</span>
+        </button>
     </div>
 
     <p class="entry-summary">The local-first-auth-simulator has been updated to version 1.5.0, renamed to align with the Local First Auth naming convention, and now includes documentation for the Relational Tech Network. This tool helps developers building community apps test authentication flows in their browser without needing a full production environment, making it easier to iterate quickly on local-first neighborhood tools.</p>
 
     
+
+    
     <p class="entry-change-link">
         <a href="https://github.com/antler-browser/local-first-auth-simulator/commit/2100783eb8a6ae78ece2e4554f0e7b52097af8d9">View commit group &rarr;</a>
     </p>
+    
+
     
 
     
@@ -466,15 +570,23 @@
 </div>
 
 <div class="feed-entry welcome " data-tags="">
-    <div class="entry-meta">
-        <span class="entry-project">
-            New: 
-            
-                <a href="https://github.com/The-Relational-Technology-Project/sunsetpeople">cozy-corner</a>
-            
-        </span>
-        
-        <span class="entry-date">2026-03-18</span>
+    <div class="entry-header">
+        <div class="entry-header-left">
+            <div class="entry-meta">
+                <span class="entry-project">
+                    New: 
+                    
+                        <a href="https://github.com/The-Relational-Technology-Project/sunsetpeople">cozy-corner</a>
+                    
+                </span>
+                
+                <span class="entry-date">2026-03-18</span>
+            </div>
+        </div>
+        <button class="copy-btn" onclick="copyEntry(this)" title="Copy update text">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            <span>Copy</span>
+        </button>
     </div>
 
     <p class="entry-summary">Welcome to the network, cozy-corner! 🎉 This neighbor hub for 48th Ave in the Outer Sunset is a wonderful addition to our growing community of relational tech projects. We&#39;re so glad to have you here and can&#39;t wait to see the connections you help build!</p>
@@ -484,26 +596,42 @@
     
 
     
+
+    
+
+    
 </div>
 
 <div class="feed-entry change highlight" data-tags="sms notifications multi-channel reminders neighbor-hub accessibility">
-    <div class="entry-meta">
-        <span class="entry-project">
-            
-            
-                <a href="https://github.com/The-Relational-Technology-Project/cozy-corner">cozy-corner</a>
-            
-        </span>
-        
-        <span class="entry-date">2026-03-18</span>
+    <div class="entry-header">
+        <div class="entry-header-left">
+            <div class="entry-meta">
+                <span class="entry-project">
+                    
+                    
+                        <a href="https://github.com/The-Relational-Technology-Project/cozy-corner">cozy-corner</a>
+                    
+                </span>
+                
+                <span class="entry-date">2026-03-18</span>
+            </div>
+        </div>
+        <button class="copy-btn" onclick="copyEntry(this)" title="Copy update text">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            <span>Copy</span>
+        </button>
     </div>
 
     <p class="entry-summary">Cozy Corner, the neighbor hub for 48th Ave in the Outer Sunset, now supports SMS reminders alongside its existing notification options, letting residents get street and event reminders sent directly to their phones. This is a meaningful accessibility win for neighbors who rely on text messaging rather than apps or email to stay connected with their block. Builders working on neighborhood tools with mixed communication needs can look to this as a working example of supporting multiple reminder channels in one system.</p>
 
     
+
+    
     <p class="entry-change-link">
         <a href="https://github.com/The-Relational-Technology-Project/cozy-corner/commit/c7f9ce0388ece4525d0dfdcb05db702bead0572a">View commit group &rarr;</a>
     </p>
+    
+
     
 
     
@@ -528,23 +656,35 @@
 </div>
 
 <div class="feed-entry change highlight" data-tags="mutual-aid supplies-sharing onboarding stewardship resource-sharing">
-    <div class="entry-meta">
-        <span class="entry-project">
-            
-            
-                <a href="https://github.com/The-Relational-Technology-Project/community-supplies">community-supplies</a>
-            
-        </span>
-        
-        <span class="entry-date">2026-03-17</span>
+    <div class="entry-header">
+        <div class="entry-header-left">
+            <div class="entry-meta">
+                <span class="entry-project">
+                    
+                    
+                        <a href="https://github.com/The-Relational-Technology-Project/community-supplies">community-supplies</a>
+                    
+                </span>
+                
+                <span class="entry-date">2026-03-17</span>
+            </div>
+        </div>
+        <button class="copy-btn" onclick="copyEntry(this)" title="Copy update text">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            <span>Copy</span>
+        </button>
     </div>
 
     <p class="entry-summary">The community-supplies project for Sunset and Richmond got a significant overhaul, including a redesigned homepage, a new flow for starting a community, and a table for tracking steward requests. These additions make it easier for neighbors to step up as stewards and for new communities to get started with supplies sharing. Builders working on mutual aid or resource-sharing tools may find the steward request and community onboarding patterns here worth a look.</p>
 
     
+
+    
     <p class="entry-change-link">
         <a href="https://github.com/The-Relational-Technology-Project/community-supplies/commit/bde08716f71e2ba94a4f3b0a034d38c80dd089b5">View commit group &rarr;</a>
     </p>
+    
+
     
 
     
@@ -567,23 +707,35 @@
 </div>
 
 <div class="feed-entry change mention" data-tags="bulletin-board neighbor-hub community-resources local-information hyperlocal">
-    <div class="entry-meta">
-        <span class="entry-project">
-            
-            
-                <a href="https://github.com/The-Relational-Technology-Project/cozy-corner">cozy-corner</a>
-            
-        </span>
-        
-        <span class="entry-date">2026-03-04</span>
+    <div class="entry-header">
+        <div class="entry-header-left">
+            <div class="entry-meta">
+                <span class="entry-project">
+                    
+                    
+                        <a href="https://github.com/The-Relational-Technology-Project/cozy-corner">cozy-corner</a>
+                    
+                </span>
+                
+                <span class="entry-date">2026-03-04</span>
+            </div>
+        </div>
+        <button class="copy-btn" onclick="copyEntry(this)" title="Copy update text">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            <span>Copy</span>
+        </button>
     </div>
 
     <p class="entry-summary">The Cozy Corner hub for 48th Ave got a significant expansion to its bulletin board, including a new footer section and a Community Guide card that surfaces local resources for neighbors. These additions give the hub more surface area for sharing neighborhood context and connecting residents to what matters on their block. Other builders working on hyper-local neighbor hubs may find this a useful reference for how to layer community information into a compact interface.</p>
 
     
+
+    
     <p class="entry-change-link">
         <a href="https://github.com/The-Relational-Technology-Project/cozy-corner/commit/3fafbc624095082e2ac20d31f003c404d8e6730f">View commit group &rarr;</a>
     </p>
+    
+
     
 
     
@@ -635,6 +787,32 @@ function filterByTag(tag) {
             const entryTags = entry.dataset.tags || '';
             entry.style.display = entryTags.includes(tag) ? '' : 'none';
         }
+    });
+}
+
+function copyEntry(btn) {
+    const entry = btn.closest('.feed-entry');
+    const project = entry.querySelector('.entry-project').textContent.trim();
+    const summary = entry.querySelector('.entry-summary').textContent.trim();
+    const link = entry.querySelector('.entry-change-link a');
+    const contributor = entry.querySelector('.entry-contributor a');
+
+    let text = `${project}: ${summary}`;
+    if (contributor) {
+        text += `\n\nBuilder: ${contributor.href}`;
+    }
+    if (link) {
+        text += `\n${link.href}`;
+    }
+
+    navigator.clipboard.writeText(text).then(() => {
+        const label = btn.querySelector('span');
+        label.textContent = 'Copied!';
+        btn.classList.add('copied');
+        setTimeout(() => {
+            label.textContent = 'Copy';
+            btn.classList.remove('copied');
+        }, 2000);
     });
 }
 </script>

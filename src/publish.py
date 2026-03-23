@@ -46,6 +46,17 @@ def make_entry_id(repo_name: str, change: dict) -> str:
     return "".join(c if c.isalnum() or c == "-" else "-" for c in slug).strip("-")
 
 
+def _build_contributor(change: dict):
+    """Build contributor info from a change's author field."""
+    author = change.get("author")
+    if not author or author.endswith("[bot]"):
+        return None
+    return {
+        "login": author,
+        "url": f"https://github.com/{author}",
+    }
+
+
 def create_change_entry(
     change: dict,
     repo_info: dict,
@@ -60,7 +71,7 @@ def create_change_entry(
     if not manifest.get("preferences", {}).get("public_link", True):
         repo_url = None
 
-    return {
+    entry = {
         "id": make_entry_id(project.get("name", "unknown"), change),
         "timestamp": change.get("timestamp", datetime.now(timezone.utc).isoformat()),
         "entry_type": "change",
@@ -83,6 +94,18 @@ def create_change_entry(
         "matches": matches,
     }
 
+    # Add contributor GitHub profile (skip bots)
+    contributor = _build_contributor(change)
+    if contributor:
+        entry["contributor"] = contributor
+
+    # Add contact info from README if available
+    contact = repo_info.get("contact")
+    if contact:
+        entry["contact"] = contact
+
+    return entry
+
 
 def create_welcome_entry(repo_info: dict, summary: str) -> dict:
     """Create a feed entry welcoming a new repo to the network."""
@@ -93,7 +116,7 @@ def create_welcome_entry(repo_info: dict, summary: str) -> dict:
     if not manifest.get("preferences", {}).get("public_link", True):
         repo_url = None
 
-    return {
+    entry = {
         "id": f"welcome-{project.get('name', 'unknown').lower()}",
         "timestamp": datetime.now(timezone.utc).isoformat(),
         "entry_type": "welcome",
@@ -109,6 +132,12 @@ def create_welcome_entry(repo_info: dict, summary: str) -> dict:
         "tags": manifest.get("tags", []),
         "matches": [],
     }
+
+    contact = repo_info.get("contact")
+    if contact:
+        entry["contact"] = contact
+
+    return entry
 
 
 def generate_site(feed: list[dict], repos: dict):
