@@ -1,5 +1,43 @@
 {
   "repos": {
+    "The-Relational-Technology-Project/outer-sunset-today": {
+      "full_name": "The-Relational-Technology-Project/outer-sunset-today",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today",
+      "description": "Outer Sunset Today is our community calendar ",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "outer-sunset-today",
+          "description": "Outer Sunset Today is our community calendar ",
+          "neighborhood": null,
+          "builder": null
+        },
+        "tags": [],
+        "watch": {
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false
+        },
+        "interests": [],
+        "_has_manifest": false
+      },
+      "contact": null,
+      "last_checked": "2026-03-23T21:25:57.443314+00:00",
+      "first_seen": "2026-03-23T21:25:57.443325+00:00"
+    },
     "antler-browser/local-first-auth-simulator": {
       "full_name": "antler-browser/local-first-auth-simulator",
       "url": "https://github.com/antler-browser/local-first-auth-simulator",
@@ -35,7 +73,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-03-23T18:36:38.788507+00:00",
+      "last_checked": "2026-03-23T21:26:01.006874+00:00",
       "first_seen": "2026-03-22T18:20:05.610382+00:00"
     },
     "antler-browser/local-first-auth": {
@@ -85,7 +123,7 @@
         "_has_manifest": true
       },
       "contact": null,
-      "last_checked": "2026-03-23T18:36:42.512204+00:00",
+      "last_checked": "2026-03-23T21:26:04.120934+00:00",
       "first_seen": "2026-03-22T18:20:10.105934+00:00"
     },
     "The-Relational-Technology-Project/cozy-corner": {
@@ -123,7 +161,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-03-23T18:36:47.066249+00:00",
+      "last_checked": "2026-03-23T21:26:07.975000+00:00",
       "first_seen": "2026-03-18T05:28:46.021437+00:00"
     },
     "The-Relational-Technology-Project/community-supplies": {
@@ -161,7 +199,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-03-23T18:36:51.342597+00:00",
+      "last_checked": "2026-03-23T21:26:11.795089+00:00",
       "first_seen": "2026-03-18T05:28:48.925962+00:00"
     },
     "The-Relational-Technology-Project/sunsetpeople": {
@@ -199,7 +237,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-03-23T18:36:55.679567+00:00",
+      "last_checked": "2026-03-23T21:26:15.621186+00:00",
       "first_seen": "2026-03-18T05:28:51.515766+00:00"
     },
     "The-Relational-Technology-Project/neighborhood-api": {
@@ -237,7 +275,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-03-23T18:37:00.028222+00:00",
+      "last_checked": "2026-03-23T21:26:19.050211+00:00",
       "first_seen": "2026-03-19T18:39:18.696574+00:00"
     }
   }

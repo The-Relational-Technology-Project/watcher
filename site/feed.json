@@ -1,5 +1,49 @@
 [
   {
+    "id": "welcome-outer-sunset-today",
+    "timestamp": "2026-03-23T21:25:42.339238+00:00",
+    "entry_type": "welcome",
+    "repo": {
+      "name": "outer-sunset-today",
+      "full_name": "The-Relational-Technology-Project/outer-sunset-today",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Outer Sunset Today is our community calendar "
+    },
+    "summary": "Welcome to the network, Outer Sunset Today! \ud83c\udf89 This community calendar project is a wonderful addition, helping neighbors stay connected and informed about what's happening around them. We're so glad to have you here and can't wait to see it grow!",
+    "tags": [],
+    "matches": []
+  },
+  {
+    "id": "outer-sunset-today-commit-group-5709bc8f",
+    "timestamp": "2026-03-23T21:24:52+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "outer-sunset-today",
+      "full_name": "The-Relational-Technology-Project/outer-sunset-today",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Outer Sunset Today is our community calendar "
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "27 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today/commit/d09e64f140979dbf45febc48194a35d9043e3792",
+      "significance": "highlight"
+    },
+    "summary": "Outer Sunset Today added a neighborhood news section that pulls in local headlines from RSS feeds and surfaces them alongside the community calendar on a redesigned homepage dashboard. Residents now get a richer at-a-glance view of what's happening in the Outer Sunset, combining events and local news in one place. Other builders working on community information hubs may find the RSS aggregation pipeline and dashboard layout worth a closer look.",
+    "tags": [
+      "community-calendar",
+      "news-aggregation",
+      "rss",
+      "dashboard",
+      "neighborhood-info"
+    ],
+    "matches": []
+  },
+  {
     "id": "welcome-local-first-auth-simulator",
     "timestamp": "2026-03-22T18:20:01.103735+00:00",
     "entry_type": "welcome",
