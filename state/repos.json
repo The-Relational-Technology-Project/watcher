@@ -34,7 +34,8 @@
         "interests": [],
         "_has_manifest": false
       },
-      "last_checked": "2026-03-22T18:20:05.610369+00:00",
+      "contact": null,
+      "last_checked": "2026-03-23T03:56:11.738709+00:00",
       "first_seen": "2026-03-22T18:20:05.610382+00:00"
     },
     "antler-browser/local-first-auth": {
@@ -83,7 +84,8 @@
         ],
         "_has_manifest": true
       },
-      "last_checked": "2026-03-22T18:20:10.105920+00:00",
+      "contact": null,
+      "last_checked": "2026-03-23T03:56:15.288713+00:00",
       "first_seen": "2026-03-22T18:20:10.105934+00:00"
     },
     "The-Relational-Technology-Project/cozy-corner": {
@@ -120,7 +122,8 @@
         "interests": [],
         "_has_manifest": false
       },
-      "last_checked": "2026-03-22T18:20:13.806553+00:00",
+      "contact": null,
+      "last_checked": "2026-03-23T03:56:19.670788+00:00",
       "first_seen": "2026-03-18T05:28:46.021437+00:00"
     },
     "The-Relational-Technology-Project/community-supplies": {
@@ -157,7 +160,8 @@
         "interests": [],
         "_has_manifest": false
       },
-      "last_checked": "2026-03-22T18:20:17.157022+00:00",
+      "contact": null,
+      "last_checked": "2026-03-23T03:56:24.212152+00:00",
       "first_seen": "2026-03-18T05:28:48.925962+00:00"
     },
     "The-Relational-Technology-Project/sunsetpeople": {
@@ -194,7 +198,8 @@
         "interests": [],
         "_has_manifest": false
       },
-      "last_checked": "2026-03-22T18:20:20.579955+00:00",
+      "contact": null,
+      "last_checked": "2026-03-23T03:56:28.654297+00:00",
       "first_seen": "2026-03-18T05:28:51.515766+00:00"
     },
     "The-Relational-Technology-Project/neighborhood-api": {
@@ -231,7 +236,8 @@
         "interests": [],
         "_has_manifest": false
       },
-      "last_checked": "2026-03-22T18:20:23.892368+00:00",
+      "contact": null,
+      "last_checked": "2026-03-23T03:56:33.023073+00:00",
       "first_seen": "2026-03-19T18:39:18.696574+00:00"
     }
   }
