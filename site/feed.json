@@ -1,5 +1,33 @@
 [
   {
+    "id": "outer-sunset-today-commit-group-7ba3b0b6",
+    "timestamp": "2026-03-24T05:14:11+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "outer-sunset-today",
+      "full_name": "The-Relational-Technology-Project/outer-sunset-today",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Outer Sunset Today is our community calendar "
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "12 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today/commit/33fa547f11dc9ac95bf6df260ba91b3308da6de8",
+      "significance": "highlight"
+    },
+    "summary": "Outer Sunset Today added a Custom Updates feature that lets community members submit their own updates directly through the calendar, with email alerts and CAPTCHA protection built in to keep submissions trustworthy. This opens up the calendar to broader community participation, so neighbors can contribute local information rather than relying on a single maintainer to keep things current. The addition of spam protection and notification emails means the team can stay on top of submissions without being overwhelmed.",
+    "tags": [
+      "community-calendar",
+      "user-submissions",
+      "spam-protection",
+      "community-contributions",
+      "email-notifications"
+    ],
+    "matches": []
+  },
+  {
     "id": "welcome-outer-sunset-today",
     "timestamp": "2026-03-23T21:25:42.339238+00:00",
     "entry_type": "welcome",
