@@ -1,5 +1,121 @@
 [
   {
+    "id": "welcome-sunset-walking-guide",
+    "timestamp": "2026-03-25T08:35:50.003644+00:00",
+    "entry_type": "welcome",
+    "repo": {
+      "name": "sunset-walking-guide",
+      "full_name": "The-Relational-Technology-Project/sunset-walking-guide",
+      "url": "https://github.com/The-Relational-Technology-Project/sunset-walking-guide",
+      "neighborhood": null,
+      "builder": null,
+      "description": ""
+    },
+    "summary": "We're so excited to welcome **sunset-walking-guide** to the Relational Technology Network! This project is a wonderful addition to our growing community of tools and experiments exploring technology in a more human, connected way. Head over to [the repository](https://github.com/The-Relational-Technology-Project/sunset-walking-guide) to check it out and show some love!",
+    "tags": [],
+    "matches": [],
+    "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org"
+  },
+  {
+    "id": "neighborhood-api-commit-500c5bab",
+    "timestamp": "2026-03-25T06:11:27+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "neighborhood-api",
+      "full_name": "The-Relational-Technology-Project/neighborhood-api",
+      "url": "https://github.com/The-Relational-Technology-Project/neighborhood-api",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Creating an API for our neighborhoods"
+    },
+    "change": {
+      "type": "commit",
+      "title": "Add Builder contact section for watcher feed",
+      "url": "https://github.com/The-Relational-Technology-Project/neighborhood-api/commit/500c5bab53b22bce8007f479021417e7fafc0afc",
+      "significance": "highlight"
+    },
+    "summary": "The neighborhood-api project added a Builder contact section to its watcher feed, giving people who follow the project a clear way to reach the humans behind the work. This kind of direct connection helps collaborators, neighbors, and other builders know who to reach out to with questions, ideas, or offers to help.",
+    "tags": [
+      "neighborhood-api",
+      "community-infrastructure",
+      "builder-network",
+      "feeds",
+      "contact"
+    ],
+    "matches": [],
+    "contributor": {
+      "login": "joshnesbit",
+      "url": "https://github.com/joshnesbit"
+    },
+    "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org"
+  },
+  {
+    "id": "community-supplies-commit-6001b2d3",
+    "timestamp": "2026-03-25T06:11:25+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "community-supplies",
+      "full_name": "The-Relational-Technology-Project/community-supplies",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Supplies sharing site for the Sunset and Richmond community"
+    },
+    "change": {
+      "type": "commit",
+      "title": "Add Builder contact section for watcher feed",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies/commit/6001b2d306a7163e4105674e7fa096eada0fd833",
+      "significance": "mention"
+    },
+    "summary": "The community-supplies project added a Builder contact section to its watcher feed, making it easier for people following the platform to reach the humans behind it. This kind of direct connection between builders and community members helps foster trust and opens the door for feedback, collaboration, and support. Other projects running watcher or update feeds might find this a useful pattern for keeping their communities in the loop.",
+    "tags": [
+      "mutual-aid",
+      "supplies-sharing",
+      "community-contact",
+      "watcher-feed",
+      "builder-transparency"
+    ],
+    "matches": [],
+    "contributor": {
+      "login": "joshnesbit",
+      "url": "https://github.com/joshnesbit"
+    },
+    "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org"
+  },
+  {
+    "id": "outer-sunset-today-commit-group-89ae2ce9",
+    "timestamp": "2026-03-25T06:11:12+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "outer-sunset-today",
+      "full_name": "The-Relational-Technology-Project/outer-sunset-today",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Outer Sunset Today is our community calendar "
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "2 commits by joshnesbit",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today/commit/330193fbdc9534937eb83c71af25a6116e834ae0",
+      "significance": "mention"
+    },
+    "summary": "Outer Sunset Today has added an MIT License and a Builder contact section for the watcher feed, making the project more open and connectable for other community developers. The license clarifies that others are welcome to reuse and adapt this work, and the contact section gives builders a clear way to reach out and plug in. Small additions like these make the difference between a project that exists and one that can grow a network around it.",
+    "tags": [
+      "community-calendar",
+      "open-source",
+      "builder-network",
+      "watcher-feed",
+      "licensing"
+    ],
+    "matches": [],
+    "contributor": {
+      "login": "joshnesbit",
+      "url": "https://github.com/joshnesbit"
+    },
+    "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org"
+  },
+  {
     "id": "outer-sunset-today-commit-group-7ba3b0b6",
     "timestamp": "2026-03-24T05:14:11+00:00",
     "entry_type": "change",
