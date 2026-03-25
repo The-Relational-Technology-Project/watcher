@@ -99,11 +99,6 @@ def create_change_entry(
     if contributor:
         entry["contributor"] = contributor
 
-    # Add contact info from README if available
-    contact = repo_info.get("contact")
-    if contact:
-        entry["contact"] = contact
-
     return entry
 
 
@@ -132,10 +127,6 @@ def create_welcome_entry(repo_info: dict, summary: str) -> dict:
         "tags": manifest.get("tags", []),
         "matches": [],
     }
-
-    contact = repo_info.get("contact")
-    if contact:
-        entry["contact"] = contact
 
     return entry
 
@@ -168,7 +159,18 @@ def generate_site(feed: list[dict], repos: dict):
             "builder": project.get("builder"),
             "tags": manifest.get("tags", []),
             "has_manifest": manifest.get("_has_manifest", False),
+            "contact": info.get("contact"),
         })
+    # Look up welcome summaries from the feed for richer project descriptions
+    welcome_summaries = {}
+    for entry in feed:
+        if entry.get("entry_type") == "welcome":
+            fn = entry.get("repo", {}).get("full_name", "")
+            if fn and fn not in welcome_summaries:
+                welcome_summaries[fn] = entry.get("summary", "")
+    for p in projects:
+        p["summary"] = welcome_summaries.get(p["full_name"], "")
+
     projects.sort(key=lambda p: p["name"].lower())
 
     # Collect all unique tags for filtering

@@ -7,7 +7,7 @@
 <p class="stats">{{ total_projects }} projects in the network</p>
 
 {% for project in projects %}
-<div class="project-card">
+<div class="project-card" id="{{ project.full_name|replace('/', '-')|lower }}">
     <h3>
         {% if project.url %}
             <a href="{{ project.url }}">{{ project.name }}</a>
@@ -15,7 +15,9 @@
             {{ project.name }}
         {% endif %}
     </h3>
-    {% if project.description %}
+    {% if project.summary %}
+    <p class="project-summary">{{ project.summary }}</p>
+    {% elif project.description %}
     <p>{{ project.description }}</p>
     {% endif %}
     <div class="entry-meta">
@@ -26,6 +28,11 @@
         <span class="entry-neighborhood">Built by {{ project.builder }}</span>
         {% endif %}
     </div>
+    {% if project.contact %}
+    <div class="entry-contact">
+        {{ project.contact }}
+    </div>
+    {% endif %}
     {% if project.tags %}
     <div class="tags" style="margin-top: 0.5rem;">
         {% for tag in project.tags %}

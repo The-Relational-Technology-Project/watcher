@@ -55,11 +55,9 @@
     </p>
     {% endif %}
 
-    {% if entry.contact %}
-    <div class="entry-contact">
-        {{ entry.contact }}
-    </div>
-    {% endif %}
+    <p class="entry-project-link">
+        <a href="projects.html#{{ entry.repo.full_name|replace('/', '-')|lower }}">View project &rarr;</a>
+    </p>
 
     {% if entry.tags %}
     <div class="tags">
