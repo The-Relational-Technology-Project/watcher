@@ -354,5 +354,33 @@
       "url": "https://github.com/joshnesbit"
     },
     "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org"
+  },
+  {
+    "id": "community-supplies-commit-group-4f79a3ee",
+    "timestamp": "2026-03-26T18:17:49+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "community-supplies",
+      "full_name": "The-Relational-Technology-Project/community-supplies",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Supplies sharing site for the Sunset and Richmond community"
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "9 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies/commit/91ea867b115b2c2989b6b8f9cc8be504f527f63e",
+      "significance": "mention"
+    },
+    "summary": "The community supplies sharing site for Sunset and Richmond now has a working search experience, with search and clear buttons wired up so neighbors can actually find what they're looking for in the catalog. This makes it much easier for people to browse available supplies without scrolling through everything, which matters a lot as a sharing inventory grows. Other builders working on resource-sharing or inventory tools may find this a useful pattern for making catalogs more navigable.",
+    "tags": [
+      "mutual-aid",
+      "resource-sharing",
+      "search",
+      "inventory",
+      "supplies"
+    ],
+    "matches": []
   }
 ]
