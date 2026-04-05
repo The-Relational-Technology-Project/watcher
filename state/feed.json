@@ -382,5 +382,34 @@
       "supplies"
     ],
     "matches": []
+  },
+  {
+    "id": "community-supplies-commit-group-86ba7ad5",
+    "timestamp": "2026-04-04T21:10:27+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "community-supplies",
+      "full_name": "The-Relational-Technology-Project/community-supplies",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Supplies sharing site for the Sunset and Richmond community"
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "13 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies/commit/a466b2a3a706bf0ab4f38f1ac45883818a9e8671",
+      "significance": "highlight"
+    },
+    "summary": "The Sunset and Richmond supplies sharing site now lets neighbors search for items across multiple connected communities at once, using a full-text search system that spans a federated network of participating neighborhoods. This means someone looking for a specific tool or supply is no longer limited to what their immediate neighbors have listed, and other community supply projects can now connect to share their inventories too. Builders working on mutual aid or resource-sharing platforms may find the federated search approach here worth exploring for their own networks.",
+    "tags": [
+      "mutual-aid",
+      "federated-search",
+      "resource-sharing",
+      "supplies",
+      "cross-community",
+      "full-text-search"
+    ],
+    "matches": []
   }
 ]
