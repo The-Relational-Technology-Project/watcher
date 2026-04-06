@@ -411,5 +411,32 @@
       "full-text-search"
     ],
     "matches": []
+  },
+  {
+    "id": "outer-sunset-today-commit-group-7bfc9784",
+    "timestamp": "2026-04-06T02:41:51+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "outer-sunset-today",
+      "full_name": "The-Relational-Technology-Project/outer-sunset-today",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Outer Sunset Today is our community calendar "
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "3 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today/commit/bb32cd7de25377db1047a0a4791d330e605c15d4",
+      "significance": "highlight"
+    },
+    "summary": "Outer Sunset Today expanded its community calendar by consolidating existing Sunset events and adding listings from Sunset Commons. Neighbors now have a more complete picture of what's happening in the neighborhood, all in one place. This kind of event aggregation work is a great model for other local calendar projects looking to grow their coverage by pulling in community venues one by one.",
+    "tags": [
+      "community-calendar",
+      "event-aggregation",
+      "neighborhood-events",
+      "local-listings"
+    ],
+    "matches": []
   }
 ]

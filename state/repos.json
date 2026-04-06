@@ -1,43 +1,5 @@
 {
   "repos": {
-    "The-Relational-Technology-Project/community-supplies": {
-      "full_name": "The-Relational-Technology-Project/community-supplies",
-      "url": "https://github.com/The-Relational-Technology-Project/community-supplies",
-      "description": "Supplies sharing site for the Sunset and Richmond community",
-      "manifest": {
-        "version": 1,
-        "project": {
-          "name": "community-supplies",
-          "description": "Supplies sharing site for the Sunset and Richmond community",
-          "neighborhood": null,
-          "builder": null
-        },
-        "tags": [],
-        "watch": {
-          "branches": [
-            "main",
-            "master"
-          ],
-          "signals": [
-            "releases",
-            "prs",
-            "commits"
-          ],
-          "threshold": "minor"
-        },
-        "preferences": {
-          "summarize_commits": true,
-          "summarize_readme": true,
-          "public_link": true,
-          "name_contributors": false
-        },
-        "interests": [],
-        "_has_manifest": false
-      },
-      "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
-      "last_checked": "2026-04-05T18:26:10.391886+00:00",
-      "first_seen": "2026-03-18T05:28:48.925962+00:00"
-    },
     "The-Relational-Technology-Project/outer-sunset-today": {
       "full_name": "The-Relational-Technology-Project/outer-sunset-today",
       "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today",
@@ -73,8 +35,46 @@
         "_has_manifest": false
       },
       "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
-      "last_checked": "2026-04-05T18:26:15.036376+00:00",
+      "last_checked": "2026-04-06T08:59:27.334325+00:00",
       "first_seen": "2026-03-23T21:25:57.443325+00:00"
+    },
+    "The-Relational-Technology-Project/community-supplies": {
+      "full_name": "The-Relational-Technology-Project/community-supplies",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies",
+      "description": "Supplies sharing site for the Sunset and Richmond community",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "community-supplies",
+          "description": "Supplies sharing site for the Sunset and Richmond community",
+          "neighborhood": null,
+          "builder": null
+        },
+        "tags": [],
+        "watch": {
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false
+        },
+        "interests": [],
+        "_has_manifest": false
+      },
+      "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
+      "last_checked": "2026-04-06T08:59:31.662048+00:00",
+      "first_seen": "2026-03-18T05:28:48.925962+00:00"
     },
     "The-Relational-Technology-Project/cozy-corner": {
       "full_name": "The-Relational-Technology-Project/cozy-corner",
@@ -111,7 +111,7 @@
         "_has_manifest": false
       },
       "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
-      "last_checked": "2026-04-05T18:26:19.630087+00:00",
+      "last_checked": "2026-04-06T08:59:35.969228+00:00",
       "first_seen": "2026-03-18T05:28:46.021437+00:00"
     },
     "The-Relational-Technology-Project/neighborhood-api": {
@@ -149,7 +149,7 @@
         "_has_manifest": false
       },
       "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
-      "last_checked": "2026-04-05T18:26:24.228665+00:00",
+      "last_checked": "2026-04-06T08:59:40.294061+00:00",
       "first_seen": "2026-03-19T18:39:18.696574+00:00"
     },
     "The-Relational-Technology-Project/sunsetpeople": {
@@ -187,7 +187,7 @@
         "_has_manifest": false
       },
       "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
-      "last_checked": "2026-04-05T18:26:28.838992+00:00",
+      "last_checked": "2026-04-06T08:59:44.559679+00:00",
       "first_seen": "2026-03-18T05:28:51.515766+00:00"
     },
     "The-Relational-Technology-Project/sunset-walking-guide": {
@@ -225,7 +225,7 @@
         "_has_manifest": false
       },
       "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
-      "last_checked": "2026-04-05T18:26:33.458019+00:00",
+      "last_checked": "2026-04-06T08:59:48.905004+00:00",
       "first_seen": "2026-03-25T08:36:09.623175+00:00"
     },
     "antler-browser/local-first-auth-simulator": {
@@ -263,7 +263,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-04-05T18:26:38.069621+00:00",
+      "last_checked": "2026-04-06T08:59:53.151709+00:00",
       "first_seen": "2026-03-22T18:20:05.610382+00:00"
     },
     "antler-browser/local-first-auth": {
@@ -313,7 +313,7 @@
         "_has_manifest": true
       },
       "contact": null,
-      "last_checked": "2026-04-05T18:26:41.626138+00:00",
+      "last_checked": "2026-04-06T08:59:56.528404+00:00",
       "first_seen": "2026-03-22T18:20:10.105934+00:00"
     }
   }
