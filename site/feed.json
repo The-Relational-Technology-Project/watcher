@@ -1,5 +1,37 @@
 [
   {
+    "id": "cozy-corner-commit-5621d0c6",
+    "timestamp": "2026-04-08T04:23:41+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "cozy-corner",
+      "full_name": "The-Relational-Technology-Project/cozy-corner",
+      "url": "https://github.com/The-Relational-Technology-Project/cozy-corner",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Neighbor hub for 48th Ave in the Outer Sunset"
+    },
+    "change": {
+      "type": "commit",
+      "title": "chore: move hardcoded emails to env vars and secure .env\n\n- Replace hardcoded personal emails in edg",
+      "url": "https://github.com/The-Relational-Technology-Project/cozy-corner/commit/5621d0c6379ff359c024455ccc2c0ee6e397e7dd",
+      "significance": "mention"
+    },
+    "summary": "The Cozy Corner hub for 48th Ave just made its notification system safer by moving personal email addresses out of the code and into protected configuration. This protects the personal information of whoever manages the tool and is a good reminder for any project that notification emails or contact info can accidentally end up visible in public code repositories. A small change with real consequences for the people behind the scenes.",
+    "tags": [
+      "privacy",
+      "security",
+      "notifications",
+      "neighbor-hub",
+      "configuration"
+    ],
+    "matches": [],
+    "contributor": {
+      "login": "joshnesbit",
+      "url": "https://github.com/joshnesbit"
+    }
+  },
+  {
     "id": "outer-sunset-today-commit-group-7bfc9784",
     "timestamp": "2026-04-06T02:41:51+00:00",
     "entry_type": "change",
