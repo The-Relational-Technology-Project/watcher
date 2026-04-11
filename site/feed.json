@@ -1,5 +1,49 @@
 [
   {
+    "id": "welcome-tiny-times",
+    "timestamp": "2026-04-11T08:29:43.120271+00:00",
+    "entry_type": "welcome",
+    "repo": {
+      "name": "tiny-times",
+      "full_name": "The-Relational-Technology-Project/tiny-times",
+      "url": "https://github.com/The-Relational-Technology-Project/tiny-times",
+      "neighborhood": null,
+      "builder": null,
+      "description": ""
+    },
+    "summary": "Welcome to the Relational Technology Network, tiny-times! We're so glad to have you here and can't wait to see what you're building. Check out their repository and follow along as this project grows: https://github.com/The-Relational-Technology-Project/tiny-times",
+    "tags": [],
+    "matches": []
+  },
+  {
+    "id": "tiny-times-commit-group-c8e340bb",
+    "timestamp": "2026-04-10T23:34:17+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "tiny-times",
+      "full_name": "The-Relational-Technology-Project/tiny-times",
+      "url": "https://github.com/The-Relational-Technology-Project/tiny-times",
+      "neighborhood": null,
+      "builder": null,
+      "description": ""
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "35 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/tiny-times/commit/4102ce41a91049fd32ab2c92d0b1901d6b95b9e7",
+      "significance": "mention"
+    },
+    "summary": "Tiny Times launched a full neighborhood newspaper tool, built from the ground up with a design system, configuration screens, an illustration library, and a print-first two-page layout. This means communities can now produce a real, printable local newspaper complete with coloring images, section icons, and city and world graphics, all through a guided setup flow. Builders working on hyperlocal print or zine projects will find a lot to learn from here.",
+    "tags": [
+      "neighborhood-newspaper",
+      "print-layout",
+      "community-publishing",
+      "design-system",
+      "illustration-library"
+    ],
+    "matches": []
+  },
+  {
     "id": "cozy-corner-commit-5621d0c6",
     "timestamp": "2026-04-08T04:23:41+00:00",
     "entry_type": "change",
