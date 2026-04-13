@@ -1,5 +1,33 @@
 [
   {
+    "id": "community-supplies-commit-group-fa9650af",
+    "timestamp": "2026-04-13T05:16:23+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "community-supplies",
+      "full_name": "The-Relational-Technology-Project/community-supplies",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Supplies sharing site for the Sunset and Richmond community"
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "25 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies/commit/20ce138aa2fbd2c528ea1eb4c53ed43c86df45c4",
+      "significance": "mention"
+    },
+    "summary": "The community-supplies platform for Sunset and Richmond got a significant set of improvements, including bulk image uploading with automatic compression, lazy loading, and pagination for browsing available supplies. These changes make it easier for neighbors to add many items at once and for visitors to browse a growing inventory without slow load times. A bug that could crash the app due to browser storage issues was also fixed, making the experience more reliable for everyone.",
+    "tags": [
+      "mutual-aid",
+      "supplies-sharing",
+      "image-upload",
+      "performance",
+      "neighborhood-tools"
+    ],
+    "matches": []
+  },
+  {
     "id": "welcome-tiny-times",
     "timestamp": "2026-04-11T08:29:43.120271+00:00",
     "entry_type": "welcome",
