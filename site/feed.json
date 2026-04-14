@@ -1,5 +1,34 @@
 [
   {
+    "id": "community-supplies-commit-group-852e8cc6",
+    "timestamp": "2026-04-14T04:54:09+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "community-supplies",
+      "full_name": "The-Relational-Technology-Project/community-supplies",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Supplies sharing site for the Sunset and Richmond community"
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "32 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies/commit/65dad99524c3d5410e3858094b334e79e2febcad",
+      "significance": "highlight"
+    },
+    "summary": "The community-supplies platform for Sunset and Richmond has grown into a multi-community tool, adding support for multiple neighborhoods to share supplies through a single system, along with a self-serve onboarding flow so new stewards can set up and manage their own community without needing developer help. This makes it much easier for other neighborhoods to adopt and run their own supplies-sharing space independently. The update also tightened access and security policies so that community data stays appropriately scoped to the right members.",
+    "tags": [
+      "mutual-aid",
+      "supplies-sharing",
+      "multi-tenant",
+      "steward-onboarding",
+      "community-governance",
+      "self-serve"
+    ],
+    "matches": []
+  },
+  {
     "id": "community-supplies-commit-group-fa9650af",
     "timestamp": "2026-04-13T05:16:23+00:00",
     "entry_type": "change",
