@@ -1,5 +1,43 @@
 {
   "repos": {
+    "The-Relational-Technology-Project/outer-sunset-today": {
+      "full_name": "The-Relational-Technology-Project/outer-sunset-today",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today",
+      "description": "Outer Sunset Today is our community calendar ",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "outer-sunset-today",
+          "description": "Outer Sunset Today is our community calendar ",
+          "neighborhood": null,
+          "builder": null
+        },
+        "tags": [],
+        "watch": {
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false
+        },
+        "interests": [],
+        "_has_manifest": false
+      },
+      "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
+      "last_checked": "2026-04-20T09:30:34.194876+00:00",
+      "first_seen": "2026-03-23T21:25:57.443325+00:00"
+    },
     "The-Relational-Technology-Project/community-supplies": {
       "full_name": "The-Relational-Technology-Project/community-supplies",
       "url": "https://github.com/The-Relational-Technology-Project/community-supplies",
@@ -35,7 +73,7 @@
         "_has_manifest": false
       },
       "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
-      "last_checked": "2026-04-19T18:31:07.514449+00:00",
+      "last_checked": "2026-04-20T09:30:41.079661+00:00",
       "first_seen": "2026-03-18T05:28:48.925962+00:00"
     },
     "The-Relational-Technology-Project/tiny-times": {
@@ -73,7 +111,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-04-19T18:31:11.802312+00:00",
+      "last_checked": "2026-04-20T09:30:45.607825+00:00",
       "first_seen": "2026-04-11T08:30:37.943471+00:00"
     },
     "The-Relational-Technology-Project/cozy-corner": {
@@ -111,46 +149,8 @@
         "_has_manifest": false
       },
       "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
-      "last_checked": "2026-04-19T18:31:15.934079+00:00",
+      "last_checked": "2026-04-20T09:30:50.176441+00:00",
       "first_seen": "2026-03-18T05:28:46.021437+00:00"
-    },
-    "The-Relational-Technology-Project/outer-sunset-today": {
-      "full_name": "The-Relational-Technology-Project/outer-sunset-today",
-      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today",
-      "description": "Outer Sunset Today is our community calendar ",
-      "manifest": {
-        "version": 1,
-        "project": {
-          "name": "outer-sunset-today",
-          "description": "Outer Sunset Today is our community calendar ",
-          "neighborhood": null,
-          "builder": null
-        },
-        "tags": [],
-        "watch": {
-          "branches": [
-            "main",
-            "master"
-          ],
-          "signals": [
-            "releases",
-            "prs",
-            "commits"
-          ],
-          "threshold": "minor"
-        },
-        "preferences": {
-          "summarize_commits": true,
-          "summarize_readme": true,
-          "public_link": true,
-          "name_contributors": false
-        },
-        "interests": [],
-        "_has_manifest": false
-      },
-      "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
-      "last_checked": "2026-04-19T18:31:20.137840+00:00",
-      "first_seen": "2026-03-23T21:25:57.443325+00:00"
     },
     "The-Relational-Technology-Project/neighborhood-api": {
       "full_name": "The-Relational-Technology-Project/neighborhood-api",
@@ -187,7 +187,7 @@
         "_has_manifest": false
       },
       "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
-      "last_checked": "2026-04-19T18:31:24.411652+00:00",
+      "last_checked": "2026-04-20T09:30:54.735355+00:00",
       "first_seen": "2026-03-19T18:39:18.696574+00:00"
     },
     "The-Relational-Technology-Project/sunsetpeople": {
@@ -225,7 +225,7 @@
         "_has_manifest": false
       },
       "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
-      "last_checked": "2026-04-19T18:31:28.381083+00:00",
+      "last_checked": "2026-04-20T09:30:58.990739+00:00",
       "first_seen": "2026-03-18T05:28:51.515766+00:00"
     },
     "The-Relational-Technology-Project/sunset-walking-guide": {
@@ -263,7 +263,7 @@
         "_has_manifest": false
       },
       "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
-      "last_checked": "2026-04-19T18:31:32.373444+00:00",
+      "last_checked": "2026-04-20T09:31:03.121789+00:00",
       "first_seen": "2026-03-25T08:36:09.623175+00:00"
     },
     "antler-browser/local-first-auth-simulator": {
@@ -301,7 +301,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-04-19T18:31:36.514278+00:00",
+      "last_checked": "2026-04-20T09:31:07.612492+00:00",
       "first_seen": "2026-03-22T18:20:05.610382+00:00"
     },
     "antler-browser/local-first-auth": {
@@ -351,7 +351,7 @@
         "_has_manifest": true
       },
       "contact": null,
-      "last_checked": "2026-04-19T18:31:39.842910+00:00",
+      "last_checked": "2026-04-20T09:31:11.124167+00:00",
       "first_seen": "2026-03-22T18:20:10.105934+00:00"
     }
   }
