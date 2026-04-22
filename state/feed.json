@@ -606,5 +606,39 @@
         "reason": "Listed interest in: onboarding"
       }
     ]
+  },
+  {
+    "id": "community-supplies-commit-group-0bc5ced3",
+    "timestamp": "2026-04-22T02:20:09+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "community-supplies",
+      "full_name": "The-Relational-Technology-Project/community-supplies",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Supplies sharing site for the Sunset and Richmond community"
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "2 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies/commit/4ed80d6b92bc5404de1d32a902f06f2df3541bb0",
+      "significance": "highlight"
+    },
+    "summary": "The community-supplies site for the Sunset and Richmond neighborhoods now has an 'Invite Neighbors' button, making it easier for residents to bring friends and neighbors into the supplies sharing network. Growing a mutual aid platform depends on word of mouth, and this gives current users a simple way to expand the community from within the tool itself.",
+    "tags": [
+      "mutual-aid",
+      "supplies-sharing",
+      "neighbor-invites",
+      "community-growth",
+      "onboarding"
+    ],
+    "matches": [
+      {
+        "repo": "antler-browser/local-first-auth",
+        "builder": "Local First Auth",
+        "reason": "Listed interest in: onboarding"
+      }
+    ]
   }
 ]
