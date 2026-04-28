@@ -1,3 +1,358 @@
 {
-  "repos": {}
+  "repos": {
+    "The-Relational-Technology-Project/outer-sunset-today": {
+      "full_name": "The-Relational-Technology-Project/outer-sunset-today",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today",
+      "description": "Outer Sunset Today is our community calendar ",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "outer-sunset-today",
+          "description": "Outer Sunset Today is our community calendar ",
+          "neighborhood": null,
+          "builder": null
+        },
+        "tags": [],
+        "watch": {
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false
+        },
+        "interests": [],
+        "_has_manifest": false
+      },
+      "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
+      "last_checked": "2026-04-28T10:04:18.734550+00:00",
+      "first_seen": "2026-04-28T10:04:18.734562+00:00"
+    },
+    "The-Relational-Technology-Project/community-supplies": {
+      "full_name": "The-Relational-Technology-Project/community-supplies",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies",
+      "description": "Supplies sharing site for the Sunset and Richmond community",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "community-supplies",
+          "description": "Supplies sharing site for the Sunset and Richmond community",
+          "neighborhood": null,
+          "builder": null
+        },
+        "tags": [],
+        "watch": {
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false
+        },
+        "interests": [],
+        "_has_manifest": false
+      },
+      "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
+      "last_checked": "2026-04-28T10:04:29.766881+00:00",
+      "first_seen": "2026-04-28T10:04:29.766893+00:00"
+    },
+    "The-Relational-Technology-Project/tiny-times": {
+      "full_name": "The-Relational-Technology-Project/tiny-times",
+      "url": "https://github.com/The-Relational-Technology-Project/tiny-times",
+      "description": "",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "tiny-times",
+          "description": "",
+          "neighborhood": null,
+          "builder": null
+        },
+        "tags": [],
+        "watch": {
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false
+        },
+        "interests": [],
+        "_has_manifest": false
+      },
+      "contact": null,
+      "last_checked": "2026-04-28T10:04:33.853908+00:00",
+      "first_seen": "2026-04-28T10:04:33.853920+00:00"
+    },
+    "The-Relational-Technology-Project/cozy-corner": {
+      "full_name": "The-Relational-Technology-Project/cozy-corner",
+      "url": "https://github.com/The-Relational-Technology-Project/cozy-corner",
+      "description": "Neighbor hub for 48th Ave in the Outer Sunset",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "cozy-corner",
+          "description": "Neighbor hub for 48th Ave in the Outer Sunset",
+          "neighborhood": null,
+          "builder": null
+        },
+        "tags": [],
+        "watch": {
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false
+        },
+        "interests": [],
+        "_has_manifest": false
+      },
+      "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
+      "last_checked": "2026-04-28T10:04:37.850385+00:00",
+      "first_seen": "2026-04-28T10:04:37.850395+00:00"
+    },
+    "The-Relational-Technology-Project/neighborhood-api": {
+      "full_name": "The-Relational-Technology-Project/neighborhood-api",
+      "url": "https://github.com/The-Relational-Technology-Project/neighborhood-api",
+      "description": "Creating an API for our neighborhoods",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "neighborhood-api",
+          "description": "Creating an API for our neighborhoods",
+          "neighborhood": null,
+          "builder": null
+        },
+        "tags": [],
+        "watch": {
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false
+        },
+        "interests": [],
+        "_has_manifest": false
+      },
+      "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
+      "last_checked": "2026-04-28T10:04:41.912266+00:00",
+      "first_seen": "2026-04-28T10:04:41.912278+00:00"
+    },
+    "The-Relational-Technology-Project/sunsetpeople": {
+      "full_name": "The-Relational-Technology-Project/sunsetpeople",
+      "url": "https://github.com/The-Relational-Technology-Project/sunsetpeople",
+      "description": "Guide for finding community in the Sunset",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "sunsetpeople",
+          "description": "Guide for finding community in the Sunset",
+          "neighborhood": null,
+          "builder": null
+        },
+        "tags": [],
+        "watch": {
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false
+        },
+        "interests": [],
+        "_has_manifest": false
+      },
+      "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
+      "last_checked": "2026-04-28T10:04:46.244268+00:00",
+      "first_seen": "2026-04-28T10:04:46.244280+00:00"
+    },
+    "The-Relational-Technology-Project/sunset-walking-guide": {
+      "full_name": "The-Relational-Technology-Project/sunset-walking-guide",
+      "url": "https://github.com/The-Relational-Technology-Project/sunset-walking-guide",
+      "description": "",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "sunset-walking-guide",
+          "description": "",
+          "neighborhood": null,
+          "builder": null
+        },
+        "tags": [],
+        "watch": {
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false
+        },
+        "interests": [],
+        "_has_manifest": false
+      },
+      "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
+      "last_checked": "2026-04-28T10:04:50.340552+00:00",
+      "first_seen": "2026-04-28T10:04:50.340563+00:00"
+    },
+    "antler-browser/local-first-auth-simulator": {
+      "full_name": "antler-browser/local-first-auth-simulator",
+      "url": "https://github.com/antler-browser/local-first-auth-simulator",
+      "description": "Development tool for testing Local First Auth mini-apps. Injects window.localFirstAuth into a regular browser to help you test Local First Auth host apps while in development environments.",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "local-first-auth-simulator",
+          "description": "Development tool for testing Local First Auth mini-apps. Injects window.localFirstAuth into a regular browser to help you test Local First Auth host apps while in development environments.",
+          "neighborhood": null,
+          "builder": null
+        },
+        "tags": [],
+        "watch": {
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false
+        },
+        "interests": [],
+        "_has_manifest": false
+      },
+      "contact": null,
+      "last_checked": "2026-04-28T10:04:54.416338+00:00",
+      "first_seen": "2026-04-28T10:04:54.416349+00:00"
+    },
+    "antler-browser/local-first-auth": {
+      "full_name": "antler-browser/local-first-auth",
+      "url": "https://github.com/antler-browser/local-first-auth",
+      "description": "Easily add auth to your web app with this library. This library implements the local-first / client-side auth, allowing you to skip having to enter in an email and password",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "Local First Auth",
+          "description": "Simple client-side auth for web apps using decentralized identity (DID) \u2014 no servers, no passwords, no third-party auth providers",
+          "neighborhood": null,
+          "builder": "Daniel Mathews"
+        },
+        "tags": [
+          "local-first-auth",
+          "client-side-auth",
+          "authentication",
+          "decentralized-identity",
+          "privacy",
+          "onboarding"
+        ],
+        "watch": {
+          "branches": [
+            "main"
+          ],
+          "signals": [
+            "releases",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false,
+          "contact": "danny@taddy.org"
+        },
+        "interests": [
+          "local-first-auth",
+          "client-side-auth",
+          "decentralized-identity",
+          "authentxication",
+          "onboarding"
+        ],
+        "_has_manifest": true
+      },
+      "contact": null,
+      "last_checked": "2026-04-28T10:04:57.532190+00:00",
+      "first_seen": "2026-04-28T10:04:57.532202+00:00"
+    }
+  }
 }

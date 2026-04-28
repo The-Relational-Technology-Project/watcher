@@ -640,5 +640,81 @@
         "reason": "Listed interest in: onboarding"
       }
     ]
+  },
+  {
+    "id": "welcome-community-supplies",
+    "timestamp": "2026-04-28T10:03:51.436034+00:00",
+    "entry_type": "welcome",
+    "repo": {
+      "name": "community-supplies",
+      "full_name": "The-Relational-Technology-Project/community-supplies",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Supplies sharing site for the Sunset and Richmond community"
+    },
+    "summary": "Welcome to the Relational Tech Network, community-supplies! \ud83c\udf89 This project is building a supplies sharing site for the Sunset and Richmond community, making it easier for neighbors to share resources with one another. We're so glad to have you here and can't wait to see this project grow!",
+    "tags": [],
+    "matches": []
+  },
+  {
+    "id": "welcome-neighborhood-api",
+    "timestamp": "2026-04-28T10:03:56.752162+00:00",
+    "entry_type": "welcome",
+    "repo": {
+      "name": "neighborhood-api",
+      "full_name": "The-Relational-Technology-Project/neighborhood-api",
+      "url": "https://github.com/The-Relational-Technology-Project/neighborhood-api",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Creating an API for our neighborhoods"
+    },
+    "summary": "Welcome to the Relational Technology Network, **neighborhood-api**! \ud83c\udf89 This exciting project is working to build an API for our neighborhoods, and we're thrilled to have it as part of our growing community. Check out the repository at [github.com/The-Relational-Technology-Project/neighborhood-api](https://github.com/The-Relational-Technology-Project/neighborhood-api) and follow along as it takes shape!",
+    "tags": [],
+    "matches": []
+  },
+  {
+    "id": "welcome-sunsetpeople",
+    "timestamp": "2026-04-28T10:04:04.279886+00:00",
+    "entry_type": "welcome",
+    "repo": {
+      "name": "sunsetpeople",
+      "full_name": "The-Relational-Technology-Project/sunsetpeople",
+      "url": "https://github.com/The-Relational-Technology-Project/sunsetpeople",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Guide for finding community in the Sunset"
+    },
+    "summary": "Welcome sunsetpeople to the Relational Technology Network! This project is a guide for finding community in the Sunset, and we are so glad to have it here. Check out the repository and show some love to this wonderful addition to our growing network.",
+    "tags": [],
+    "matches": []
+  },
+  {
+    "id": "community-supplies-commit-group-28fc4304",
+    "timestamp": "2026-04-27T14:19:42+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "community-supplies",
+      "full_name": "The-Relational-Technology-Project/community-supplies",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Supplies sharing site for the Sunset and Richmond community"
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "8 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies/commit/806e5c0d9561aaba7b6a99ae751337a3349f73c8",
+      "significance": "mention"
+    },
+    "summary": "Community Supplies, a sharing site for the Sunset and Richmond neighborhoods, now routes notification emails to community stewards, making sure the right people hear about requests and offers as they come in. This kind of direct communication pathway helps stewards stay on top of activity without having to check in manually, keeping a supplies-sharing network responsive and alive. Other builders running similar mutual aid or resource-sharing tools may find this pattern useful for keeping their own coordinators in the loop.",
+    "tags": [
+      "mutual-aid",
+      "supplies-sharing",
+      "notifications",
+      "community-stewards",
+      "resource-sharing"
+    ],
+    "matches": []
   }
 ]
