@@ -716,5 +716,33 @@
       "resource-sharing"
     ],
     "matches": []
+  },
+  {
+    "id": "community-supplies-commit-group-c7e49bb8",
+    "timestamp": "2026-05-01T05:12:28+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "community-supplies",
+      "full_name": "The-Relational-Technology-Project/community-supplies",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Supplies sharing site for the Sunset and Richmond community"
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "27 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies/commit/f2ab3d0b175a100f4e0b9e6d8e8b54037aba7c7f",
+      "significance": "highlight"
+    },
+    "summary": "Community Supplies added a discovery map that lets neighbors visually explore where sharing is happening across the Sunset and Richmond neighborhoods, backed by seeded location data and community pin auditing to keep listings trustworthy. This makes it easier for people to find supplies near them at a glance, rather than sorting through lists. The update also included polished flows throughout the site, making the overall experience smoother for both new and returning community members.",
+    "tags": [
+      "mutual-aid",
+      "supply-sharing",
+      "discovery-map",
+      "community-pins",
+      "neighborhood-tools"
+    ],
+    "matches": []
   }
 ]
