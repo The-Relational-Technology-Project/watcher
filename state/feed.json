@@ -744,5 +744,33 @@
       "neighborhood-tools"
     ],
     "matches": []
+  },
+  {
+    "id": "outer-sunset-today-commit-group-1e95c72e",
+    "timestamp": "2026-05-01T20:56:06+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "outer-sunset-today",
+      "full_name": "The-Relational-Technology-Project/outer-sunset-today",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Outer Sunset Today is our community calendar "
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "14 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today/commit/1722774ea921dde4ffd6e28a4c63e0183606666a",
+      "significance": "mention"
+    },
+    "summary": "Outer Sunset Today added a custom alert system and a daily weather alert that runs automatically each day, keeping neighbors informed about conditions that affect their plans. Timely, locally relevant alerts help community members make better decisions about events and outdoor activities without having to seek out that information themselves. Other calendar builders working on proactive notifications or automated community updates may find this a useful pattern to explore.",
+    "tags": [
+      "community-calendar",
+      "alerts",
+      "weather",
+      "notifications",
+      "automation"
+    ],
+    "matches": []
   }
 ]
