@@ -806,5 +806,42 @@
         "reason": "Listed interest in: onboarding"
       }
     ]
+  },
+  {
+    "id": "sunsetpeople-commit-383e315b",
+    "timestamp": "2026-05-14T16:33:49+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "sunsetpeople",
+      "full_name": "The-Relational-Technology-Project/sunsetpeople",
+      "url": "https://github.com/The-Relational-Technology-Project/sunsetpeople",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Guide for finding community in the Sunset"
+    },
+    "change": {
+      "type": "commit",
+      "title": "Replace generic Lovable README with project description",
+      "url": "https://github.com/The-Relational-Technology-Project/sunsetpeople/commit/383e315b17ec677f01429f1064879bf1f1826cb5",
+      "significance": "mention"
+    },
+    "summary": "The sunsetpeople project now has a proper description explaining what it is: a guide for finding community in the Sunset neighborhood. This makes the project legible to neighbors and potential collaborators who might discover it, replacing placeholder text with a clear statement of purpose. Other builders looking for examples of neighborhood guide projects can now understand at a glance what sunsetpeople is trying to do.",
+    "tags": [
+      "neighborhood-guide",
+      "community-discovery",
+      "documentation",
+      "onboarding"
+    ],
+    "matches": [
+      {
+        "repo": "antler-browser/local-first-auth",
+        "builder": "Local First Auth",
+        "reason": "Listed interest in: onboarding"
+      }
+    ],
+    "contributor": {
+      "login": "joshnesbit",
+      "url": "https://github.com/joshnesbit"
+    }
   }
 ]
