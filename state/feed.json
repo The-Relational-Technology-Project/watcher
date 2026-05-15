@@ -843,5 +843,33 @@
       "login": "joshnesbit",
       "url": "https://github.com/joshnesbit"
     }
+  },
+  {
+    "id": "community-supplies-commit-group-f5b8ad86",
+    "timestamp": "2026-05-15T18:17:09+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "community-supplies",
+      "full_name": "The-Relational-Technology-Project/community-supplies",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Supplies sharing site for the Sunset and Richmond community"
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "17 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies/commit/275f6a77413b145436300e2a38e1c749bbd0448d",
+      "significance": "mention"
+    },
+    "summary": "The community-supplies sharing site for the Sunset and Richmond neighborhoods received a round of fixes that resolved crashes when uploading photos on phones and smoothed out the full flow for adding new items. These improvements mean more residents can successfully post supplies to share without hitting dead ends, especially people browsing on mobile devices. Builders working on inventory or sharing tools may find the upload flow patterns here worth exploring.",
+    "tags": [
+      "mutual-aid",
+      "supplies-sharing",
+      "mobile",
+      "file-upload",
+      "neighborhood-tools"
+    ],
+    "matches": []
   }
 ]
