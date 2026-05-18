@@ -1,5 +1,34 @@
 [
   {
+    "id": "community-supplies-commit-group-6ae5eab2",
+    "timestamp": "2026-05-18T03:07:29+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "community-supplies",
+      "full_name": "The-Relational-Technology-Project/community-supplies",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Supplies sharing site for the Sunset and Richmond community"
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "15 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies/commit/0070cdd4684826536b520b72d1b86254aa2b8c1f",
+      "significance": "highlight"
+    },
+    "summary": "The community-supplies sharing site for Sunset and Richmond now supports photo uploads, including a flow that uses AI to help process and describe items being shared. This makes it easier for neighbors to post supplies quickly and clearly, especially for people who find it simpler to snap a photo than to write out a description. Other builders working on mutual aid or resource-sharing tools may find the photo-plus-AI intake pattern worth exploring for their own projects.",
+    "tags": [
+      "mutual-aid",
+      "resource-sharing",
+      "photo-upload",
+      "ai-assisted",
+      "supplies",
+      "community-tools"
+    ],
+    "matches": []
+  },
+  {
     "id": "community-supplies-commit-group-f5b8ad86",
     "timestamp": "2026-05-15T18:17:09+00:00",
     "entry_type": "change",
