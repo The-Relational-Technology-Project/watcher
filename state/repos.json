@@ -1,5 +1,43 @@
 {
   "repos": {
+    "The-Relational-Technology-Project/neighborhood-api": {
+      "full_name": "The-Relational-Technology-Project/neighborhood-api",
+      "url": "https://github.com/The-Relational-Technology-Project/neighborhood-api",
+      "description": "Creating an API for our neighborhoods",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "neighborhood-api",
+          "description": "Creating an API for our neighborhoods",
+          "neighborhood": null,
+          "builder": null
+        },
+        "tags": [],
+        "watch": {
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false
+        },
+        "interests": [],
+        "_has_manifest": false
+      },
+      "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
+      "last_checked": "2026-05-20T10:39:40.523145+00:00",
+      "first_seen": "2026-04-28T10:04:41.912278+00:00"
+    },
     "The-Relational-Technology-Project/community-supplies": {
       "full_name": "The-Relational-Technology-Project/community-supplies",
       "url": "https://github.com/The-Relational-Technology-Project/community-supplies",
@@ -35,7 +73,7 @@
         "_has_manifest": false
       },
       "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
-      "last_checked": "2026-05-19T19:40:13.981783+00:00",
+      "last_checked": "2026-05-20T10:39:44.641531+00:00",
       "first_seen": "2026-04-28T10:04:29.766893+00:00"
     },
     "The-Relational-Technology-Project/outer-sunset-today": {
@@ -73,7 +111,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-05-19T19:40:18.203647+00:00",
+      "last_checked": "2026-05-20T10:39:48.816305+00:00",
       "first_seen": "2026-04-28T10:04:18.734562+00:00"
     },
     "The-Relational-Technology-Project/sunset-walking-guide": {
@@ -111,7 +149,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-05-19T19:40:22.704052+00:00",
+      "last_checked": "2026-05-20T10:39:53.135878+00:00",
       "first_seen": "2026-04-28T10:04:50.340563+00:00"
     },
     "The-Relational-Technology-Project/sunsetpeople": {
@@ -149,7 +187,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-05-19T19:40:27.026162+00:00",
+      "last_checked": "2026-05-20T10:39:57.316433+00:00",
       "first_seen": "2026-04-28T10:04:46.244280+00:00"
     },
     "The-Relational-Technology-Project/cozy-corner": {
@@ -187,7 +225,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-05-19T19:40:31.723141+00:00",
+      "last_checked": "2026-05-20T10:40:01.524767+00:00",
       "first_seen": "2026-04-28T10:04:37.850395+00:00"
     },
     "The-Relational-Technology-Project/tiny-times": {
@@ -225,46 +263,8 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-05-19T19:40:36.196401+00:00",
+      "last_checked": "2026-05-20T10:40:05.912833+00:00",
       "first_seen": "2026-04-28T10:04:33.853920+00:00"
-    },
-    "The-Relational-Technology-Project/neighborhood-api": {
-      "full_name": "The-Relational-Technology-Project/neighborhood-api",
-      "url": "https://github.com/The-Relational-Technology-Project/neighborhood-api",
-      "description": "Creating an API for our neighborhoods",
-      "manifest": {
-        "version": 1,
-        "project": {
-          "name": "neighborhood-api",
-          "description": "Creating an API for our neighborhoods",
-          "neighborhood": null,
-          "builder": null
-        },
-        "tags": [],
-        "watch": {
-          "branches": [
-            "main",
-            "master"
-          ],
-          "signals": [
-            "releases",
-            "prs",
-            "commits"
-          ],
-          "threshold": "minor"
-        },
-        "preferences": {
-          "summarize_commits": true,
-          "summarize_readme": true,
-          "public_link": true,
-          "name_contributors": false
-        },
-        "interests": [],
-        "_has_manifest": false
-      },
-      "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
-      "last_checked": "2026-05-19T19:40:41.709099+00:00",
-      "first_seen": "2026-04-28T10:04:41.912278+00:00"
     },
     "antler-browser/local-first-auth-simulator": {
       "full_name": "antler-browser/local-first-auth-simulator",
@@ -301,7 +301,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-05-19T19:40:46.112123+00:00",
+      "last_checked": "2026-05-20T10:40:10.137568+00:00",
       "first_seen": "2026-04-28T10:04:54.416349+00:00"
     },
     "antler-browser/local-first-auth": {
@@ -351,7 +351,7 @@
         "_has_manifest": true
       },
       "contact": null,
-      "last_checked": "2026-05-19T19:40:49.292245+00:00",
+      "last_checked": "2026-05-20T10:40:13.531156+00:00",
       "first_seen": "2026-04-28T10:04:57.532202+00:00"
     }
   }

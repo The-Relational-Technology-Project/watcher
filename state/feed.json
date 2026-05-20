@@ -900,5 +900,38 @@
       "community-tools"
     ],
     "matches": []
+  },
+  {
+    "id": "neighborhood-api-pr-merged-1",
+    "timestamp": "2026-05-20T04:19:05+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "neighborhood-api",
+      "full_name": "The-Relational-Technology-Project/neighborhood-api",
+      "url": "https://github.com/The-Relational-Technology-Project/neighborhood-api",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Creating an API for our neighborhoods"
+    },
+    "change": {
+      "type": "pr_merged",
+      "title": "Add Thread API as a sibling spec",
+      "url": "https://github.com/The-Relational-Technology-Project/neighborhood-api/pull/1",
+      "significance": "highlight"
+    },
+    "summary": "The Neighborhood API now documents a 'Sibling Specs' section, linking to the Thread API, a real-world implementation of the spec built for Thread's relational program in Baltimore. This makes it easier for other builders to see how the API can be adapted for specific community contexts, and highlights shared patterns like source blocks, place IDs, and publisher allowlists that teams can fork and build from. It's a small addition that makes the project feel less like an abstract spec and more like a living family of tools.",
+    "tags": [
+      "neighborhood-api",
+      "open-standards",
+      "forking",
+      "place-data",
+      "api-design",
+      "documentation"
+    ],
+    "matches": [],
+    "contributor": {
+      "login": "joshnesbit",
+      "url": "https://github.com/joshnesbit"
+    }
   }
 ]
