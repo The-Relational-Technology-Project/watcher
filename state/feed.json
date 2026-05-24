@@ -933,5 +933,33 @@
       "login": "joshnesbit",
       "url": "https://github.com/joshnesbit"
     }
+  },
+  {
+    "id": "outer-sunset-today-commit-group-20ca4ed1",
+    "timestamp": "2026-05-24T15:55:57+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "outer-sunset-today",
+      "full_name": "The-Relational-Technology-Project/outer-sunset-today",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Outer Sunset Today is our community calendar "
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "9 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today/commit/f10ca4eef0ba0041d0a46f9cf2489278f5f8e345",
+      "significance": "highlight"
+    },
+    "summary": "Outer Sunset Today added a new iCal source and ran a deduplication pass to clean up repeated events, while also enriching existing events and sources with more complete information. This means residents see a fuller, more accurate picture of what's happening in the neighborhood without encountering the same event listed twice. Builders working on community calendars may find the iCal integration and deduplication approach worth a closer look for their own aggregation pipelines.",
+    "tags": [
+      "community-calendar",
+      "event-aggregation",
+      "ical",
+      "deduplication",
+      "data-enrichment"
+    ],
+    "matches": []
   }
 ]
