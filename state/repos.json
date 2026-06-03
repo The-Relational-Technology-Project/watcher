@@ -35,7 +35,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-06-03T12:27:06.453707+00:00",
+      "last_checked": "2026-06-03T20:43:59.916241+00:00",
       "first_seen": "2026-04-28T10:04:18.734562+00:00"
     },
     "The-Relational-Technology-Project/neighborhood-api": {
@@ -73,7 +73,7 @@
         "_has_manifest": false
       },
       "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
-      "last_checked": "2026-06-03T12:27:11.438108+00:00",
+      "last_checked": "2026-06-03T20:44:05.370654+00:00",
       "first_seen": "2026-04-28T10:04:41.912278+00:00"
     },
     "The-Relational-Technology-Project/community-supplies": {
@@ -111,7 +111,7 @@
         "_has_manifest": false
       },
       "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
-      "last_checked": "2026-06-03T12:27:15.486907+00:00",
+      "last_checked": "2026-06-03T20:44:09.933176+00:00",
       "first_seen": "2026-04-28T10:04:29.766893+00:00"
     },
     "The-Relational-Technology-Project/sunset-walking-guide": {
@@ -149,7 +149,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-06-03T12:27:19.662032+00:00",
+      "last_checked": "2026-06-03T20:44:14.607140+00:00",
       "first_seen": "2026-04-28T10:04:50.340563+00:00"
     },
     "The-Relational-Technology-Project/sunsetpeople": {
@@ -187,7 +187,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-06-03T12:27:23.721467+00:00",
+      "last_checked": "2026-06-03T20:44:19.247766+00:00",
       "first_seen": "2026-04-28T10:04:46.244280+00:00"
     },
     "The-Relational-Technology-Project/cozy-corner": {
@@ -225,7 +225,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-06-03T12:27:27.768571+00:00",
+      "last_checked": "2026-06-03T20:44:23.753334+00:00",
       "first_seen": "2026-04-28T10:04:37.850395+00:00"
     },
     "The-Relational-Technology-Project/tiny-times": {
@@ -263,7 +263,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-06-03T12:27:31.933598+00:00",
+      "last_checked": "2026-06-03T20:44:28.407534+00:00",
       "first_seen": "2026-04-28T10:04:33.853920+00:00"
     },
     "antler-browser/local-first-auth-simulator": {
@@ -301,7 +301,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-06-03T12:27:36.002190+00:00",
+      "last_checked": "2026-06-03T20:44:32.925685+00:00",
       "first_seen": "2026-04-28T10:04:54.416349+00:00"
     },
     "antler-browser/local-first-auth": {
@@ -351,7 +351,7 @@
         "_has_manifest": true
       },
       "contact": null,
-      "last_checked": "2026-06-03T12:27:39.213402+00:00",
+      "last_checked": "2026-06-03T20:44:36.575896+00:00",
       "first_seen": "2026-04-28T10:04:57.532202+00:00"
     }
   }
