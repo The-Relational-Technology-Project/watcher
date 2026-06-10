@@ -1,5 +1,85 @@
 [
   {
+    "id": "welcome-buildirl",
+    "timestamp": "2026-06-10T11:28:35.509748+00:00",
+    "entry_type": "welcome",
+    "repo": {
+      "name": "buildirl",
+      "full_name": "The-Relational-Technology-Project/buildirl",
+      "url": "https://github.com/The-Relational-Technology-Project/buildirl",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Club management platform for local community builders \u2014 created by the BuildIRL team, stewarded by the Relational Tech Project"
+    },
+    "summary": "Welcome buildirl to the Relational Tech Network! This club management platform for local community builders, created by the BuildIRL team and stewarded by the Relational Tech Project, is a wonderful addition to our growing ecosystem. We're so glad to have you here and can't wait to see how this tool supports communities coming together in real life.",
+    "tags": [],
+    "matches": []
+  },
+  {
+    "id": "buildirl-pr-merged-1",
+    "timestamp": "2026-06-10T04:37:10+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "buildirl",
+      "full_name": "The-Relational-Technology-Project/buildirl",
+      "url": "https://github.com/The-Relational-Technology-Project/buildirl",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Club management platform for local community builders \u2014 created by the BuildIRL team, stewarded by the Relational Tech Project"
+    },
+    "change": {
+      "type": "pr_merged",
+      "title": "Prepare repository for open-source release",
+      "url": "https://github.com/The-Relational-Technology-Project/buildirl/pull/1",
+      "significance": "highlight"
+    },
+    "summary": "BuildIRL, a club management platform for local community builders, has been open-sourced under the MIT license and transferred to the Relational Tech Project for ongoing stewardship. This means other neighborhood tech teams can now read, run, and build on a real-world tool that has handled club signups, campaigns, and member management in the wild. The full development history is included, so builders get a complete picture of how the project evolved.",
+    "tags": [
+      "open-source",
+      "club-management",
+      "community-organizing",
+      "member-management",
+      "civic-infrastructure"
+    ],
+    "matches": [],
+    "contributor": {
+      "login": "joshnesbit",
+      "url": "https://github.com/joshnesbit"
+    }
+  },
+  {
+    "id": "buildirl-readme-update-2026-06-10",
+    "timestamp": "2026-06-10T04:31:39+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "buildirl",
+      "full_name": "The-Relational-Technology-Project/buildirl",
+      "url": "https://github.com/The-Relational-Technology-Project/buildirl",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Club management platform for local community builders \u2014 created by the BuildIRL team, stewarded by the Relational Tech Project"
+    },
+    "change": {
+      "type": "readme_update",
+      "title": "README updated",
+      "url": "https://github.com/The-Relational-Technology-Project/buildirl/commit/ac52a898a56a607ca81af2ef0be8c889ef83f16e",
+      "significance": "highlight"
+    },
+    "summary": "The buildirl club management platform is now open source, with a public-friendly README, an MIT license, and sanitized example configurations ready for other builders to use. This means any neighborhood group running clubs, campaigns, or community organizing can now pick up this codebase and adapt it for their own context. It's a meaningful contribution to the shared toolkit of community technology.",
+    "tags": [
+      "club-management",
+      "open-source",
+      "community-organizing",
+      "mutual-aid",
+      "civic-engagement"
+    ],
+    "matches": [],
+    "contributor": {
+      "login": "joshnesbit",
+      "url": "https://github.com/joshnesbit"
+    }
+  },
+  {
     "id": "outer-sunset-today-commit-group-20ca4ed1",
     "timestamp": "2026-05-24T15:55:57+00:00",
     "entry_type": "change",
