@@ -128,6 +128,11 @@ def create_welcome_entry(repo_info: dict, summary: str) -> dict:
         "matches": [],
     }
 
+    # Spec v2 lineage: announce where a remix came from when the manifest says
+    lineage = manifest.get("lineage") or {}
+    if any(lineage.get(k) for k in ("remixed_from", "remixed_from_url", "creator", "note")):
+        entry["repo"]["lineage"] = lineage
+
     return entry
 
 
@@ -160,6 +165,7 @@ def generate_site(feed: list[dict], repos: dict):
             "tags": manifest.get("tags", []),
             "has_manifest": manifest.get("_has_manifest", False),
             "contact": info.get("contact"),
+            "lineage": manifest.get("lineage") or {},
         })
     # Look up welcome summaries from the feed for richer project descriptions
     welcome_summaries = {}

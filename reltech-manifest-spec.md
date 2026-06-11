@@ -1,6 +1,6 @@
 # .reltech.yml Specification
 
-**Version:** 1
+**Version:** 2
 
 A `.reltech.yml` file is an optional manifest that a repository can include at its root to participate more richly in the Relational Tech Network. Any public repo with the `relational-tech` GitHub topic is part of the network; the manifest lets you control how your project appears and what you hear about.
 
@@ -8,13 +8,19 @@ A `.reltech.yml` file is an optional manifest that a repository can include at i
 
 ```yaml
 # .reltech.yml
-version: 1
+version: 2
 
 project:
   name: "Sunset Commons Calendar"
   description: "Community event calendar for the Outer Sunset neighborhood"
   neighborhood: "Outer Sunset, San Francisco"
   builder: "Maria Chen"
+
+lineage:
+  remixed_from: "Community Calendar Kit"
+  remixed_from_url: "https://studio.relationaltechproject.org/library?item=<id>"
+  creator: "Jordan Park"
+  note: "Remixed from the Studio library kit; translation flows added for Cantonese and Spanish."
 
 tags:
   - community-calendar
@@ -45,7 +51,7 @@ interests:
 
 ### `version` (required)
 
-Integer. Currently `1`. Allows future spec changes without breaking existing manifests.
+Integer. Currently `2`. Allows future spec changes without breaking existing manifests. Version 1 manifests (everything except `lineage`) remain fully supported — `lineage` is the only v2 addition.
 
 ### `project`
 
@@ -57,6 +63,19 @@ Describes the project. All fields are optional; if omitted, the watcher uses the
 | `description` | string | What the project does, in a sentence or two |
 | `neighborhood` | string | Where this project lives (city, neighborhood, region) |
 | `builder` | string | Name of the primary builder or organization |
+
+### `lineage`
+
+Where this project came from. The network grows by remixing — naming your sources keeps the chain of credit unbroken and lets the network connect remixes back to their parents. The watcher shows lineage on the project directory and in the welcome entry when a project joins.
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `remixed_from` | string | Name of the tool or project this was remixed or forked from |
+| `remixed_from_url` | string | Canonical link to the source — its RT Studio library page, repo, or site |
+| `creator` | string | Who made the source. Name people only with their blessing. |
+| `note` | string | Free-text lineage note, e.g. "Adapted from BuildIRL with permission" |
+
+All fields are optional. Omit the whole block for original work.
 
 ### `tags`
 

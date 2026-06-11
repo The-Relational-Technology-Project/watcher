@@ -27,7 +27,17 @@
         {% if project.builder %}
         <span class="entry-neighborhood">Built by {{ project.builder }}</span>
         {% endif %}
+        {% if project.lineage.remixed_from %}
+        <span class="entry-neighborhood">Remixed from
+            {%- if project.lineage.remixed_from_url %} <a href="{{ project.lineage.remixed_from_url }}">{{ project.lineage.remixed_from }}</a>
+            {%- else %} {{ project.lineage.remixed_from }}
+            {%- endif %}
+            {%- if project.lineage.creator %} by {{ project.lineage.creator }}{% endif %}</span>
+        {% endif %}
     </div>
+    {% if project.lineage.note %}
+    <div class="entry-contact">{{ project.lineage.note }}</div>
+    {% endif %}
     {% if project.contact %}
     <div class="entry-contact">
         {{ project.contact }}

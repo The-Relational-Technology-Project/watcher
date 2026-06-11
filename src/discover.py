@@ -42,7 +42,7 @@ def fetch_manifest(repo) -> dict:
         parsed = yaml.safe_load(content.decoded_content.decode("utf-8"))
         if parsed and isinstance(parsed, dict):
             # Deep merge: override defaults with manifest values
-            for key in ["project", "watch", "preferences"]:
+            for key in ["project", "watch", "preferences", "lineage"]:
                 if key in parsed and isinstance(parsed[key], dict):
                     manifest[key] = {**manifest.get(key, {}), **parsed[key]}
             for key in ["tags", "interests"]:

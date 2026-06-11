@@ -30,6 +30,9 @@ DEFAULT_MANIFEST = {
         "builder": None,
     },
     "tags": [],
+    # Spec v2: where this project came from (remixed_from, remixed_from_url,
+    # creator, note). Empty for original work or v1 manifests.
+    "lineage": {},
     "watch": {
         "branches": ["main", "master"],
         "signals": ["releases", "prs", "commits"],
