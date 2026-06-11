@@ -1041,5 +1041,86 @@
       "login": "joshnesbit",
       "url": "https://github.com/joshnesbit"
     }
+  },
+  {
+    "id": "welcome-community-guaranteed-income-club",
+    "timestamp": "2026-06-11T12:01:04.826378+00:00",
+    "entry_type": "welcome",
+    "repo": {
+      "name": "community-guaranteed-income-club",
+      "full_name": "The-Relational-Technology-Project/community-guaranteed-income-club",
+      "url": "https://github.com/The-Relational-Technology-Project/community-guaranteed-income-club",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Open-source web app for the Community Guaranteed Income Club \u2014 neighbors funding neighbors. Stewarded by the Relational Tech Project."
+    },
+    "summary": "Welcome to the network, Community Guaranteed Income Club! This open-source web app is building the infrastructure for neighbors to fund neighbors, bringing mutual economic support to life through community-powered giving. We're so glad to have this project stewarded by the Relational Tech Project and growing alongside us here.",
+    "tags": [],
+    "matches": []
+  },
+  {
+    "id": "community-guaranteed-income-club-commit-31a10869",
+    "timestamp": "2026-06-11T04:59:13+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "community-guaranteed-income-club",
+      "full_name": "The-Relational-Technology-Project/community-guaranteed-income-club",
+      "url": "https://github.com/The-Relational-Technology-Project/community-guaranteed-income-club",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Open-source web app for the Community Guaranteed Income Club \u2014 neighbors funding neighbors. Stewarded by the Relational Tech Project."
+    },
+    "change": {
+      "type": "commit",
+      "title": "Add MIT license and README; scrub personal email for public release\n\n- Add LICENSE (MIT) crediting t",
+      "url": "https://github.com/The-Relational-Technology-Project/community-guaranteed-income-club/commit/31a1086910251760f88b26a298481788e5ca33e5",
+      "significance": "mention"
+    },
+    "summary": "The Community Guaranteed Income Club has released its source code publicly under the MIT license, complete with a README, contributor credits, and privacy-conscious configuration that routes admin notifications through environment variables instead of hardcoded addresses. This means other neighborhoods can now pick up this mutual aid funding tool and adapt it for their own communities without accidentally exposing anyone's personal contact information. The four platform co-creators and the Relational Tech Project are credited in the license.",
+    "tags": [
+      "mutual-aid",
+      "open-source",
+      "guaranteed-income",
+      "privacy",
+      "community-finance"
+    ],
+    "matches": [],
+    "contributor": {
+      "login": "joshnesbit",
+      "url": "https://github.com/joshnesbit"
+    }
+  },
+  {
+    "id": "community-guaranteed-income-club-readme-update-2026-06-11",
+    "timestamp": "2026-06-11T04:59:13+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "community-guaranteed-income-club",
+      "full_name": "The-Relational-Technology-Project/community-guaranteed-income-club",
+      "url": "https://github.com/The-Relational-Technology-Project/community-guaranteed-income-club",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Open-source web app for the Community Guaranteed Income Club \u2014 neighbors funding neighbors. Stewarded by the Relational Tech Project."
+    },
+    "change": {
+      "type": "readme_update",
+      "title": "README updated",
+      "url": "https://github.com/The-Relational-Technology-Project/community-guaranteed-income-club/commit/31a1086910251760f88b26a298481788e5ca33e5",
+      "significance": "mention"
+    },
+    "summary": "The Community Guaranteed Income Club app is now publicly released with an open-source MIT license, a full README, and proper credits to its four co-creators and the Relational Tech Project. Personal contact information has been replaced with configurable environment variables, making it safe and straightforward for other communities to deploy their own instance. Builders looking to run a neighbors-funding-neighbors program in their own neighborhood now have a solid starting point to work from.",
+    "tags": [
+      "mutual-aid",
+      "guaranteed-income",
+      "open-source",
+      "privacy",
+      "community-finance",
+      "deployment"
+    ],
+    "matches": [],
+    "contributor": {
+      "login": "joshnesbit",
+      "url": "https://github.com/joshnesbit"
+    }
   }
 ]
