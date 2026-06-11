@@ -1122,5 +1122,40 @@
       "login": "joshnesbit",
       "url": "https://github.com/joshnesbit"
     }
+  },
+  {
+    "id": "community-supplies-commit-group-acb050fd",
+    "timestamp": "2026-06-11T17:01:52+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "community-supplies",
+      "full_name": "The-Relational-Technology-Project/community-supplies",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Supplies sharing site for the Sunset and Richmond community"
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "16 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies/commit/c41752245d2b7827a842544a7c268a2c28840c10",
+      "significance": "mention"
+    },
+    "summary": "The community-supplies platform received a significant round of improvements, including fixes that allow neighbors to successfully join the community whether or not they are already logged in. Steward tools now correctly scope their views by community, and new data policies ensure that complaints are handled with appropriate access controls, protecting resident privacy. These changes make the platform more reliable and welcoming for new members joining the Sunset and Richmond supplies-sharing network.",
+    "tags": [
+      "mutual-aid",
+      "supplies-sharing",
+      "onboarding",
+      "privacy",
+      "access-control",
+      "community-moderation"
+    ],
+    "matches": [
+      {
+        "repo": "antler-browser/local-first-auth",
+        "builder": "Local First Auth",
+        "reason": "Listed interest in: onboarding"
+      }
+    ]
   }
 ]
