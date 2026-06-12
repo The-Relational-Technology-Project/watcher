@@ -1,5 +1,82 @@
 [
   {
+    "id": "welcome-mini-app-starter",
+    "timestamp": "2026-06-12T11:32:32.174089+00:00",
+    "entry_type": "welcome",
+    "repo": {
+      "name": "mini-app-starter",
+      "full_name": "antler-browser/mini-app-starter",
+      "url": "https://github.com/antler-browser/mini-app-starter",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Lovable but for small mini apps for you and your friends."
+    },
+    "summary": "Welcome **mini-app-starter** to the relational tech network! \ud83c\udf89 This project is bringing a Lovable-style experience to building small, personal mini apps for you and your friends, and we love to see it. So glad to have you here!",
+    "tags": [],
+    "matches": []
+  },
+  {
+    "id": "community-supplies-commit-2b6322bb",
+    "timestamp": "2026-06-12T05:29:27+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "community-supplies",
+      "full_name": "The-Relational-Technology-Project/community-supplies",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Supplies sharing site for the Sunset and Richmond community"
+    },
+    "change": {
+      "type": "commit",
+      "title": "Security + UX hardening: approval gate, email leak, explicit membership status\n\nAudit fixes for the ",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies/commit/2b6322bba1ef462563922ca77a8cb4f503d48954",
+      "significance": "mention"
+    },
+    "summary": "Community Supplies closed several security gaps that were quietly exposing member email addresses and allowing unapproved users to read the catalog. Members waiting for approval are now properly blocked from accessing shared resources until a steward approves them, and stewards get a clearer view of who is pending versus deactivated. Builders working on multi-community or approval-gated platforms will find the patterns here useful, especially the unified join flow and the explicit membership status field.",
+    "tags": [
+      "mutual-aid",
+      "privacy",
+      "membership",
+      "multi-tenant",
+      "access-control",
+      "supplies-sharing"
+    ],
+    "matches": [],
+    "contributor": {
+      "login": "joshnesbit",
+      "url": "https://github.com/joshnesbit"
+    }
+  },
+  {
+    "id": "community-supplies-commit-group-669482e7",
+    "timestamp": "2026-06-12T01:38:48+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "community-supplies",
+      "full_name": "The-Relational-Technology-Project/community-supplies",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Supplies sharing site for the Sunset and Richmond community"
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "9 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies/commit/d60f946e9d84223c69e0a0b64d9d8cfca49faa52",
+      "significance": "mention"
+    },
+    "summary": "The community-supplies platform gained a search feature for finding supplies shared by community members, and a bug in the auto-approval flow was fixed so requests are handled correctly. These improvements make it easier for neighbors in the Sunset and Richmond to find what they need and ensure sharing requests move through the system reliably. Other builders working on mutual aid or resource-sharing tools may find the search and approval patterns here worth a look.",
+    "tags": [
+      "mutual-aid",
+      "resource-sharing",
+      "search",
+      "supplies",
+      "community-platform"
+    ],
+    "matches": []
+  },
+  {
     "id": "community-supplies-commit-group-acb050fd",
     "timestamp": "2026-06-11T17:01:52+00:00",
     "entry_type": "change",
