@@ -1234,5 +1234,32 @@
       "login": "joshnesbit",
       "url": "https://github.com/joshnesbit"
     }
+  },
+  {
+    "id": "outer-sunset-today-commit-group-a0a4884d",
+    "timestamp": "2026-06-17T04:59:39+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "outer-sunset-today",
+      "full_name": "The-Relational-Technology-Project/outer-sunset-today",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Outer Sunset Today is our community calendar "
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "7 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today/commit/a18132243fb0f91dfc1050fe88ebf4caddfeafe2",
+      "significance": "mention"
+    },
+    "summary": "Outer Sunset Today pushed a round of fixes and updates to their community calendar, including repairs to the event extraction system that pulls local happenings into the platform. More reliable event extraction means fewer missing or broken listings, so neighbors get a more complete and accurate picture of what's going on in the Outer Sunset. If your project aggregates events from outside sources, the patterns here around extraction reliability are worth a look.",
+    "tags": [
+      "community-calendar",
+      "event-aggregation",
+      "bug-fix",
+      "local-events"
+    ],
+    "matches": []
   }
 ]
