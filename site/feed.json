@@ -1,5 +1,21 @@
 [
   {
+    "id": "welcome-neighboring-recipes",
+    "timestamp": "2026-06-18T20:04:39.083917+00:00",
+    "entry_type": "welcome",
+    "repo": {
+      "name": "neighboring-recipes",
+      "full_name": "The-Relational-Technology-Project/neighboring-recipes",
+      "url": "https://github.com/The-Relational-Technology-Project/neighboring-recipes",
+      "neighborhood": null,
+      "builder": null,
+      "description": "A forkable cookbook of practices for strengthening the social fabric of a neighborhood. CC BY-SA 4.0."
+    },
+    "summary": "Welcome to the network, neighboring-recipes! \ud83c\udf89 This forkable cookbook of practices for strengthening neighborhood social fabric is exactly the kind of resource our community loves to see. We're so glad you're here and can't wait to see how others build on and adapt your work under CC BY-SA 4.0.",
+    "tags": [],
+    "matches": []
+  },
+  {
     "id": "community-guaranteed-income-club-commit-group-fbf2c625",
     "timestamp": "2026-06-18T05:43:00+00:00",
     "entry_type": "change",
