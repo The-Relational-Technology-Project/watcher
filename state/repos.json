@@ -1,5 +1,44 @@
 {
   "repos": {
+    "The-Relational-Technology-Project/community-guaranteed-income-club": {
+      "full_name": "The-Relational-Technology-Project/community-guaranteed-income-club",
+      "url": "https://github.com/The-Relational-Technology-Project/community-guaranteed-income-club",
+      "description": "Open-source web app for the Community Guaranteed Income Club \u2014 neighbors funding neighbors. Stewarded by the Relational Tech Project.",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "community-guaranteed-income-club",
+          "description": "Open-source web app for the Community Guaranteed Income Club \u2014 neighbors funding neighbors. Stewarded by the Relational Tech Project.",
+          "neighborhood": null,
+          "builder": null
+        },
+        "tags": [],
+        "lineage": {},
+        "watch": {
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false
+        },
+        "interests": [],
+        "_has_manifest": false
+      },
+      "contact": null,
+      "last_checked": "2026-06-18T11:42:23.006263+00:00",
+      "first_seen": "2026-06-11T12:01:07.685911+00:00"
+    },
     "The-Relational-Technology-Project/outer-sunset-today": {
       "full_name": "The-Relational-Technology-Project/outer-sunset-today",
       "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today",
@@ -36,7 +75,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-06-17T19:54:56.468023+00:00",
+      "last_checked": "2026-06-18T11:42:27.068926+00:00",
       "first_seen": "2026-04-28T10:04:18.734562+00:00"
     },
     "The-Relational-Technology-Project/community-supplies": {
@@ -75,47 +114,8 @@
         "_has_manifest": false
       },
       "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
-      "last_checked": "2026-06-17T19:55:00.443383+00:00",
+      "last_checked": "2026-06-18T11:42:31.454596+00:00",
       "first_seen": "2026-04-28T10:04:29.766893+00:00"
-    },
-    "The-Relational-Technology-Project/community-guaranteed-income-club": {
-      "full_name": "The-Relational-Technology-Project/community-guaranteed-income-club",
-      "url": "https://github.com/The-Relational-Technology-Project/community-guaranteed-income-club",
-      "description": "Open-source web app for the Community Guaranteed Income Club \u2014 neighbors funding neighbors. Stewarded by the Relational Tech Project.",
-      "manifest": {
-        "version": 1,
-        "project": {
-          "name": "community-guaranteed-income-club",
-          "description": "Open-source web app for the Community Guaranteed Income Club \u2014 neighbors funding neighbors. Stewarded by the Relational Tech Project.",
-          "neighborhood": null,
-          "builder": null
-        },
-        "tags": [],
-        "lineage": {},
-        "watch": {
-          "branches": [
-            "main",
-            "master"
-          ],
-          "signals": [
-            "releases",
-            "prs",
-            "commits"
-          ],
-          "threshold": "minor"
-        },
-        "preferences": {
-          "summarize_commits": true,
-          "summarize_readme": true,
-          "public_link": true,
-          "name_contributors": false
-        },
-        "interests": [],
-        "_has_manifest": false
-      },
-      "contact": null,
-      "last_checked": "2026-06-17T19:55:04.326807+00:00",
-      "first_seen": "2026-06-11T12:01:07.685911+00:00"
     },
     "The-Relational-Technology-Project/buildirl": {
       "full_name": "The-Relational-Technology-Project/buildirl",
@@ -153,7 +153,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-06-17T19:55:09.360360+00:00",
+      "last_checked": "2026-06-18T11:42:36.387096+00:00",
       "first_seen": "2026-06-10T11:28:40.119555+00:00"
     },
     "The-Relational-Technology-Project/neighborhood-api": {
@@ -192,7 +192,7 @@
         "_has_manifest": false
       },
       "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
-      "last_checked": "2026-06-17T19:55:14.215610+00:00",
+      "last_checked": "2026-06-18T11:42:41.454904+00:00",
       "first_seen": "2026-04-28T10:04:41.912278+00:00"
     },
     "The-Relational-Technology-Project/sunset-walking-guide": {
@@ -231,7 +231,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-06-17T19:55:18.101204+00:00",
+      "last_checked": "2026-06-18T11:42:45.580324+00:00",
       "first_seen": "2026-04-28T10:04:50.340563+00:00"
     },
     "The-Relational-Technology-Project/sunsetpeople": {
@@ -270,7 +270,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-06-17T19:55:22.094712+00:00",
+      "last_checked": "2026-06-18T11:42:49.585753+00:00",
       "first_seen": "2026-04-28T10:04:46.244280+00:00"
     },
     "The-Relational-Technology-Project/cozy-corner": {
@@ -309,7 +309,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-06-17T19:55:25.965526+00:00",
+      "last_checked": "2026-06-18T11:42:56.133271+00:00",
       "first_seen": "2026-04-28T10:04:37.850395+00:00"
     },
     "The-Relational-Technology-Project/tiny-times": {
@@ -348,7 +348,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-06-17T19:55:29.919312+00:00",
+      "last_checked": "2026-06-18T11:43:00.118191+00:00",
       "first_seen": "2026-04-28T10:04:33.853920+00:00"
     },
     "antler-browser/local-first-auth-simulator": {
@@ -387,7 +387,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-06-17T19:55:33.893250+00:00",
+      "last_checked": "2026-06-18T11:43:04.575287+00:00",
       "first_seen": "2026-04-28T10:04:54.416349+00:00"
     },
     "antler-browser/local-first-auth": {
@@ -438,7 +438,7 @@
         "_has_manifest": true
       },
       "contact": null,
-      "last_checked": "2026-06-17T19:55:37.056350+00:00",
+      "last_checked": "2026-06-18T11:43:08.059867+00:00",
       "first_seen": "2026-04-28T10:04:57.532202+00:00"
     },
     "antler-browser/mini-app-starter": {
@@ -477,7 +477,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-06-17T19:55:41.078614+00:00",
+      "last_checked": "2026-06-18T11:43:15.730061+00:00",
       "first_seen": "2026-06-12T11:33:34.166027+00:00"
     }
   }

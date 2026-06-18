@@ -1261,5 +1261,34 @@
       "local-events"
     ],
     "matches": []
+  },
+  {
+    "id": "community-guaranteed-income-club-commit-group-fbf2c625",
+    "timestamp": "2026-06-18T05:43:00+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "community-guaranteed-income-club",
+      "full_name": "The-Relational-Technology-Project/community-guaranteed-income-club",
+      "url": "https://github.com/The-Relational-Technology-Project/community-guaranteed-income-club",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Open-source web app for the Community Guaranteed Income Club \u2014 neighbors funding neighbors. Stewarded by the Relational Tech Project."
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "21 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/community-guaranteed-income-club/commit/0b37db1122552786186e9a3a3302cfc13878d479",
+      "significance": "mention"
+    },
+    "summary": "The Community Guaranteed Income Club app received a significant round of updates, including a new Directory and Network tab, deployed backend functions, and security fixes. These changes make it easier for neighbors to find and connect with each other through the platform, while the security improvements help protect member data. Builders working on mutual aid or peer funding tools may find the member and admin infrastructure here worth exploring.",
+    "tags": [
+      "mutual-aid",
+      "guaranteed-income",
+      "member-directory",
+      "privacy",
+      "civic-tech",
+      "peer-funding"
+    ],
+    "matches": []
   }
 ]
