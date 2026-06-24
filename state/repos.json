@@ -36,7 +36,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-06-23T19:46:36.856550+00:00",
+      "last_checked": "2026-06-24T10:38:39.822528+00:00",
       "first_seen": "2026-06-11T12:01:07.685911+00:00"
     },
     "The-Relational-Technology-Project/outer-sunset-today": {
@@ -75,7 +75,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-06-23T19:46:40.975413+00:00",
+      "last_checked": "2026-06-24T10:38:43.921212+00:00",
       "first_seen": "2026-04-28T10:04:18.734562+00:00"
     },
     "The-Relational-Technology-Project/community-supplies": {
@@ -114,7 +114,7 @@
         "_has_manifest": false
       },
       "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
-      "last_checked": "2026-06-23T19:46:45.054002+00:00",
+      "last_checked": "2026-06-24T10:38:48.021304+00:00",
       "first_seen": "2026-04-28T10:04:29.766893+00:00"
     },
     "The-Relational-Technology-Project/buildirl": {
@@ -153,7 +153,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-06-23T19:46:49.893484+00:00",
+      "last_checked": "2026-06-24T10:38:52.724936+00:00",
       "first_seen": "2026-06-10T11:28:40.119555+00:00"
     },
     "The-Relational-Technology-Project/neighborhood-api": {
@@ -192,7 +192,7 @@
         "_has_manifest": false
       },
       "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
-      "last_checked": "2026-06-23T19:46:54.697399+00:00",
+      "last_checked": "2026-06-24T10:38:57.851043+00:00",
       "first_seen": "2026-04-28T10:04:41.912278+00:00"
     },
     "The-Relational-Technology-Project/neighboring-recipes": {
@@ -231,7 +231,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-06-23T19:46:58.700057+00:00",
+      "last_checked": "2026-06-24T10:39:01.889770+00:00",
       "first_seen": "2026-06-18T20:05:08.994046+00:00"
     },
     "The-Relational-Technology-Project/sunset-walking-guide": {
@@ -270,7 +270,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-06-23T19:47:02.784850+00:00",
+      "last_checked": "2026-06-24T10:39:05.963975+00:00",
       "first_seen": "2026-04-28T10:04:50.340563+00:00"
     },
     "The-Relational-Technology-Project/sunsetpeople": {
@@ -309,7 +309,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-06-23T19:47:06.764340+00:00",
+      "last_checked": "2026-06-24T10:39:09.957005+00:00",
       "first_seen": "2026-04-28T10:04:46.244280+00:00"
     },
     "The-Relational-Technology-Project/cozy-corner": {
@@ -348,7 +348,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-06-23T19:47:10.886459+00:00",
+      "last_checked": "2026-06-24T10:39:14.081882+00:00",
       "first_seen": "2026-04-28T10:04:37.850395+00:00"
     },
     "The-Relational-Technology-Project/tiny-times": {
@@ -387,7 +387,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-06-23T19:47:14.838766+00:00",
+      "last_checked": "2026-06-24T10:39:18.142671+00:00",
       "first_seen": "2026-04-28T10:04:33.853920+00:00"
     },
     "antler-browser/local-first-auth-simulator": {
@@ -426,7 +426,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-06-23T19:47:18.922054+00:00",
+      "last_checked": "2026-06-24T10:39:22.264569+00:00",
       "first_seen": "2026-04-28T10:04:54.416349+00:00"
     },
     "antler-browser/local-first-auth": {
@@ -477,7 +477,7 @@
         "_has_manifest": true
       },
       "contact": null,
-      "last_checked": "2026-06-23T19:47:22.278931+00:00",
+      "last_checked": "2026-06-24T10:39:25.447385+00:00",
       "first_seen": "2026-04-28T10:04:57.532202+00:00"
     },
     "antler-browser/mini-app-starter": {
@@ -516,7 +516,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-06-23T19:47:26.568987+00:00",
+      "last_checked": "2026-06-24T10:39:29.431390+00:00",
       "first_seen": "2026-06-12T11:33:34.166027+00:00"
     }
   }
