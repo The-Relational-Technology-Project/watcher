@@ -1,473 +1,5 @@
 {
   "repos": {
-    "The-Relational-Technology-Project/community-supplies": {
-      "full_name": "The-Relational-Technology-Project/community-supplies",
-      "url": "https://github.com/The-Relational-Technology-Project/community-supplies",
-      "description": "Supplies sharing site for the Sunset and Richmond community",
-      "manifest": {
-        "version": 1,
-        "project": {
-          "name": "community-supplies",
-          "description": "Supplies sharing site for the Sunset and Richmond community",
-          "neighborhood": null,
-          "builder": null
-        },
-        "tags": [],
-        "lineage": {},
-        "watch": {
-          "branches": [
-            "main",
-            "master"
-          ],
-          "signals": [
-            "releases",
-            "prs",
-            "commits"
-          ],
-          "threshold": "minor"
-        },
-        "preferences": {
-          "summarize_commits": true,
-          "summarize_readme": true,
-          "public_link": true,
-          "name_contributors": false
-        },
-        "interests": [],
-        "_has_manifest": false
-      },
-      "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
-      "last_checked": "2026-06-28T10:18:18.445720+00:00",
-      "first_seen": "2026-04-28T10:04:29.766893+00:00"
-    },
-    "antler-browser/mini-app-starter": {
-      "full_name": "antler-browser/mini-app-starter",
-      "url": "https://github.com/antler-browser/mini-app-starter",
-      "description": "Lovable but for small mini apps for you and your friends.",
-      "manifest": {
-        "version": 1,
-        "project": {
-          "name": "mini-app-starter",
-          "description": "Lovable but for small mini apps for you and your friends.",
-          "neighborhood": null,
-          "builder": null
-        },
-        "tags": [],
-        "lineage": {},
-        "watch": {
-          "branches": [
-            "main",
-            "master"
-          ],
-          "signals": [
-            "releases",
-            "prs",
-            "commits"
-          ],
-          "threshold": "minor"
-        },
-        "preferences": {
-          "summarize_commits": true,
-          "summarize_readme": true,
-          "public_link": true,
-          "name_contributors": false
-        },
-        "interests": [],
-        "_has_manifest": false
-      },
-      "contact": null,
-      "last_checked": "2026-06-28T10:18:22.272459+00:00",
-      "first_seen": "2026-06-12T11:33:34.166027+00:00"
-    },
-    "The-Relational-Technology-Project/community-guaranteed-income-club": {
-      "full_name": "The-Relational-Technology-Project/community-guaranteed-income-club",
-      "url": "https://github.com/The-Relational-Technology-Project/community-guaranteed-income-club",
-      "description": "Open-source web app for the Community Guaranteed Income Club \u2014 neighbors funding neighbors. Stewarded by the Relational Tech Project.",
-      "manifest": {
-        "version": 1,
-        "project": {
-          "name": "community-guaranteed-income-club",
-          "description": "Open-source web app for the Community Guaranteed Income Club \u2014 neighbors funding neighbors. Stewarded by the Relational Tech Project.",
-          "neighborhood": null,
-          "builder": null
-        },
-        "tags": [],
-        "lineage": {},
-        "watch": {
-          "branches": [
-            "main",
-            "master"
-          ],
-          "signals": [
-            "releases",
-            "prs",
-            "commits"
-          ],
-          "threshold": "minor"
-        },
-        "preferences": {
-          "summarize_commits": true,
-          "summarize_readme": true,
-          "public_link": true,
-          "name_contributors": false
-        },
-        "interests": [],
-        "_has_manifest": false
-      },
-      "contact": null,
-      "last_checked": "2026-06-28T10:18:26.047195+00:00",
-      "first_seen": "2026-06-11T12:01:07.685911+00:00"
-    },
-    "The-Relational-Technology-Project/outer-sunset-today": {
-      "full_name": "The-Relational-Technology-Project/outer-sunset-today",
-      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today",
-      "description": "Outer Sunset Today is our community calendar ",
-      "manifest": {
-        "version": 1,
-        "project": {
-          "name": "outer-sunset-today",
-          "description": "Outer Sunset Today is our community calendar ",
-          "neighborhood": null,
-          "builder": null
-        },
-        "tags": [],
-        "lineage": {},
-        "watch": {
-          "branches": [
-            "main",
-            "master"
-          ],
-          "signals": [
-            "releases",
-            "prs",
-            "commits"
-          ],
-          "threshold": "minor"
-        },
-        "preferences": {
-          "summarize_commits": true,
-          "summarize_readme": true,
-          "public_link": true,
-          "name_contributors": false
-        },
-        "interests": [],
-        "_has_manifest": false
-      },
-      "contact": null,
-      "last_checked": "2026-06-28T10:18:29.750035+00:00",
-      "first_seen": "2026-04-28T10:04:18.734562+00:00"
-    },
-    "The-Relational-Technology-Project/buildirl": {
-      "full_name": "The-Relational-Technology-Project/buildirl",
-      "url": "https://github.com/The-Relational-Technology-Project/buildirl",
-      "description": "Club management platform for local community builders \u2014 created by the BuildIRL team, stewarded by the Relational Tech Project",
-      "manifest": {
-        "version": 1,
-        "project": {
-          "name": "buildirl",
-          "description": "Club management platform for local community builders \u2014 created by the BuildIRL team, stewarded by the Relational Tech Project",
-          "neighborhood": null,
-          "builder": null
-        },
-        "tags": [],
-        "lineage": {},
-        "watch": {
-          "branches": [
-            "main",
-            "master"
-          ],
-          "signals": [
-            "releases",
-            "prs",
-            "commits"
-          ],
-          "threshold": "minor"
-        },
-        "preferences": {
-          "summarize_commits": true,
-          "summarize_readme": true,
-          "public_link": true,
-          "name_contributors": false
-        },
-        "interests": [],
-        "_has_manifest": false
-      },
-      "contact": null,
-      "last_checked": "2026-06-28T10:18:34.266168+00:00",
-      "first_seen": "2026-06-10T11:28:40.119555+00:00"
-    },
-    "The-Relational-Technology-Project/neighborhood-api": {
-      "full_name": "The-Relational-Technology-Project/neighborhood-api",
-      "url": "https://github.com/The-Relational-Technology-Project/neighborhood-api",
-      "description": "Creating an API for our neighborhoods",
-      "manifest": {
-        "version": 1,
-        "project": {
-          "name": "neighborhood-api",
-          "description": "Creating an API for our neighborhoods",
-          "neighborhood": null,
-          "builder": null
-        },
-        "tags": [],
-        "lineage": {},
-        "watch": {
-          "branches": [
-            "main",
-            "master"
-          ],
-          "signals": [
-            "releases",
-            "prs",
-            "commits"
-          ],
-          "threshold": "minor"
-        },
-        "preferences": {
-          "summarize_commits": true,
-          "summarize_readme": true,
-          "public_link": true,
-          "name_contributors": false
-        },
-        "interests": [],
-        "_has_manifest": false
-      },
-      "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
-      "last_checked": "2026-06-28T10:18:38.706863+00:00",
-      "first_seen": "2026-04-28T10:04:41.912278+00:00"
-    },
-    "The-Relational-Technology-Project/neighboring-recipes": {
-      "full_name": "The-Relational-Technology-Project/neighboring-recipes",
-      "url": "https://github.com/The-Relational-Technology-Project/neighboring-recipes",
-      "description": "A forkable cookbook of practices for strengthening the social fabric of a neighborhood. CC BY-SA 4.0.",
-      "manifest": {
-        "version": 1,
-        "project": {
-          "name": "neighboring-recipes",
-          "description": "A forkable cookbook of practices for strengthening the social fabric of a neighborhood. CC BY-SA 4.0.",
-          "neighborhood": null,
-          "builder": null
-        },
-        "tags": [],
-        "lineage": {},
-        "watch": {
-          "branches": [
-            "main",
-            "master"
-          ],
-          "signals": [
-            "releases",
-            "prs",
-            "commits"
-          ],
-          "threshold": "minor"
-        },
-        "preferences": {
-          "summarize_commits": true,
-          "summarize_readme": true,
-          "public_link": true,
-          "name_contributors": false
-        },
-        "interests": [],
-        "_has_manifest": false
-      },
-      "contact": null,
-      "last_checked": "2026-06-28T10:18:42.553852+00:00",
-      "first_seen": "2026-06-18T20:05:08.994046+00:00"
-    },
-    "The-Relational-Technology-Project/sunset-walking-guide": {
-      "full_name": "The-Relational-Technology-Project/sunset-walking-guide",
-      "url": "https://github.com/The-Relational-Technology-Project/sunset-walking-guide",
-      "description": "",
-      "manifest": {
-        "version": 1,
-        "project": {
-          "name": "sunset-walking-guide",
-          "description": "",
-          "neighborhood": null,
-          "builder": null
-        },
-        "tags": [],
-        "lineage": {},
-        "watch": {
-          "branches": [
-            "main",
-            "master"
-          ],
-          "signals": [
-            "releases",
-            "prs",
-            "commits"
-          ],
-          "threshold": "minor"
-        },
-        "preferences": {
-          "summarize_commits": true,
-          "summarize_readme": true,
-          "public_link": true,
-          "name_contributors": false
-        },
-        "interests": [],
-        "_has_manifest": false
-      },
-      "contact": null,
-      "last_checked": "2026-06-28T10:18:46.294628+00:00",
-      "first_seen": "2026-04-28T10:04:50.340563+00:00"
-    },
-    "The-Relational-Technology-Project/sunsetpeople": {
-      "full_name": "The-Relational-Technology-Project/sunsetpeople",
-      "url": "https://github.com/The-Relational-Technology-Project/sunsetpeople",
-      "description": "Guide for finding community in the Sunset",
-      "manifest": {
-        "version": 1,
-        "project": {
-          "name": "sunsetpeople",
-          "description": "Guide for finding community in the Sunset",
-          "neighborhood": null,
-          "builder": null
-        },
-        "tags": [],
-        "lineage": {},
-        "watch": {
-          "branches": [
-            "main",
-            "master"
-          ],
-          "signals": [
-            "releases",
-            "prs",
-            "commits"
-          ],
-          "threshold": "minor"
-        },
-        "preferences": {
-          "summarize_commits": true,
-          "summarize_readme": true,
-          "public_link": true,
-          "name_contributors": false
-        },
-        "interests": [],
-        "_has_manifest": false
-      },
-      "contact": null,
-      "last_checked": "2026-06-28T10:18:50.089830+00:00",
-      "first_seen": "2026-04-28T10:04:46.244280+00:00"
-    },
-    "The-Relational-Technology-Project/cozy-corner": {
-      "full_name": "The-Relational-Technology-Project/cozy-corner",
-      "url": "https://github.com/The-Relational-Technology-Project/cozy-corner",
-      "description": "Neighbor hub for 48th Ave in the Outer Sunset",
-      "manifest": {
-        "version": 1,
-        "project": {
-          "name": "cozy-corner",
-          "description": "Neighbor hub for 48th Ave in the Outer Sunset",
-          "neighborhood": null,
-          "builder": null
-        },
-        "tags": [],
-        "lineage": {},
-        "watch": {
-          "branches": [
-            "main",
-            "master"
-          ],
-          "signals": [
-            "releases",
-            "prs",
-            "commits"
-          ],
-          "threshold": "minor"
-        },
-        "preferences": {
-          "summarize_commits": true,
-          "summarize_readme": true,
-          "public_link": true,
-          "name_contributors": false
-        },
-        "interests": [],
-        "_has_manifest": false
-      },
-      "contact": null,
-      "last_checked": "2026-06-28T10:18:53.858131+00:00",
-      "first_seen": "2026-04-28T10:04:37.850395+00:00"
-    },
-    "The-Relational-Technology-Project/tiny-times": {
-      "full_name": "The-Relational-Technology-Project/tiny-times",
-      "url": "https://github.com/The-Relational-Technology-Project/tiny-times",
-      "description": "",
-      "manifest": {
-        "version": 1,
-        "project": {
-          "name": "tiny-times",
-          "description": "",
-          "neighborhood": null,
-          "builder": null
-        },
-        "tags": [],
-        "lineage": {},
-        "watch": {
-          "branches": [
-            "main",
-            "master"
-          ],
-          "signals": [
-            "releases",
-            "prs",
-            "commits"
-          ],
-          "threshold": "minor"
-        },
-        "preferences": {
-          "summarize_commits": true,
-          "summarize_readme": true,
-          "public_link": true,
-          "name_contributors": false
-        },
-        "interests": [],
-        "_has_manifest": false
-      },
-      "contact": null,
-      "last_checked": "2026-06-28T10:18:57.578348+00:00",
-      "first_seen": "2026-04-28T10:04:33.853920+00:00"
-    },
-    "antler-browser/local-first-auth-simulator": {
-      "full_name": "antler-browser/local-first-auth-simulator",
-      "url": "https://github.com/antler-browser/local-first-auth-simulator",
-      "description": "Development tool for testing Local First Auth mini-apps. Injects window.localFirstAuth into a regular browser to help you test Local First Auth host apps while in development environments.",
-      "manifest": {
-        "version": 1,
-        "project": {
-          "name": "local-first-auth-simulator",
-          "description": "Development tool for testing Local First Auth mini-apps. Injects window.localFirstAuth into a regular browser to help you test Local First Auth host apps while in development environments.",
-          "neighborhood": null,
-          "builder": null
-        },
-        "tags": [],
-        "lineage": {},
-        "watch": {
-          "branches": [
-            "main",
-            "master"
-          ],
-          "signals": [
-            "releases",
-            "prs",
-            "commits"
-          ],
-          "threshold": "minor"
-        },
-        "preferences": {
-          "summarize_commits": true,
-          "summarize_readme": true,
-          "public_link": true,
-          "name_contributors": false
-        },
-        "interests": [],
-        "_has_manifest": false
-      },
-      "contact": null,
-      "last_checked": "2026-06-28T10:19:01.347456+00:00",
-      "first_seen": "2026-04-28T10:04:54.416349+00:00"
-    },
     "antler-browser/local-first-auth": {
       "full_name": "antler-browser/local-first-auth",
       "url": "https://github.com/antler-browser/local-first-auth",
@@ -516,8 +48,476 @@
         "_has_manifest": true
       },
       "contact": null,
-      "last_checked": "2026-06-28T10:19:04.351470+00:00",
+      "last_checked": "2026-06-28T18:58:43.054633+00:00",
       "first_seen": "2026-04-28T10:04:57.532202+00:00"
+    },
+    "The-Relational-Technology-Project/community-supplies": {
+      "full_name": "The-Relational-Technology-Project/community-supplies",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies",
+      "description": "Supplies sharing site for the Sunset and Richmond community",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "community-supplies",
+          "description": "Supplies sharing site for the Sunset and Richmond community",
+          "neighborhood": null,
+          "builder": null
+        },
+        "tags": [],
+        "lineage": {},
+        "watch": {
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false
+        },
+        "interests": [],
+        "_has_manifest": false
+      },
+      "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
+      "last_checked": "2026-06-28T18:58:47.766102+00:00",
+      "first_seen": "2026-04-28T10:04:29.766893+00:00"
+    },
+    "antler-browser/mini-app-starter": {
+      "full_name": "antler-browser/mini-app-starter",
+      "url": "https://github.com/antler-browser/mini-app-starter",
+      "description": "Lovable but for small mini apps for you and your friends.",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "mini-app-starter",
+          "description": "Lovable but for small mini apps for you and your friends.",
+          "neighborhood": null,
+          "builder": null
+        },
+        "tags": [],
+        "lineage": {},
+        "watch": {
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false
+        },
+        "interests": [],
+        "_has_manifest": false
+      },
+      "contact": null,
+      "last_checked": "2026-06-28T18:58:52.410118+00:00",
+      "first_seen": "2026-06-12T11:33:34.166027+00:00"
+    },
+    "The-Relational-Technology-Project/community-guaranteed-income-club": {
+      "full_name": "The-Relational-Technology-Project/community-guaranteed-income-club",
+      "url": "https://github.com/The-Relational-Technology-Project/community-guaranteed-income-club",
+      "description": "Open-source web app for the Community Guaranteed Income Club \u2014 neighbors funding neighbors. Stewarded by the Relational Tech Project.",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "community-guaranteed-income-club",
+          "description": "Open-source web app for the Community Guaranteed Income Club \u2014 neighbors funding neighbors. Stewarded by the Relational Tech Project.",
+          "neighborhood": null,
+          "builder": null
+        },
+        "tags": [],
+        "lineage": {},
+        "watch": {
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false
+        },
+        "interests": [],
+        "_has_manifest": false
+      },
+      "contact": null,
+      "last_checked": "2026-06-28T18:58:57.165647+00:00",
+      "first_seen": "2026-06-11T12:01:07.685911+00:00"
+    },
+    "The-Relational-Technology-Project/outer-sunset-today": {
+      "full_name": "The-Relational-Technology-Project/outer-sunset-today",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today",
+      "description": "Outer Sunset Today is our community calendar ",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "outer-sunset-today",
+          "description": "Outer Sunset Today is our community calendar ",
+          "neighborhood": null,
+          "builder": null
+        },
+        "tags": [],
+        "lineage": {},
+        "watch": {
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false
+        },
+        "interests": [],
+        "_has_manifest": false
+      },
+      "contact": null,
+      "last_checked": "2026-06-28T18:59:01.725816+00:00",
+      "first_seen": "2026-04-28T10:04:18.734562+00:00"
+    },
+    "The-Relational-Technology-Project/buildirl": {
+      "full_name": "The-Relational-Technology-Project/buildirl",
+      "url": "https://github.com/The-Relational-Technology-Project/buildirl",
+      "description": "Club management platform for local community builders \u2014 created by the BuildIRL team, stewarded by the Relational Tech Project",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "buildirl",
+          "description": "Club management platform for local community builders \u2014 created by the BuildIRL team, stewarded by the Relational Tech Project",
+          "neighborhood": null,
+          "builder": null
+        },
+        "tags": [],
+        "lineage": {},
+        "watch": {
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false
+        },
+        "interests": [],
+        "_has_manifest": false
+      },
+      "contact": null,
+      "last_checked": "2026-06-28T18:59:07.209487+00:00",
+      "first_seen": "2026-06-10T11:28:40.119555+00:00"
+    },
+    "The-Relational-Technology-Project/neighborhood-api": {
+      "full_name": "The-Relational-Technology-Project/neighborhood-api",
+      "url": "https://github.com/The-Relational-Technology-Project/neighborhood-api",
+      "description": "Creating an API for our neighborhoods",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "neighborhood-api",
+          "description": "Creating an API for our neighborhoods",
+          "neighborhood": null,
+          "builder": null
+        },
+        "tags": [],
+        "lineage": {},
+        "watch": {
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false
+        },
+        "interests": [],
+        "_has_manifest": false
+      },
+      "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
+      "last_checked": "2026-06-28T18:59:12.667349+00:00",
+      "first_seen": "2026-04-28T10:04:41.912278+00:00"
+    },
+    "The-Relational-Technology-Project/neighboring-recipes": {
+      "full_name": "The-Relational-Technology-Project/neighboring-recipes",
+      "url": "https://github.com/The-Relational-Technology-Project/neighboring-recipes",
+      "description": "A forkable cookbook of practices for strengthening the social fabric of a neighborhood. CC BY-SA 4.0.",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "neighboring-recipes",
+          "description": "A forkable cookbook of practices for strengthening the social fabric of a neighborhood. CC BY-SA 4.0.",
+          "neighborhood": null,
+          "builder": null
+        },
+        "tags": [],
+        "lineage": {},
+        "watch": {
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false
+        },
+        "interests": [],
+        "_has_manifest": false
+      },
+      "contact": null,
+      "last_checked": "2026-06-28T18:59:17.400419+00:00",
+      "first_seen": "2026-06-18T20:05:08.994046+00:00"
+    },
+    "The-Relational-Technology-Project/sunset-walking-guide": {
+      "full_name": "The-Relational-Technology-Project/sunset-walking-guide",
+      "url": "https://github.com/The-Relational-Technology-Project/sunset-walking-guide",
+      "description": "",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "sunset-walking-guide",
+          "description": "",
+          "neighborhood": null,
+          "builder": null
+        },
+        "tags": [],
+        "lineage": {},
+        "watch": {
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false
+        },
+        "interests": [],
+        "_has_manifest": false
+      },
+      "contact": null,
+      "last_checked": "2026-06-28T18:59:21.982682+00:00",
+      "first_seen": "2026-04-28T10:04:50.340563+00:00"
+    },
+    "The-Relational-Technology-Project/sunsetpeople": {
+      "full_name": "The-Relational-Technology-Project/sunsetpeople",
+      "url": "https://github.com/The-Relational-Technology-Project/sunsetpeople",
+      "description": "Guide for finding community in the Sunset",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "sunsetpeople",
+          "description": "Guide for finding community in the Sunset",
+          "neighborhood": null,
+          "builder": null
+        },
+        "tags": [],
+        "lineage": {},
+        "watch": {
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false
+        },
+        "interests": [],
+        "_has_manifest": false
+      },
+      "contact": null,
+      "last_checked": "2026-06-28T18:59:26.679743+00:00",
+      "first_seen": "2026-04-28T10:04:46.244280+00:00"
+    },
+    "The-Relational-Technology-Project/cozy-corner": {
+      "full_name": "The-Relational-Technology-Project/cozy-corner",
+      "url": "https://github.com/The-Relational-Technology-Project/cozy-corner",
+      "description": "Neighbor hub for 48th Ave in the Outer Sunset",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "cozy-corner",
+          "description": "Neighbor hub for 48th Ave in the Outer Sunset",
+          "neighborhood": null,
+          "builder": null
+        },
+        "tags": [],
+        "lineage": {},
+        "watch": {
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false
+        },
+        "interests": [],
+        "_has_manifest": false
+      },
+      "contact": null,
+      "last_checked": "2026-06-28T18:59:31.467797+00:00",
+      "first_seen": "2026-04-28T10:04:37.850395+00:00"
+    },
+    "The-Relational-Technology-Project/tiny-times": {
+      "full_name": "The-Relational-Technology-Project/tiny-times",
+      "url": "https://github.com/The-Relational-Technology-Project/tiny-times",
+      "description": "",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "tiny-times",
+          "description": "",
+          "neighborhood": null,
+          "builder": null
+        },
+        "tags": [],
+        "lineage": {},
+        "watch": {
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false
+        },
+        "interests": [],
+        "_has_manifest": false
+      },
+      "contact": null,
+      "last_checked": "2026-06-28T18:59:36.125116+00:00",
+      "first_seen": "2026-04-28T10:04:33.853920+00:00"
+    },
+    "antler-browser/local-first-auth-simulator": {
+      "full_name": "antler-browser/local-first-auth-simulator",
+      "url": "https://github.com/antler-browser/local-first-auth-simulator",
+      "description": "Development tool for testing Local First Auth mini-apps. Injects window.localFirstAuth into a regular browser to help you test Local First Auth host apps while in development environments.",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "local-first-auth-simulator",
+          "description": "Development tool for testing Local First Auth mini-apps. Injects window.localFirstAuth into a regular browser to help you test Local First Auth host apps while in development environments.",
+          "neighborhood": null,
+          "builder": null
+        },
+        "tags": [],
+        "lineage": {},
+        "watch": {
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false
+        },
+        "interests": [],
+        "_has_manifest": false
+      },
+      "contact": null,
+      "last_checked": "2026-06-28T18:59:40.926761+00:00",
+      "first_seen": "2026-04-28T10:04:54.416349+00:00"
     }
   }
 }

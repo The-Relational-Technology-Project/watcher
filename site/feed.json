@@ -1,5 +1,71 @@
 [
   {
+    "id": "local-first-auth-commit-group-bf9d946f",
+    "timestamp": "2026-06-28T16:44:33+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "Local First Auth",
+      "full_name": "antler-browser/local-first-auth",
+      "url": "https://github.com/antler-browser/local-first-auth",
+      "neighborhood": null,
+      "builder": "Daniel Mathews",
+      "description": "Simple client-side auth for web apps using decentralized identity (DID) \u2014 no servers, no passwords, no third-party auth providers"
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "3 commits by dmathewwws",
+      "url": "https://github.com/antler-browser/local-first-auth/commit/1d6f21a1a8efc2a68bfdf2b1d2622953fa838689",
+      "significance": "highlight"
+    },
+    "summary": "Local First Auth now lets users edit their profiles and sign in with anonymous accounts, alongside a new 2.3.0 release. Anonymous accounts are a meaningful step for community tools where people may want to participate without sharing identifying information, lowering the barrier to entry for privacy-conscious users. Builders working on mutual aid platforms, civic engagement tools, or any app where trust-building happens gradually now have more flexible options for how people show up.",
+    "tags": [
+      "authentication",
+      "privacy",
+      "anonymous-accounts",
+      "decentralized-identity",
+      "onboarding",
+      "user-profiles"
+    ],
+    "matches": [],
+    "contributor": {
+      "login": "dmathewwws",
+      "url": "https://github.com/dmathewwws"
+    }
+  },
+  {
+    "id": "local-first-auth-readme-update-2026-06-28",
+    "timestamp": "2026-06-28T16:43:52+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "Local First Auth",
+      "full_name": "antler-browser/local-first-auth",
+      "url": "https://github.com/antler-browser/local-first-auth",
+      "neighborhood": null,
+      "builder": "Daniel Mathews",
+      "description": "Simple client-side auth for web apps using decentralized identity (DID) \u2014 no servers, no passwords, no third-party auth providers"
+    },
+    "change": {
+      "type": "readme_update",
+      "title": "README updated",
+      "url": "https://github.com/antler-browser/local-first-auth/commit/13caf8a4e8d3c20b2e8161e34250a7d0f1a828ca",
+      "significance": "highlight"
+    },
+    "summary": "Local First Auth now supports anonymous accounts, letting people use apps without creating any identity at all. This opens the door for community tools that want to lower the barrier to participation, especially for neighbors who are cautious about sharing personal information or who just want to try something out before committing. It's a meaningful option for mutual aid platforms, civic tools, and any project where trust needs to be built gradually.",
+    "tags": [
+      "authentication",
+      "privacy",
+      "anonymous-access",
+      "onboarding",
+      "decentralized-identity",
+      "local-first"
+    ],
+    "matches": [],
+    "contributor": {
+      "login": "dmathewwws",
+      "url": "https://github.com/dmathewwws"
+    }
+  },
+  {
     "id": "welcome-neighboring-recipes",
     "timestamp": "2026-06-18T20:04:39.083917+00:00",
     "entry_type": "welcome",
