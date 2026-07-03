@@ -1372,5 +1372,33 @@
       "login": "dmathewwws",
       "url": "https://github.com/dmathewwws"
     }
+  },
+  {
+    "id": "community-supplies-commit-group-021e2883",
+    "timestamp": "2026-07-02T22:07:59+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "community-supplies",
+      "full_name": "The-Relational-Technology-Project/community-supplies",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Supplies sharing site for the Sunset and Richmond community"
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "8 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies/commit/a8ff63ad5f9db96cf6fc457012a2caa23f15b145",
+      "significance": "mention"
+    },
+    "summary": "The community-supplies platform for Sunset and Richmond got a significant round of improvements, including authentication and a community guard to make sure only the right people can access the supplies-sharing features. This kind of member verification helps build trust in sharing systems, ensuring that resources stay within the community they were built for. Other builders working on mutual aid or resource-sharing tools may find the community access control approach worth adapting for their own projects.",
+    "tags": [
+      "mutual-aid",
+      "supplies-sharing",
+      "authentication",
+      "access-control",
+      "resource-sharing"
+    ],
+    "matches": []
   }
 ]
