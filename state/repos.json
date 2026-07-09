@@ -1,44 +1,5 @@
 {
   "repos": {
-    "The-Relational-Technology-Project/community-supplies": {
-      "full_name": "The-Relational-Technology-Project/community-supplies",
-      "url": "https://github.com/The-Relational-Technology-Project/community-supplies",
-      "description": "Supplies sharing site for the Sunset and Richmond community",
-      "manifest": {
-        "version": 1,
-        "project": {
-          "name": "community-supplies",
-          "description": "Supplies sharing site for the Sunset and Richmond community",
-          "neighborhood": null,
-          "builder": null
-        },
-        "tags": [],
-        "lineage": {},
-        "watch": {
-          "branches": [
-            "main",
-            "master"
-          ],
-          "signals": [
-            "releases",
-            "prs",
-            "commits"
-          ],
-          "threshold": "minor"
-        },
-        "preferences": {
-          "summarize_commits": true,
-          "summarize_readme": true,
-          "public_link": true,
-          "name_contributors": false
-        },
-        "interests": [],
-        "_has_manifest": false
-      },
-      "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
-      "last_checked": "2026-07-09T10:42:34.612587+00:00",
-      "first_seen": "2026-04-28T10:04:29.766893+00:00"
-    },
     "antler-browser/local-first-auth": {
       "full_name": "antler-browser/local-first-auth",
       "url": "https://github.com/antler-browser/local-first-auth",
@@ -87,8 +48,47 @@
         "_has_manifest": true
       },
       "contact": null,
-      "last_checked": "2026-07-09T10:42:37.773790+00:00",
+      "last_checked": "2026-07-09T19:17:06.982492+00:00",
       "first_seen": "2026-04-28T10:04:57.532202+00:00"
+    },
+    "The-Relational-Technology-Project/community-supplies": {
+      "full_name": "The-Relational-Technology-Project/community-supplies",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies",
+      "description": "Supplies sharing site for the Sunset and Richmond community",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "community-supplies",
+          "description": "Supplies sharing site for the Sunset and Richmond community",
+          "neighborhood": null,
+          "builder": null
+        },
+        "tags": [],
+        "lineage": {},
+        "watch": {
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false
+        },
+        "interests": [],
+        "_has_manifest": false
+      },
+      "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
+      "last_checked": "2026-07-09T19:17:17.469247+00:00",
+      "first_seen": "2026-04-28T10:04:29.766893+00:00"
     },
     "antler-browser/mini-app-starter": {
       "full_name": "antler-browser/mini-app-starter",
@@ -126,7 +126,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-07-09T10:42:41.803345+00:00",
+      "last_checked": "2026-07-09T19:17:21.894923+00:00",
       "first_seen": "2026-06-12T11:33:34.166027+00:00"
     },
     "The-Relational-Technology-Project/community-guaranteed-income-club": {
@@ -165,7 +165,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-07-09T10:42:45.758227+00:00",
+      "last_checked": "2026-07-09T19:17:26.464611+00:00",
       "first_seen": "2026-06-11T12:01:07.685911+00:00"
     },
     "The-Relational-Technology-Project/outer-sunset-today": {
@@ -204,7 +204,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-07-09T10:42:49.736438+00:00",
+      "last_checked": "2026-07-09T19:17:30.880478+00:00",
       "first_seen": "2026-04-28T10:04:18.734562+00:00"
     },
     "The-Relational-Technology-Project/buildirl": {
@@ -243,7 +243,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-07-09T10:42:54.405367+00:00",
+      "last_checked": "2026-07-09T19:17:36.134256+00:00",
       "first_seen": "2026-06-10T11:28:40.119555+00:00"
     },
     "The-Relational-Technology-Project/neighborhood-api": {
@@ -282,7 +282,7 @@
         "_has_manifest": false
       },
       "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
-      "last_checked": "2026-07-09T10:42:59.055842+00:00",
+      "last_checked": "2026-07-09T19:17:41.646355+00:00",
       "first_seen": "2026-04-28T10:04:41.912278+00:00"
     },
     "The-Relational-Technology-Project/neighboring-recipes": {
@@ -321,7 +321,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-07-09T10:43:03.009839+00:00",
+      "last_checked": "2026-07-09T19:17:45.986751+00:00",
       "first_seen": "2026-06-18T20:05:08.994046+00:00"
     },
     "The-Relational-Technology-Project/sunset-walking-guide": {
@@ -360,7 +360,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-07-09T10:43:06.846981+00:00",
+      "last_checked": "2026-07-09T19:17:50.349549+00:00",
       "first_seen": "2026-04-28T10:04:50.340563+00:00"
     },
     "The-Relational-Technology-Project/sunsetpeople": {
@@ -399,7 +399,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-07-09T10:43:10.770954+00:00",
+      "last_checked": "2026-07-09T19:17:54.650918+00:00",
       "first_seen": "2026-04-28T10:04:46.244280+00:00"
     },
     "The-Relational-Technology-Project/cozy-corner": {
@@ -438,7 +438,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-07-09T10:43:14.577359+00:00",
+      "last_checked": "2026-07-09T19:17:59.140055+00:00",
       "first_seen": "2026-04-28T10:04:37.850395+00:00"
     },
     "The-Relational-Technology-Project/tiny-times": {
@@ -477,7 +477,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-07-09T10:43:18.455734+00:00",
+      "last_checked": "2026-07-09T19:18:03.555979+00:00",
       "first_seen": "2026-04-28T10:04:33.853920+00:00"
     },
     "antler-browser/local-first-auth-simulator": {
@@ -516,7 +516,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-07-09T10:43:22.373305+00:00",
+      "last_checked": "2026-07-09T19:18:09.291305+00:00",
       "first_seen": "2026-04-28T10:04:54.416349+00:00"
     }
   }
