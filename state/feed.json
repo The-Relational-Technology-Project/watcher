@@ -1400,5 +1400,33 @@
       "resource-sharing"
     ],
     "matches": []
+  },
+  {
+    "id": "outer-sunset-today-commit-group-d24502c7",
+    "timestamp": "2026-07-11T07:05:04+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "outer-sunset-today",
+      "full_name": "The-Relational-Technology-Project/outer-sunset-today",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Outer Sunset Today is our community calendar "
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "6 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today/commit/a8e1a2894f2722efa54298af0e0e9009fd67b26a",
+      "significance": "mention"
+    },
+    "summary": "Outer Sunset Today fixed a bug that was causing event times to display incorrectly during Daylight Saving Time in the Pacific timezone. This kind of time handling issue can quietly cause community members to show up at the wrong time, so getting it right is a real win for anyone relying on the calendar. Other builders working with local event times across timezone boundaries may want to take note of this as a common pitfall.",
+    "tags": [
+      "community-calendar",
+      "event-times",
+      "timezone",
+      "bug-fix",
+      "local-events"
+    ],
+    "matches": []
   }
 ]
