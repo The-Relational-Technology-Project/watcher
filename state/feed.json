@@ -1428,5 +1428,33 @@
       "local-events"
     ],
     "matches": []
+  },
+  {
+    "id": "outer-sunset-today-commit-group-e6c1c3be",
+    "timestamp": "2026-07-12T01:50:17+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "outer-sunset-today",
+      "full_name": "The-Relational-Technology-Project/outer-sunset-today",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Outer Sunset Today is our community calendar "
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "8 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today/commit/81f16c73fe9873b27c2dfc956d415340aa1f45c7",
+      "significance": "mention"
+    },
+    "summary": "Outer Sunset Today added Far Out West as a new source to its event scraper, bringing more local happenings into the community calendar automatically. This means residents get a fuller picture of what's going on in the neighborhood without anyone having to manually add events. The team also simplified the interface by removing the alerts system and its call-to-action, streamlining the experience for visitors.",
+    "tags": [
+      "community-calendar",
+      "event-aggregation",
+      "scraping",
+      "outer-sunset",
+      "event-sources"
+    ],
+    "matches": []
   }
 ]
