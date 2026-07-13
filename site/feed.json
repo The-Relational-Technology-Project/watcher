@@ -1,5 +1,32 @@
 [
   {
+    "id": "outer-sunset-today-commit-group-2bde2d1e",
+    "timestamp": "2026-07-12T21:29:48+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "outer-sunset-today",
+      "full_name": "The-Relational-Technology-Project/outer-sunset-today",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Outer Sunset Today is our community calendar "
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "12 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today/commit/4e09445a7a23efa5fe53664aaab467e1f43742d1",
+      "significance": "mention"
+    },
+    "summary": "Outer Sunset Today added a source URL field to events, giving each listing a direct link back to where it came from. This makes it easier for neighbors to verify event details, find the original organizer, and trust the information they see. Other calendar projects tracking events from multiple sources may find this a useful pattern for attribution and transparency.",
+    "tags": [
+      "community-calendar",
+      "event-aggregation",
+      "attribution",
+      "local-events"
+    ],
+    "matches": []
+  },
+  {
     "id": "outer-sunset-today-commit-group-e6c1c3be",
     "timestamp": "2026-07-12T01:50:17+00:00",
     "entry_type": "change",
