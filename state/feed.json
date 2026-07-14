@@ -1483,5 +1483,70 @@
       "local-events"
     ],
     "matches": []
+  },
+  {
+    "id": "local-first-auth-release-v3-0-0",
+    "timestamp": "2026-07-14T18:48:19+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "Local First Auth",
+      "full_name": "antler-browser/local-first-auth",
+      "url": "https://github.com/antler-browser/local-first-auth",
+      "neighborhood": null,
+      "builder": "Daniel Mathews",
+      "description": "Simple client-side auth for web apps using decentralized identity (DID) \u2014 no servers, no passwords, no third-party auth providers"
+    },
+    "change": {
+      "type": "release",
+      "title": "v3.0.0",
+      "url": "https://github.com/antler-browser/local-first-auth/releases/tag/v3.0.0",
+      "significance": "highlight"
+    },
+    "summary": "Local First Auth has released version 3.0, a major update to this tool that lets web apps handle sign-in entirely on the user's device, with no passwords or outside services involved. For community tech builders, this means it's easier to add privacy-respecting authentication to neighborhood tools without relying on big tech identity providers or maintaining a backend server. If your project handles sensitive community data and you want to keep control local, this release is worth exploring.",
+    "tags": [
+      "authentication",
+      "privacy",
+      "decentralized-identity",
+      "local-first",
+      "client-side-auth",
+      "data-sovereignty"
+    ],
+    "matches": [],
+    "contributor": {
+      "login": "dmathewwws",
+      "url": "https://github.com/dmathewwws"
+    }
+  },
+  {
+    "id": "local-first-auth-commit-group-716aa7e8",
+    "timestamp": "2026-07-14T18:45:56+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "Local First Auth",
+      "full_name": "antler-browser/local-first-auth",
+      "url": "https://github.com/antler-browser/local-first-auth",
+      "neighborhood": null,
+      "builder": "Daniel Mathews",
+      "description": "Simple client-side auth for web apps using decentralized identity (DID) \u2014 no servers, no passwords, no third-party auth providers"
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "2 commits by dmathewwws",
+      "url": "https://github.com/antler-browser/local-first-auth/commit/1414f49e03266717ff0a2d8cfa37003b9c448f6a",
+      "significance": "highlight"
+    },
+    "summary": "Local First Auth now gives each web app its own unique identity for each user, so a person's activity on one neighborhood tool can't be linked to their activity on another. This is a meaningful step forward for community platforms that want to protect residents from cross-site tracking without asking them to manage passwords or accounts. Builders working on privacy-respecting civic tools now have a cleaner foundation to build on.",
+    "tags": [
+      "authentication",
+      "decentralized-identity",
+      "privacy",
+      "local-first",
+      "identity-management"
+    ],
+    "matches": [],
+    "contributor": {
+      "login": "dmathewwws",
+      "url": "https://github.com/dmathewwws"
+    }
   }
 ]
