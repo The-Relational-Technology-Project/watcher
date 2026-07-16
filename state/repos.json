@@ -36,7 +36,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-07-16T09:52:28.775134+00:00",
+      "last_checked": "2026-07-16T18:52:08.219043+00:00",
       "first_seen": "2026-06-11T12:01:07.685911+00:00"
     },
     "antler-browser/mini-app-starter": {
@@ -75,7 +75,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-07-16T09:52:33.529796+00:00",
+      "last_checked": "2026-07-16T18:52:12.050063+00:00",
       "first_seen": "2026-06-12T11:33:34.166027+00:00"
     },
     "antler-browser/local-first-auth": {
@@ -126,7 +126,7 @@
         "_has_manifest": true
       },
       "contact": null,
-      "last_checked": "2026-07-16T09:52:37.347971+00:00",
+      "last_checked": "2026-07-16T18:52:15.046175+00:00",
       "first_seen": "2026-04-28T10:04:57.532202+00:00"
     },
     "antler-browser/local-first-auth-simulator": {
@@ -165,7 +165,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-07-16T09:52:42.269602+00:00",
+      "last_checked": "2026-07-16T18:52:18.873599+00:00",
       "first_seen": "2026-04-28T10:04:54.416349+00:00"
     },
     "The-Relational-Technology-Project/community-supplies": {
@@ -204,7 +204,7 @@
         "_has_manifest": false
       },
       "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
-      "last_checked": "2026-07-16T09:52:46.841188+00:00",
+      "last_checked": "2026-07-16T18:52:22.696154+00:00",
       "first_seen": "2026-04-28T10:04:29.766893+00:00"
     },
     "The-Relational-Technology-Project/outer-sunset-today": {
@@ -243,7 +243,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-07-16T09:52:51.446926+00:00",
+      "last_checked": "2026-07-16T18:52:26.792890+00:00",
       "first_seen": "2026-04-28T10:04:18.734562+00:00"
     },
     "The-Relational-Technology-Project/sunsetpeople": {
@@ -282,7 +282,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-07-16T09:52:56.040853+00:00",
+      "last_checked": "2026-07-16T18:52:30.653518+00:00",
       "first_seen": "2026-04-28T10:04:46.244280+00:00"
     },
     "The-Relational-Technology-Project/buildirl": {
@@ -321,7 +321,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-07-16T09:53:01.803119+00:00",
+      "last_checked": "2026-07-16T18:52:35.325952+00:00",
       "first_seen": "2026-06-10T11:28:40.119555+00:00"
     },
     "The-Relational-Technology-Project/neighborhood-api": {
@@ -360,7 +360,7 @@
         "_has_manifest": false
       },
       "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
-      "last_checked": "2026-07-16T09:53:07.674392+00:00",
+      "last_checked": "2026-07-16T18:52:39.699093+00:00",
       "first_seen": "2026-04-28T10:04:41.912278+00:00"
     },
     "The-Relational-Technology-Project/neighboring-recipes": {
@@ -399,7 +399,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-07-16T09:53:12.529214+00:00",
+      "last_checked": "2026-07-16T18:52:43.439710+00:00",
       "first_seen": "2026-06-18T20:05:08.994046+00:00"
     },
     "The-Relational-Technology-Project/sunset-walking-guide": {
@@ -438,7 +438,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-07-16T09:53:18.017007+00:00",
+      "last_checked": "2026-07-16T18:52:47.166910+00:00",
       "first_seen": "2026-04-28T10:04:50.340563+00:00"
     },
     "The-Relational-Technology-Project/cozy-corner": {
@@ -477,7 +477,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-07-16T09:53:22.833645+00:00",
+      "last_checked": "2026-07-16T18:52:51.024349+00:00",
       "first_seen": "2026-04-28T10:04:37.850395+00:00"
     },
     "The-Relational-Technology-Project/tiny-times": {
@@ -516,7 +516,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-07-16T09:53:27.514606+00:00",
+      "last_checked": "2026-07-16T18:52:54.920853+00:00",
       "first_seen": "2026-04-28T10:04:33.853920+00:00"
     }
   }
