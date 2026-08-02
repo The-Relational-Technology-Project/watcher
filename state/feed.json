@@ -1622,5 +1622,28 @@
         "reason": "Listed interest in: onboarding"
       }
     ]
+  },
+  {
+    "id": "welcome-sunset-exchange",
+    "timestamp": "2026-08-02T09:46:39.532636+00:00",
+    "entry_type": "welcome",
+    "repo": {
+      "name": "sunset-exchange",
+      "full_name": "joshnesbit/sunset-exchange",
+      "url": "https://github.com/joshnesbit/sunset-exchange",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Built with Relational Builder",
+      "lineage": {
+        "studio": "rt",
+        "studio_name": "Relational Tech Studio",
+        "note": "Built within Relational Tech Studio, with Relational Builder."
+      }
+    },
+    "summary": "Welcome to the network, **sunset-exchange**! We're so glad to have you here and excited to see what you'll build and share with the community. Check out their repository at [github.com/joshnesbit/sunset-exchange](https://github.com/joshnesbit/sunset-exchange) and give them a warm welcome!",
+    "tags": [
+      "community-tool"
+    ],
+    "matches": []
   }
 ]
