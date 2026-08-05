@@ -1645,5 +1645,33 @@
       "community-tool"
     ],
     "matches": []
+  },
+  {
+    "id": "outer-sunset-today-commit-group-ade1692d",
+    "timestamp": "2026-08-04T21:17:51+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "outer-sunset-today",
+      "full_name": "The-Relational-Technology-Project/outer-sunset-today",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Outer Sunset Today is our community calendar "
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "5 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today/commit/b216bfb1ddd25e50470e055eb85f9edeccb4893c",
+      "significance": "mention"
+    },
+    "summary": "Outer Sunset Today added a new scraper for VolunTracker and backfilled source links for AI-surfaced events, expanding where the calendar pulls in local happenings. This means more volunteer opportunities can show up automatically for residents, and every event now has a traceable link back to its original source. Other calendar builders working on event aggregation may find the VolunTracker integration worth a look.",
+    "tags": [
+      "community-calendar",
+      "event-aggregation",
+      "volunteer",
+      "scraping",
+      "source-attribution"
+    ],
+    "matches": []
   }
 ]
