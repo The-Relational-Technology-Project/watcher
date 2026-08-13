@@ -1,5 +1,28 @@
 [
   {
+    "id": "welcome-rar-gear-library",
+    "timestamp": "2026-08-13T08:59:07.266397+00:00",
+    "entry_type": "welcome",
+    "repo": {
+      "name": "rar-gear-library",
+      "full_name": "kaddae/rar-gear-library",
+      "url": "https://github.com/kaddae/rar-gear-library",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Built with Relational Builder",
+      "lineage": {
+        "studio": "rt",
+        "studio_name": "Relational Tech Studio",
+        "note": "Built within Relational Tech Studio, with Relational Builder."
+      }
+    },
+    "summary": "We're thrilled to welcome **rar-gear-library** to the relational tech network! This project, built with Relational Builder, is a great addition to our growing community of relational projects. Head over to their [repository](https://github.com/kaddae/rar-gear-library) to check out what they're building and show them some love!",
+    "tags": [
+      "community-tool"
+    ],
+    "matches": []
+  },
+  {
     "id": "outer-sunset-today-commit-group-ade1692d",
     "timestamp": "2026-08-04T21:17:51+00:00",
     "entry_type": "change",
