@@ -1,5 +1,32 @@
 [
   {
+    "id": "outer-sunset-today-commit-group-d9859307",
+    "timestamp": "2026-08-16T21:09:52+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "outer-sunset-today",
+      "full_name": "The-Relational-Technology-Project/outer-sunset-today",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Outer Sunset Today is our community calendar "
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "8 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today/commit/74981ab5a86df8d1e445868929044378e5739b25",
+      "significance": "highlight"
+    },
+    "summary": "Outer Sunset Today added a school lunch ticker to the community calendar, showing families what's being served at local schools along with the day of the week. This kind of hyperlocal, practical information helps parents and caregivers plan their days and makes the calendar more useful as a daily habit, not just an event lookup tool.",
+    "tags": [
+      "community-calendar",
+      "school-info",
+      "family-resources",
+      "neighborhood-tools"
+    ],
+    "matches": []
+  },
+  {
     "id": "welcome-rar-gear-library",
     "timestamp": "2026-08-13T08:59:07.266397+00:00",
     "entry_type": "welcome",
