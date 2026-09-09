@@ -1,5 +1,28 @@
 [
   {
+    "id": "welcome-sunset-commons-map",
+    "timestamp": "2026-09-09T12:31:37.085217+00:00",
+    "entry_type": "welcome",
+    "repo": {
+      "name": "sunset-commons-map",
+      "full_name": "joshnesbit/sunset-commons-map",
+      "url": "https://github.com/joshnesbit/sunset-commons-map",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Built with Relational Builder",
+      "lineage": {
+        "studio": "responsive-cities",
+        "studio_name": "Responsive Cities Studio",
+        "note": "Built within Responsive Cities Studio, with Relational Builder."
+      }
+    },
+    "summary": "Welcome to the network, **sunset-commons-map**! \ud83c\udf89 We're so excited to have this project built with Relational Builder join our growing community. Head over to the repository and show some love: https://github.com/joshnesbit/sunset-commons-map",
+    "tags": [
+      "community-tool"
+    ],
+    "matches": []
+  },
+  {
     "id": "community-supplies-commit-group-ed701137",
     "timestamp": "2026-09-03T04:33:25+00:00",
     "entry_type": "change",
