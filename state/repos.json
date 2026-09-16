@@ -1,5 +1,44 @@
 {
   "repos": {
+    "The-Relational-Technology-Project/cozy-corner": {
+      "full_name": "The-Relational-Technology-Project/cozy-corner",
+      "url": "https://github.com/The-Relational-Technology-Project/cozy-corner",
+      "description": "Neighbor hub for 48th Ave in the Outer Sunset",
+      "manifest": {
+        "version": 1,
+        "project": {
+          "name": "cozy-corner",
+          "description": "Neighbor hub for 48th Ave in the Outer Sunset",
+          "neighborhood": null,
+          "builder": null
+        },
+        "tags": [],
+        "lineage": {},
+        "watch": {
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false
+        },
+        "interests": [],
+        "_has_manifest": false
+      },
+      "contact": null,
+      "last_checked": "2026-09-16T20:31:16.978934+00:00",
+      "first_seen": "2026-04-28T10:04:37.850395+00:00"
+    },
     "joshnesbit/sunset-commons-map": {
       "full_name": "joshnesbit/sunset-commons-map",
       "url": "https://github.com/joshnesbit/sunset-commons-map",
@@ -41,7 +80,7 @@
         "_has_manifest": true
       },
       "contact": null,
-      "last_checked": "2026-09-16T12:53:10.490258+00:00",
+      "last_checked": "2026-09-16T20:31:20.168397+00:00",
       "first_seen": "2026-09-09T12:31:40.580500+00:00"
     },
     "The-Relational-Technology-Project/community-supplies": {
@@ -80,7 +119,7 @@
         "_has_manifest": false
       },
       "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
-      "last_checked": "2026-09-16T12:53:14.667689+00:00",
+      "last_checked": "2026-09-16T20:31:24.150825+00:00",
       "first_seen": "2026-04-28T10:04:29.766893+00:00"
     },
     "The-Relational-Technology-Project/outer-sunset-today": {
@@ -119,7 +158,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-09-16T12:53:18.722658+00:00",
+      "last_checked": "2026-09-16T20:31:28.396036+00:00",
       "first_seen": "2026-04-28T10:04:18.734562+00:00"
     },
     "kaddae/rar-gear-library": {
@@ -163,7 +202,7 @@
         "_has_manifest": true
       },
       "contact": null,
-      "last_checked": "2026-09-16T12:53:22.236267+00:00",
+      "last_checked": "2026-09-16T20:31:31.653647+00:00",
       "first_seen": "2026-08-13T08:59:10.666317+00:00"
     },
     "joshnesbit/sunset-exchange": {
@@ -207,7 +246,7 @@
         "_has_manifest": true
       },
       "contact": null,
-      "last_checked": "2026-09-16T12:53:25.708320+00:00",
+      "last_checked": "2026-09-16T20:31:34.782183+00:00",
       "first_seen": "2026-08-02T09:46:43.364879+00:00"
     },
     "The-Relational-Technology-Project/community-guaranteed-income-club": {
@@ -246,7 +285,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-09-16T12:53:29.843466+00:00",
+      "last_checked": "2026-09-16T20:31:38.711872+00:00",
       "first_seen": "2026-06-11T12:01:07.685911+00:00"
     },
     "antler-browser/mini-app-starter": {
@@ -285,7 +324,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-09-16T12:53:34.107633+00:00",
+      "last_checked": "2026-09-16T20:31:42.517050+00:00",
       "first_seen": "2026-06-12T11:33:34.166027+00:00"
     },
     "antler-browser/local-first-auth": {
@@ -336,7 +375,7 @@
         "_has_manifest": true
       },
       "contact": null,
-      "last_checked": "2026-09-16T12:53:37.545195+00:00",
+      "last_checked": "2026-09-16T20:31:45.622716+00:00",
       "first_seen": "2026-04-28T10:04:57.532202+00:00"
     },
     "antler-browser/local-first-auth-simulator": {
@@ -375,7 +414,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-09-16T12:53:41.632925+00:00",
+      "last_checked": "2026-09-16T20:31:49.558279+00:00",
       "first_seen": "2026-04-28T10:04:54.416349+00:00"
     },
     "The-Relational-Technology-Project/sunsetpeople": {
@@ -414,7 +453,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-09-16T12:53:45.726286+00:00",
+      "last_checked": "2026-09-16T20:31:53.340694+00:00",
       "first_seen": "2026-04-28T10:04:46.244280+00:00"
     },
     "The-Relational-Technology-Project/buildirl": {
@@ -453,7 +492,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-09-16T12:53:50.553276+00:00",
+      "last_checked": "2026-09-16T20:31:58.074574+00:00",
       "first_seen": "2026-06-10T11:28:40.119555+00:00"
     },
     "The-Relational-Technology-Project/neighborhood-api": {
@@ -492,7 +531,7 @@
         "_has_manifest": false
       },
       "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
-      "last_checked": "2026-09-16T12:53:55.402501+00:00",
+      "last_checked": "2026-09-16T20:32:02.653821+00:00",
       "first_seen": "2026-04-28T10:04:41.912278+00:00"
     },
     "The-Relational-Technology-Project/neighboring-recipes": {
@@ -531,7 +570,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-09-16T12:53:59.447350+00:00",
+      "last_checked": "2026-09-16T20:32:06.624437+00:00",
       "first_seen": "2026-06-18T20:05:08.994046+00:00"
     },
     "The-Relational-Technology-Project/sunset-walking-guide": {
@@ -570,47 +609,8 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-09-16T12:54:03.464459+00:00",
+      "last_checked": "2026-09-16T20:32:10.501974+00:00",
       "first_seen": "2026-04-28T10:04:50.340563+00:00"
-    },
-    "The-Relational-Technology-Project/cozy-corner": {
-      "full_name": "The-Relational-Technology-Project/cozy-corner",
-      "url": "https://github.com/The-Relational-Technology-Project/cozy-corner",
-      "description": "Neighbor hub for 48th Ave in the Outer Sunset",
-      "manifest": {
-        "version": 1,
-        "project": {
-          "name": "cozy-corner",
-          "description": "Neighbor hub for 48th Ave in the Outer Sunset",
-          "neighborhood": null,
-          "builder": null
-        },
-        "tags": [],
-        "lineage": {},
-        "watch": {
-          "branches": [
-            "main",
-            "master"
-          ],
-          "signals": [
-            "releases",
-            "prs",
-            "commits"
-          ],
-          "threshold": "minor"
-        },
-        "preferences": {
-          "summarize_commits": true,
-          "summarize_readme": true,
-          "public_link": true,
-          "name_contributors": false
-        },
-        "interests": [],
-        "_has_manifest": false
-      },
-      "contact": null,
-      "last_checked": "2026-09-16T12:54:07.481363+00:00",
-      "first_seen": "2026-04-28T10:04:37.850395+00:00"
     },
     "The-Relational-Technology-Project/tiny-times": {
       "full_name": "The-Relational-Technology-Project/tiny-times",
@@ -648,7 +648,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-09-16T12:54:11.561040+00:00",
+      "last_checked": "2026-09-16T20:32:14.655599+00:00",
       "first_seen": "2026-04-28T10:04:33.853920+00:00"
     }
   }
