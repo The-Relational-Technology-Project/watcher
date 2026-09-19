@@ -1803,5 +1803,164 @@
       "forms"
     ],
     "matches": []
+  },
+  {
+    "id": "welcome-sunset-wave",
+    "timestamp": "2026-09-19T12:06:01.503983+00:00",
+    "entry_type": "welcome",
+    "repo": {
+      "name": "sunset-wave",
+      "full_name": "joshnesbit/sunset-wave",
+      "url": "https://github.com/joshnesbit/sunset-wave",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Built with Relational Builder",
+      "lineage": {
+        "studio": "rt",
+        "studio_name": "Relational Tech Studio",
+        "note": "Began as a spoken conversation, distilled by Dream Recorder on 2026-09-14, built with Relational Builder."
+      }
+    },
+    "summary": "Welcome sunset-wave to the relational tech network! \ud83c\udf89 This project, built with Relational Builder, is a wonderful addition to our growing community. We're so glad to have you here and can't wait to see what you create!",
+    "tags": [
+      "community-tool"
+    ],
+    "matches": []
+  },
+  {
+    "id": "sunset-wave-pr-merged-3",
+    "timestamp": "2026-09-19T00:06:15+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "sunset-wave",
+      "full_name": "joshnesbit/sunset-wave",
+      "url": "https://github.com/joshnesbit/sunset-wave",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Built with Relational Builder"
+    },
+    "change": {
+      "type": "pr_merged",
+      "title": "New visual identity: sunset wave wordmark, icons, palette, lowercase voice",
+      "url": "https://github.com/joshnesbit/sunset-wave/pull/3",
+      "significance": "highlight"
+    },
+    "summary": "Sunset Wave rolled out a new visual identity across their whole site, with a rounded typeface, a warmer color palette, custom wave and waving-hand icons, and a consistent lowercase voice throughout the interface. All text colors were checked to meet accessibility contrast standards on the new background, so the friendlier look doesn't come at a cost to readability. The printable neighborhood invitation got the same treatment, making the whole project feel cohesive from screen to paper.",
+    "tags": [
+      "visual-identity",
+      "accessibility",
+      "design-system",
+      "community-tool",
+      "print-materials"
+    ],
+    "matches": [],
+    "contributor": {
+      "login": "joshnesbit",
+      "url": "https://github.com/joshnesbit"
+    }
+  },
+  {
+    "id": "sunset-wave-pr-merged-2",
+    "timestamp": "2026-09-18T22:24:13+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "sunset-wave",
+      "full_name": "joshnesbit/sunset-wave",
+      "url": "https://github.com/joshnesbit/sunset-wave",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Built with Relational Builder"
+    },
+    "change": {
+      "type": "pr_merged",
+      "title": "Readability, mobile UX, map labeling, and README",
+      "url": "https://github.com/joshnesbit/sunset-wave/pull/2",
+      "significance": "highlight"
+    },
+    "summary": "Sunset Wave shipped a round of accessibility and mobile improvements, including better color contrast across the interface, larger touch targets, a friendlier bottom-sheet dialog, and an edge-to-edge map that works well on phones. The map's row labels now name both cross streets, making it easier for neighbors to find their block, and the grid has a descriptive aria-label for screen reader users. The project also gained a real README that explains how the tool works, how to run it, and where it came from.",
+    "tags": [
+      "accessibility",
+      "mobile-ux",
+      "neighborhood-map",
+      "community-tool",
+      "wayfinding",
+      "documentation"
+    ],
+    "matches": [],
+    "contributor": {
+      "login": "joshnesbit",
+      "url": "https://github.com/joshnesbit"
+    }
+  },
+  {
+    "id": "sunset-wave-pr-merged-1",
+    "timestamp": "2026-09-18T22:16:49+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "sunset-wave",
+      "full_name": "joshnesbit/sunset-wave",
+      "url": "https://github.com/joshnesbit/sunset-wave",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Built with Relational Builder"
+    },
+    "change": {
+      "type": "pr_merged",
+      "title": "Add About page and improve site navigation",
+      "url": "https://github.com/joshnesbit/sunset-wave/pull/1",
+      "significance": "highlight"
+    },
+    "summary": "Sunset Wave now has a dedicated About page and a consistent navigation bar, giving visitors a clear path to understand the project, learn how the microgrant gathering model works, and take action as a host or participant. This kind of welcoming onboarding layer makes the difference between a tool that only insiders can figure out and one that genuinely invites a whole neighborhood in. The new 'How it works' overview and host-vs-join call-to-action cards are patterns other builders might borrow for their own community platforms.",
+    "tags": [
+      "onboarding",
+      "site-navigation",
+      "community-tool",
+      "civic-engagement",
+      "mutual-aid",
+      "accessibility"
+    ],
+    "matches": [
+      {
+        "repo": "antler-browser/local-first-auth",
+        "builder": "Local First Auth",
+        "reason": "Listed interest in: onboarding"
+      }
+    ],
+    "contributor": {
+      "login": "joshnesbit",
+      "url": "https://github.com/joshnesbit"
+    }
+  },
+  {
+    "id": "sunset-wave-readme-update-2026-09-18",
+    "timestamp": "2026-09-18T22:46:46+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "sunset-wave",
+      "full_name": "joshnesbit/sunset-wave",
+      "url": "https://github.com/joshnesbit/sunset-wave",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Built with Relational Builder"
+    },
+    "change": {
+      "type": "readme_update",
+      "title": "README updated",
+      "url": "https://github.com/joshnesbit/sunset-wave/commit/73cfa7c881a29ed489d7e265d2fa9aa105989a06",
+      "significance": "mention"
+    },
+    "summary": "Sunset Wave rolled out a new visual identity, including a custom wordmark with hand-drawn SVG icons, a warmer color palette, rounder shapes, and a lowercase voice that carries through every button, heading, and nav label on the site. The cohesive look and feel helps the project present a more welcoming, neighborhood-native personality, and the updated color choices were tested to meet accessibility contrast standards throughout. Other builders working on community-facing tools may find the approach to voice and visual consistency worth borrowing.",
+    "tags": [
+      "visual-identity",
+      "accessibility",
+      "community-tool",
+      "design-system",
+      "neighborhood-tech"
+    ],
+    "matches": [],
+    "contributor": {
+      "login": "claude",
+      "url": "https://github.com/claude"
+    }
   }
 ]
