@@ -1962,5 +1962,32 @@
       "login": "claude",
       "url": "https://github.com/claude"
     }
+  },
+  {
+    "id": "cozy-corner-commit-group-21e5a474",
+    "timestamp": "2026-09-21T21:40:37+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "cozy-corner",
+      "full_name": "The-Relational-Technology-Project/cozy-corner",
+      "url": "https://github.com/The-Relational-Technology-Project/cozy-corner",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Neighbor hub for 48th Ave in the Outer Sunset"
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "5 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/cozy-corner/commit/35281120907142ade2f357253bc4d785fe1132d4",
+      "significance": "mention"
+    },
+    "summary": "Cozy Corner, the neighbor hub for 48th Ave in the Outer Sunset, now has an email reminder system set up and configured with sender and reply-to addresses. This means residents can receive timely reminders about local events and updates without having to check the site manually, making it easier to stay connected to neighborhood happenings. A small but meaningful step toward keeping a community loop active and reliable.",
+    "tags": [
+      "email-notifications",
+      "community-calendar",
+      "neighbor-hub",
+      "reminders"
+    ],
+    "matches": []
   }
 ]
