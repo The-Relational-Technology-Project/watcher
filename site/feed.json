@@ -1,5 +1,28 @@
 [
   {
+    "id": "welcome-sunset-delib",
+    "timestamp": "2026-09-24T12:57:20.134510+00:00",
+    "entry_type": "welcome",
+    "repo": {
+      "name": "sunset-delib",
+      "full_name": "joshnesbit/sunset-delib",
+      "url": "https://github.com/joshnesbit/sunset-delib",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Built with Relational Builder",
+      "lineage": {
+        "studio": "responsive-cities",
+        "studio_name": "Responsive Cities Studio",
+        "note": "Built within Responsive Cities Studio, with Relational Builder."
+      }
+    },
+    "summary": "Welcome to the network, **sunset-delib**! We're thrilled to have this Relational Builder project join our growing community. Head over to their [repository](https://github.com/joshnesbit/sunset-delib) to check out what they're building!",
+    "tags": [
+      "community-tool"
+    ],
+    "matches": []
+  },
+  {
     "id": "cozy-corner-commit-group-21e5a474",
     "timestamp": "2026-09-21T21:40:37+00:00",
     "entry_type": "change",
