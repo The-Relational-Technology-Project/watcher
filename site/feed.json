@@ -1,5 +1,25 @@
 [
   {
+    "id": "welcome-new haven community events lending library",
+    "timestamp": "2026-09-28T22:41:06.769628+00:00",
+    "entry_type": "welcome",
+    "repo": {
+      "name": "New Haven Community Events Lending Library",
+      "full_name": "kaddae/community-events-library",
+      "url": "https://github.com/kaddae/community-events-library",
+      "neighborhood": "New Haven",
+      "builder": "Kai",
+      "description": "A lending library for community event supplies \u2014 chairs, PA, tents, lights \u2014 stewarded by CWD and GROUP PROJECT in New Haven.",
+      "lineage": {
+        "remixed_from": "Local Supplies Sharing",
+        "remixed_from_url": "https://studio.relationaltechproject.org/library?item=dcb4d804-a256-4402-b785-00dabbf9635c"
+      }
+    },
+    "summary": "Welcome to the network, New Haven Community Events Lending Library! This wonderful project, stewarded by CWD and GROUP PROJECT, makes community gatherings more accessible by lending out chairs, PA systems, tents, lights, and more to New Haven neighbors. We're so glad to have you here and can't wait to see the events your resources help bring to life!",
+    "tags": [],
+    "matches": []
+  },
+  {
     "id": "welcome-sunset-delib",
     "timestamp": "2026-09-24T12:57:20.134510+00:00",
     "entry_type": "welcome",
