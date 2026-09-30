@@ -2032,5 +2032,37 @@
     "summary": "Welcome to the network, New Haven Community Events Lending Library! This wonderful project, stewarded by CWD and GROUP PROJECT, makes community gatherings more accessible by lending out chairs, PA systems, tents, lights, and more to New Haven neighbors. We're so glad to have you here and can't wait to see the events your resources help bring to life!",
     "tags": [],
     "matches": []
+  },
+  {
+    "id": "new-haven-community-events-lending-library-commit-group-d9d0a885",
+    "timestamp": "2026-09-29T22:13:41+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "New Haven Community Events Lending Library",
+      "full_name": "kaddae/community-events-library",
+      "url": "https://github.com/kaddae/community-events-library",
+      "neighborhood": "New Haven",
+      "builder": "Kai",
+      "description": "A lending library for community event supplies \u2014 chairs, PA, tents, lights \u2014 stewarded by CWD and GROUP PROJECT in New Haven."
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "11 commits by kaddae",
+      "url": "https://github.com/kaddae/community-events-library/commit/4f14d4634262e6f01f44c61389fa050c73440983",
+      "significance": "mention"
+    },
+    "summary": "The New Haven Community Events Lending Library got a round of meaningful updates, including copy improvements, a fix for a broken testimonials section, the ability for borrowers to specify how many items they need, and the addition of Civic Works and GROUP PROJECT logos in the footer with links to their sites. These changes make the platform clearer and more useful for community members looking to borrow event supplies, and they visibly connect the tool to the organizations stewarding it. Other builders running shared-resource or lending platforms might take note of the item quantity input as a simple but practical addition to request flows.",
+    "tags": [
+      "lending-library",
+      "mutual-aid",
+      "community-resources",
+      "event-supplies",
+      "content-updates"
+    ],
+    "matches": [],
+    "contributor": {
+      "login": "kaddae",
+      "url": "https://github.com/kaddae"
+    }
   }
 ]
