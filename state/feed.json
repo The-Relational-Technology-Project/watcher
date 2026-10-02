@@ -2064,5 +2064,37 @@
       "login": "kaddae",
       "url": "https://github.com/kaddae"
     }
+  },
+  {
+    "id": "new-haven-community-events-lending-library-commit-group-fdd85969",
+    "timestamp": "2026-10-02T00:22:12+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "New Haven Community Events Lending Library",
+      "full_name": "kaddae/community-events-library",
+      "url": "https://github.com/kaddae/community-events-library",
+      "neighborhood": "New Haven",
+      "builder": "Kai Addae",
+      "description": "A lending library for community event supplies \u2014 chairs, PA, tents, lights \u2014 stewarded by CWD and GROUP PROJECT in New Haven."
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "10 commits by kaddae",
+      "url": "https://github.com/kaddae/community-events-library/commit/21585ce3a3060ab6414c1747db64b7457030bf4f",
+      "significance": "mention"
+    },
+    "summary": "The New Haven Community Events Lending Library got a round of visual and communication polish, including logo and branding refinements and a dedicated sending address for library emails. These changes help the tool feel more like a real, trustworthy institution in the community, and having emails come from a consistent address makes it easier for borrowers to recognize and respond to messages. Small details like these go a long way toward building trust with neighbors who are new to a community resource.",
+    "tags": [
+      "lending-library",
+      "community-resources",
+      "email",
+      "branding",
+      "mutual-aid"
+    ],
+    "matches": [],
+    "contributor": {
+      "login": "kaddae",
+      "url": "https://github.com/kaddae"
+    }
   }
 ]
