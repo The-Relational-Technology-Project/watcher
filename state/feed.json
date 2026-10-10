@@ -2096,5 +2096,28 @@
       "login": "kaddae",
       "url": "https://github.com/kaddae"
     }
+  },
+  {
+    "id": "welcome-new-sunset-app",
+    "timestamp": "2026-10-10T14:01:38.198691+00:00",
+    "entry_type": "welcome",
+    "repo": {
+      "name": "New-Sunset-App",
+      "full_name": "benvonwong-byte/New-Sunset-App",
+      "url": "https://github.com/benvonwong-byte/New-Sunset-App",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Built with Relational Builder",
+      "lineage": {
+        "studio": "rt",
+        "studio_name": "Relational Tech Studio",
+        "note": "Built within Relational Tech Studio, with Relational Builder."
+      }
+    },
+    "summary": "We're thrilled to welcome **New-Sunset-App** to the relational tech network! This project, built with Relational Builder, is a wonderful addition to our growing community of connected builders and creators. So glad to have you here, and we can't wait to see where this project goes!",
+    "tags": [
+      "community-tool"
+    ],
+    "matches": []
   }
 ]
