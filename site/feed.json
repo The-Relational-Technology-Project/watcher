@@ -1,5 +1,33 @@
 [
   {
+    "id": "cozy-corner-commit-group-19d57c09",
+    "timestamp": "2026-11-05T23:37:51+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "cozy-corner",
+      "full_name": "The-Relational-Technology-Project/cozy-corner",
+      "url": "https://github.com/The-Relational-Technology-Project/cozy-corner",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Neighbor hub for 48th Ave in the Outer Sunset"
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "7 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/cozy-corner/commit/6602bf134bf8f4a1dc6052abc04a18b6d4334dbf",
+      "significance": "mention"
+    },
+    "summary": "Cozy Corner, the neighbor hub for 48th Ave in the Outer Sunset, got a fresh round of updates including new party stories, photos, and partner logos with acknowledgments. These additions help the site reflect the real community life happening on the block and give credit to the people and organizations making it possible. Other builders working on hyperlocal neighborhood hubs may find this a good model for documenting events and celebrating local partnerships.",
+    "tags": [
+      "neighborhood-hub",
+      "community-events",
+      "local-partners",
+      "content-updates",
+      "hyperlocal"
+    ],
+    "matches": []
+  },
+  {
     "id": "neighboring-recipes-commit-48847625",
     "timestamp": "2026-11-05T08:02:33+00:00",
     "entry_type": "change",
