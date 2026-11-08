@@ -2179,5 +2179,33 @@
       "hyperlocal"
     ],
     "matches": []
+  },
+  {
+    "id": "outer-sunset-today-commit-group-149549e4",
+    "timestamp": "2026-11-08T03:27:09+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "outer-sunset-today",
+      "full_name": "The-Relational-Technology-Project/outer-sunset-today",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Outer Sunset Today is our community calendar "
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "5 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/outer-sunset-today/commit/9ba8f4814d87775618faaa1d4d3cd327ddd6de07",
+      "significance": "highlight"
+    },
+    "summary": "Outer Sunset Today added public feeds, making it possible for other tools and platforms to pull in community calendar data automatically. This opens the door for neighborhoods and builders to surface local events in their own apps, newsletters, or aggregators without manual copy-paste work. It's a meaningful step toward a more connected local information ecosystem.",
+    "tags": [
+      "community-calendar",
+      "public-api",
+      "event-aggregation",
+      "data-sharing",
+      "neighborhood-tech"
+    ],
+    "matches": []
   }
 ]
