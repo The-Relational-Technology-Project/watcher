@@ -2207,5 +2207,205 @@
       "neighborhood-tech"
     ],
     "matches": []
+  },
+  {
+    "id": "welcome-knowy: a neighborhood agent",
+    "timestamp": "2026-11-10T00:55:00.863721+00:00",
+    "entry_type": "welcome",
+    "repo": {
+      "name": "Knowy: a neighborhood agent",
+      "full_name": "The-Relational-Technology-Project/neighborhood-agent",
+      "url": "https://github.com/The-Relational-Technology-Project/neighborhood-agent",
+      "neighborhood": "Outer Sunset, San Francisco",
+      "builder": "Relational Technology Project with Outer Sunset neighbors",
+      "description": "An AI agent that acts on behalf of a place, not a person. Neighbors ask it anything, it answers from public neighborhood notes with sources, and every change it drafts waits for a steward. The code takes a place's notes as config, so any place can run its own: a house, a block, a co-op, a neighborhood."
+    },
+    "summary": "Welcome to the network, Knowy! \ud83c\udf89 This Outer Sunset project reimagines what an AI agent can be by giving a *place* its own voice, answering neighbors' questions from shared notes while keeping humans in the loop as stewards of every change. We love seeing a tool built for collective care and local context, and can't wait to watch it grow.",
+    "tags": [
+      "neighborhood-agent",
+      "neighborhood-info",
+      "civic-engagement",
+      "resource-directory",
+      "stewardship",
+      "place-based-ai"
+    ],
+    "matches": []
+  },
+  {
+    "id": "knowy--a-neighborhood-agent-pr-merged-3",
+    "timestamp": "2026-11-09T23:51:21+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "Knowy: a neighborhood agent",
+      "full_name": "The-Relational-Technology-Project/neighborhood-agent",
+      "url": "https://github.com/The-Relational-Technology-Project/neighborhood-agent",
+      "neighborhood": "Outer Sunset, San Francisco",
+      "builder": "Relational Technology Project with Outer Sunset neighbors",
+      "description": "An AI agent that acts on behalf of a place, not a person. Neighbors ask it anything, it answers from public neighborhood notes with sources, and every change it drafts waits for a steward. The code takes a place's notes as config, so any place can run its own: a house, a block, a co-op, a neighborhood."
+    },
+    "change": {
+      "type": "pr_merged",
+      "title": "Knowy as a template: manifest, blank notes, stewards' guide, remix page",
+      "url": "https://github.com/The-Relational-Technology-Project/neighborhood-agent/pull/3",
+      "significance": "highlight"
+    },
+    "summary": "Knowy, the neighborhood AI agent built for the Outer Sunset, is now packaged as a template that any community can copy and adapt for their own place, whether that's a block, a co-op, or a building. The release includes a blank data repo with placeholders, a plain-language guide to the human stewardship practice, and a half-page remix doc written for non-technical readers, so the barrier to running your own Knowy is documentation and community consent rather than figuring out the structure from scratch. Other builders in the network can now pick this up directly from the Builder commons.",
+    "tags": [
+      "neighborhood-agent",
+      "place-based-ai",
+      "stewardship",
+      "template",
+      "remixable",
+      "community-docs"
+    ],
+    "matches": [],
+    "contributor": {
+      "login": "joshnesbit",
+      "url": "https://github.com/joshnesbit"
+    }
+  },
+  {
+    "id": "knowy--a-neighborhood-agent-pr-merged-2",
+    "timestamp": "2026-11-09T20:53:07+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "Knowy: a neighborhood agent",
+      "full_name": "The-Relational-Technology-Project/neighborhood-agent",
+      "url": "https://github.com/The-Relational-Technology-Project/neighborhood-agent",
+      "neighborhood": "Outer Sunset, San Francisco",
+      "builder": "Relational Technology Project with Outer Sunset neighbors",
+      "description": "An AI agent that acts on behalf of a place, not a person. Neighbors ask it anything, it answers from public neighborhood notes with sources, and every change it drafts waits for a steward. The code takes a place's notes as config, so any place can run its own: a house, a block, a co-op, a neighborhood."
+    },
+    "change": {
+      "type": "pr_merged",
+      "title": "Make the home page clearer for first-time visitors",
+      "url": "https://github.com/The-Relational-Technology-Project/neighborhood-agent/pull/2",
+      "significance": "highlight"
+    },
+    "summary": "Knowy's home page now welcomes first-time visitors with clearer language about what the tool does and how it differs from a search engine or corporate chatbot. A quiet trust line surfaces key facts about privacy and sourcing right away, and also serves as the first visible path to the about and sources pages on a nav-free layout. Builders thinking about first impressions and trust-building for neighborhood AI tools will find the chip ordering and disappearing-on-scroll approach worth a close look.",
+    "tags": [
+      "neighborhood-agent",
+      "onboarding",
+      "trust-and-transparency",
+      "privacy",
+      "community-chatbot",
+      "place-based-ai"
+    ],
+    "matches": [
+      {
+        "repo": "antler-browser/local-first-auth",
+        "builder": "Local First Auth",
+        "reason": "Listed interest in: onboarding"
+      }
+    ],
+    "contributor": {
+      "login": "joshnesbit",
+      "url": "https://github.com/joshnesbit"
+    }
+  },
+  {
+    "id": "knowy--a-neighborhood-agent-pr-merged-1",
+    "timestamp": "2026-11-08T22:31:22+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "Knowy: a neighborhood agent",
+      "full_name": "The-Relational-Technology-Project/neighborhood-agent",
+      "url": "https://github.com/The-Relational-Technology-Project/neighborhood-agent",
+      "neighborhood": "Outer Sunset, San Francisco",
+      "builder": "Relational Technology Project with Outer Sunset neighbors",
+      "description": "An AI agent that acts on behalf of a place, not a person. Neighbors ask it anything, it answers from public neighborhood notes with sources, and every change it drafts waits for a steward. The code takes a place's notes as config, so any place can run its own: a house, a block, a co-op, a neighborhood."
+    },
+    "change": {
+      "type": "pr_merged",
+      "title": "Read outersunset.today's public pizza, school lunch, and news feeds",
+      "url": "https://github.com/The-Relational-Technology-Project/neighborhood-agent/pull/1",
+      "significance": "highlight"
+    },
+    "summary": "Knowy can now pull in live pizza menus, school lunch schedules, and neighborhood news from outersunset.today, so neighbors asking about food or local happenings get answers drawn from real, up-to-date public feeds. This matters because it shows how a neighborhood agent can connect to existing local data sources without requiring a private key or special access, keeping the whole setup transparent and easy to replicate. Builders running Knowy for their own place can use this same pattern to wire in whatever public feeds their neighborhood already publishes.",
+    "tags": [
+      "neighborhood-agent",
+      "data-feeds",
+      "school-lunch",
+      "local-news",
+      "open-data",
+      "place-based-ai"
+    ],
+    "matches": [],
+    "contributor": {
+      "login": "joshnesbit",
+      "url": "https://github.com/joshnesbit"
+    }
+  },
+  {
+    "id": "knowy--a-neighborhood-agent-commit-group-19aead7c",
+    "timestamp": "2026-11-07T00:34:48+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "Knowy: a neighborhood agent",
+      "full_name": "The-Relational-Technology-Project/neighborhood-agent",
+      "url": "https://github.com/The-Relational-Technology-Project/neighborhood-agent",
+      "neighborhood": "Outer Sunset, San Francisco",
+      "builder": "Relational Technology Project with Outer Sunset neighbors",
+      "description": "An AI agent that acts on behalf of a place, not a person. Neighbors ask it anything, it answers from public neighborhood notes with sources, and every change it drafts waits for a steward. The code takes a place's notes as config, so any place can run its own: a house, a block, a co-op, a neighborhood."
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "30 commits by joshnesbit",
+      "url": "https://github.com/The-Relational-Technology-Project/neighborhood-agent/commit/b80f3c15ad8301439dc7b7ad49bc758c1bfb9f11",
+      "significance": "highlight"
+    },
+    "summary": "Knowy launched as a working neighborhood agent for the Outer Sunset, letting neighbors ask questions in plain language and get answers drawn from public neighborhood notes with cited sources. Every suggested change waits for a human steward to review before anything goes out, and neighbors can propose new data sources directly through the chat. Because the whole system is configured from a place's own notes, any community, whether a block, a co-op, or a neighborhood, can run their own version.",
+    "tags": [
+      "neighborhood-agent",
+      "place-based-ai",
+      "stewardship",
+      "mutual-aid",
+      "civic-engagement",
+      "open-infrastructure"
+    ],
+    "matches": [],
+    "contributor": {
+      "login": "joshnesbit",
+      "url": "https://github.com/joshnesbit"
+    }
+  },
+  {
+    "id": "knowy--a-neighborhood-agent-readme-update-2026-11-09",
+    "timestamp": "2026-11-09T23:51:20+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "Knowy: a neighborhood agent",
+      "full_name": "The-Relational-Technology-Project/neighborhood-agent",
+      "url": "https://github.com/The-Relational-Technology-Project/neighborhood-agent",
+      "neighborhood": "Outer Sunset, San Francisco",
+      "builder": "Relational Technology Project with Outer Sunset neighbors",
+      "description": "An AI agent that acts on behalf of a place, not a person. Neighbors ask it anything, it answers from public neighborhood notes with sources, and every change it drafts waits for a steward. The code takes a place's notes as config, so any place can run its own: a house, a block, a co-op, a neighborhood."
+    },
+    "change": {
+      "type": "readme_update",
+      "title": "README updated",
+      "url": "https://github.com/The-Relational-Technology-Project/neighborhood-agent/commit/b250c1d0b9dbf850f3ce791c032351ddcebd2927",
+      "significance": "mention"
+    },
+    "summary": "Knowy now ships as a ready-to-remix template, with a blank data repo, a plain-language stewarding guide, and a half-page remix doc written for non-technical readers. This means any place, whether a house, a block, or a co-op, can stand up their own neighborhood agent without needing to reverse-engineer an existing deployment. Builders in this network can also use the new manifest format and commons intake doc as a reference for how to make their own projects forkable by neighbors.",
+    "tags": [
+      "place-based-ai",
+      "templates",
+      "stewardship",
+      "remixability",
+      "neighborhood-agent",
+      "onboarding"
+    ],
+    "matches": [
+      {
+        "repo": "antler-browser/local-first-auth",
+        "builder": "Local First Auth",
+        "reason": "Listed interest in: onboarding"
+      }
+    ],
+    "contributor": {
+      "login": "joshnesbit",
+      "url": "https://github.com/joshnesbit"
+    }
   }
 ]
