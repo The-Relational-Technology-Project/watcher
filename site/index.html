@@ -427,18 +427,201 @@
     
     <span class="tag" data-tag="block-level" onclick="filterByTag('block-level')">block-level</span>
     
+    <span class="tag" data-tag="block-level-info" onclick="filterByTag('block-level-info')">block-level-info</span>
+    
+    <span class="tag" data-tag="block-lookup" onclick="filterByTag('block-lookup')">block-lookup</span>
+    
     <span class="tag" data-tag="block-parties" onclick="filterByTag('block-parties')">block-parties</span>
     
     <span class="tag" data-tag="block-party" onclick="filterByTag('block-party')">block-party</span>
-    
-    <span class="tag" data-tag="branding" onclick="filterByTag('branding')">branding</span>
-    
-    <span class="tag" data-tag="bug-fix" onclick="filterByTag('bug-fix')">bug-fix</span>
     
 </div>
 
 
 <div id="feed">
+
+<div class="feed-entry change mention" data-tags="neighborhood-agent place-based-ai data-freshness serverless neighborhood-info real-time-updates">
+    <div class="entry-header">
+        <div class="entry-header-left">
+            <div class="entry-meta">
+                <span class="entry-project">
+                    
+                    
+                        <a href="https://github.com/The-Relational-Technology-Project/neighborhood-agent">Knowy: a neighborhood agent</a>
+                    
+                </span>
+                
+                <span class="entry-neighborhood">Outer Sunset, San Francisco</span>
+                
+                <span class="entry-date">2026-11-14</span>
+            </div>
+        </div>
+        <button class="copy-btn" onclick="copyEntry(this)" title="Copy update text">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            <span>Copy</span>
+        </button>
+    </div>
+
+    <p class="entry-summary">Knowy fixed a bug where new neighborhood information wasn&#39;t reaching neighbors after updates, sometimes staying stale for five minutes or more across many requests. Now when the underlying notes change, the agent finishes refreshing its index before it responds, so neighbors always get answers drawn from the latest version of their neighborhood&#39;s knowledge. For other builders running AI agents or info tools on serverless hosts, this pattern of using waitUntil to keep background work alive is worth knowing.</p>
+
+    
+    <p class="entry-contributor">
+        Built by <a href="https://github.com/joshnesbit">@joshnesbit</a>
+    </p>
+    
+
+    
+    <p class="entry-change-link">
+        <a href="https://github.com/The-Relational-Technology-Project/neighborhood-agent/pull/12">View pr merged &rarr;</a>
+    </p>
+    
+
+    <p class="entry-project-link">
+        <a href="projects.html#the-relational-technology-project-neighborhood-agent">View project &rarr;</a>
+    </p>
+
+    
+    <div class="tags">
+        
+        <span class="tag">neighborhood-agent</span>
+        
+        <span class="tag">place-based-ai</span>
+        
+        <span class="tag">data-freshness</span>
+        
+        <span class="tag">serverless</span>
+        
+        <span class="tag">neighborhood-info</span>
+        
+        <span class="tag">real-time-updates</span>
+        
+    </div>
+    
+
+    
+</div>
+
+<div class="feed-entry change highlight" data-tags="street-cleaning neighborhood-agent open-data block-level-info place-based-config civic-data">
+    <div class="entry-header">
+        <div class="entry-header-left">
+            <div class="entry-meta">
+                <span class="entry-project">
+                    
+                    
+                        <a href="https://github.com/The-Relational-Technology-Project/neighborhood-agent">Knowy: a neighborhood agent</a>
+                    
+                </span>
+                
+                <span class="entry-neighborhood">Outer Sunset, San Francisco</span>
+                
+                <span class="entry-date">2026-11-14</span>
+            </div>
+        </div>
+        <button class="copy-btn" onclick="copyEntry(this)" title="Copy update text">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            <span>Copy</span>
+        </button>
+    </div>
+
+    <p class="entry-summary">Knowy can now surface street cleaning schedules by block, pulling live city data and showing which days and hours apply to each side of the street. This means neighbors get a direct, sourced answer to one of the most common and frustrating local questions, without anyone having to manually maintain that information. Other builders running Knowy for their own place can opt into this by adding a single data source, and places that don&#39;t have the data lose nothing.</p>
+
+    
+    <p class="entry-contributor">
+        Built by <a href="https://github.com/joshnesbit">@joshnesbit</a>
+    </p>
+    
+
+    
+    <p class="entry-change-link">
+        <a href="https://github.com/The-Relational-Technology-Project/neighborhood-agent/pull/11">View pr merged &rarr;</a>
+    </p>
+    
+
+    <p class="entry-project-link">
+        <a href="projects.html#the-relational-technology-project-neighborhood-agent">View project &rarr;</a>
+    </p>
+
+    
+    <div class="tags">
+        
+        <span class="tag">street-cleaning</span>
+        
+        <span class="tag">neighborhood-agent</span>
+        
+        <span class="tag">open-data</span>
+        
+        <span class="tag">block-level-info</span>
+        
+        <span class="tag">place-based-config</span>
+        
+        <span class="tag">civic-data</span>
+        
+    </div>
+    
+
+    
+</div>
+
+<div class="feed-entry change highlight" data-tags="neighborhood-agent street-services live-data block-lookup civic-info open-data">
+    <div class="entry-header">
+        <div class="entry-header-left">
+            <div class="entry-meta">
+                <span class="entry-project">
+                    
+                    
+                        <a href="https://github.com/The-Relational-Technology-Project/neighborhood-agent">Knowy: a neighborhood agent</a>
+                    
+                </span>
+                
+                <span class="entry-neighborhood">Outer Sunset, San Francisco</span>
+                
+                <span class="entry-date">2026-11-14</span>
+            </div>
+        </div>
+        <button class="copy-btn" onclick="copyEntry(this)" title="Copy update text">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            <span>Copy</span>
+        </button>
+    </div>
+
+    <p class="entry-summary">Knowy can now answer one of the most practical questions neighbors have: when does street cleaning come to my block? When someone asks about a specific block in the Outer Sunset, the agent pulls live city data to show cleaning days, hours, and the next scheduled date, while always reminding neighbors that the signs on the street are the final authority. Other builders running their own instance of Knowy can add this same live data source for their city&#39;s block-level cleaning schedules, or leave it out entirely with no effect on anything else.</p>
+
+    
+    <p class="entry-contributor">
+        Built by <a href="https://github.com/joshnesbit">@joshnesbit</a>
+    </p>
+    
+
+    
+    <p class="entry-change-link">
+        <a href="https://github.com/The-Relational-Technology-Project/neighborhood-agent/commit/ca87a0fd6bdc1a0ddd09b5a285a913371b0446c1">View readme update &rarr;</a>
+    </p>
+    
+
+    <p class="entry-project-link">
+        <a href="projects.html#the-relational-technology-project-neighborhood-agent">View project &rarr;</a>
+    </p>
+
+    
+    <div class="tags">
+        
+        <span class="tag">neighborhood-agent</span>
+        
+        <span class="tag">street-services</span>
+        
+        <span class="tag">live-data</span>
+        
+        <span class="tag">block-lookup</span>
+        
+        <span class="tag">civic-info</span>
+        
+        <span class="tag">open-data</span>
+        
+    </div>
+    
+
+    
+</div>
 
 <div class="feed-entry change mention" data-tags="artist-call multilingual forms host-network spam-protection gatherings">
     <div class="entry-header">
@@ -3068,165 +3251,6 @@
         <span class="tag">attribution</span>
         
         <span class="tag">local-events</span>
-        
-    </div>
-    
-
-    
-</div>
-
-<div class="feed-entry change mention" data-tags="community-calendar event-aggregation scraping outer-sunset event-sources">
-    <div class="entry-header">
-        <div class="entry-header-left">
-            <div class="entry-meta">
-                <span class="entry-project">
-                    
-                    
-                        <a href="https://github.com/The-Relational-Technology-Project/outer-sunset-today">outer-sunset-today</a>
-                    
-                </span>
-                
-                <span class="entry-date">2026-07-12</span>
-            </div>
-        </div>
-        <button class="copy-btn" onclick="copyEntry(this)" title="Copy update text">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
-            <span>Copy</span>
-        </button>
-    </div>
-
-    <p class="entry-summary">Outer Sunset Today added Far Out West as a new source to its event scraper, bringing more local happenings into the community calendar automatically. This means residents get a fuller picture of what&#39;s going on in the neighborhood without anyone having to manually add events. The team also simplified the interface by removing the alerts system and its call-to-action, streamlining the experience for visitors.</p>
-
-    
-
-    
-    <p class="entry-change-link">
-        <a href="https://github.com/The-Relational-Technology-Project/outer-sunset-today/commit/81f16c73fe9873b27c2dfc956d415340aa1f45c7">View commit group &rarr;</a>
-    </p>
-    
-
-    <p class="entry-project-link">
-        <a href="projects.html#the-relational-technology-project-outer-sunset-today">View project &rarr;</a>
-    </p>
-
-    
-    <div class="tags">
-        
-        <span class="tag">community-calendar</span>
-        
-        <span class="tag">event-aggregation</span>
-        
-        <span class="tag">scraping</span>
-        
-        <span class="tag">outer-sunset</span>
-        
-        <span class="tag">event-sources</span>
-        
-    </div>
-    
-
-    
-</div>
-
-<div class="feed-entry change mention" data-tags="community-calendar event-times timezone bug-fix local-events">
-    <div class="entry-header">
-        <div class="entry-header-left">
-            <div class="entry-meta">
-                <span class="entry-project">
-                    
-                    
-                        <a href="https://github.com/The-Relational-Technology-Project/outer-sunset-today">outer-sunset-today</a>
-                    
-                </span>
-                
-                <span class="entry-date">2026-07-11</span>
-            </div>
-        </div>
-        <button class="copy-btn" onclick="copyEntry(this)" title="Copy update text">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
-            <span>Copy</span>
-        </button>
-    </div>
-
-    <p class="entry-summary">Outer Sunset Today fixed a bug that was causing event times to display incorrectly during Daylight Saving Time in the Pacific timezone. This kind of time handling issue can quietly cause community members to show up at the wrong time, so getting it right is a real win for anyone relying on the calendar. Other builders working with local event times across timezone boundaries may want to take note of this as a common pitfall.</p>
-
-    
-
-    
-    <p class="entry-change-link">
-        <a href="https://github.com/The-Relational-Technology-Project/outer-sunset-today/commit/a8e1a2894f2722efa54298af0e0e9009fd67b26a">View commit group &rarr;</a>
-    </p>
-    
-
-    <p class="entry-project-link">
-        <a href="projects.html#the-relational-technology-project-outer-sunset-today">View project &rarr;</a>
-    </p>
-
-    
-    <div class="tags">
-        
-        <span class="tag">community-calendar</span>
-        
-        <span class="tag">event-times</span>
-        
-        <span class="tag">timezone</span>
-        
-        <span class="tag">bug-fix</span>
-        
-        <span class="tag">local-events</span>
-        
-    </div>
-    
-
-    
-</div>
-
-<div class="feed-entry change mention" data-tags="mutual-aid supplies-sharing authentication access-control resource-sharing">
-    <div class="entry-header">
-        <div class="entry-header-left">
-            <div class="entry-meta">
-                <span class="entry-project">
-                    
-                    
-                        <a href="https://github.com/The-Relational-Technology-Project/community-supplies">community-supplies</a>
-                    
-                </span>
-                
-                <span class="entry-date">2026-07-02</span>
-            </div>
-        </div>
-        <button class="copy-btn" onclick="copyEntry(this)" title="Copy update text">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
-            <span>Copy</span>
-        </button>
-    </div>
-
-    <p class="entry-summary">The community-supplies platform for Sunset and Richmond got a significant round of improvements, including authentication and a community guard to make sure only the right people can access the supplies-sharing features. This kind of member verification helps build trust in sharing systems, ensuring that resources stay within the community they were built for. Other builders working on mutual aid or resource-sharing tools may find the community access control approach worth adapting for their own projects.</p>
-
-    
-
-    
-    <p class="entry-change-link">
-        <a href="https://github.com/The-Relational-Technology-Project/community-supplies/commit/a8ff63ad5f9db96cf6fc457012a2caa23f15b145">View commit group &rarr;</a>
-    </p>
-    
-
-    <p class="entry-project-link">
-        <a href="projects.html#the-relational-technology-project-community-supplies">View project &rarr;</a>
-    </p>
-
-    
-    <div class="tags">
-        
-        <span class="tag">mutual-aid</span>
-        
-        <span class="tag">supplies-sharing</span>
-        
-        <span class="tag">authentication</span>
-        
-        <span class="tag">access-control</span>
-        
-        <span class="tag">resource-sharing</span>
         
     </div>
     
