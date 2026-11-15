@@ -1,5 +1,77 @@
 [
   {
+    "id": "knowy--a-neighborhood-agent-pr-merged-19",
+    "timestamp": "2026-11-15T20:56:14+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "Knowy: a neighborhood agent",
+      "full_name": "The-Relational-Technology-Project/neighborhood-agent",
+      "url": "https://github.com/The-Relational-Technology-Project/neighborhood-agent",
+      "neighborhood": "Outer Sunset, San Francisco",
+      "builder": "Relational Technology Project with Outer Sunset neighbors",
+      "description": "An AI agent that acts on behalf of a place, not a person. Neighbors ask it anything, it answers from public neighborhood notes with sources, and every change it drafts waits for a steward. The code takes a place's notes as config, so any place can run its own: a house, a block, a co-op, a neighborhood."
+    },
+    "change": {
+      "type": "pr_merged",
+      "title": "Home: reassurance line under the tagline, tide and water only, and a block question first",
+      "url": "https://github.com/The-Relational-Technology-Project/neighborhood-agent/pull/19",
+      "significance": "mention"
+    },
+    "summary": "Knowy's home screen for the Outer Sunset neighborhood agent got a focused refresh: the phone view now leads with tide and water readings, a reassurance note about privacy and sources sits just under the tagline, and the first suggested question asks what's special about your block. This makes the tool feel more grounded in place right away, lowering the barrier for neighbors who might be uncertain about what an AI agent is or what it keeps. Other builders thinking about onboarding and trust signals will find the layout choices worth looking at.",
+    "tags": [
+      "neighborhood-agent",
+      "onboarding",
+      "place-based-ai",
+      "mobile",
+      "trust-and-transparency",
+      "community-ux"
+    ],
+    "matches": [
+      {
+        "repo": "antler-browser/local-first-auth",
+        "builder": "Local First Auth",
+        "reason": "Listed interest in: onboarding"
+      }
+    ],
+    "contributor": {
+      "login": "joshnesbit",
+      "url": "https://github.com/joshnesbit"
+    }
+  },
+  {
+    "id": "knowy--a-neighborhood-agent-pr-merged-18",
+    "timestamp": "2026-11-15T20:16:36+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "Knowy: a neighborhood agent",
+      "full_name": "The-Relational-Technology-Project/neighborhood-agent",
+      "url": "https://github.com/The-Relational-Technology-Project/neighborhood-agent",
+      "neighborhood": "Outer Sunset, San Francisco",
+      "builder": "Relational Technology Project with Outer Sunset neighbors",
+      "description": "An AI agent that acts on behalf of a place, not a person. Neighbors ask it anything, it answers from public neighborhood notes with sources, and every change it drafts waits for a steward. The code takes a place's notes as config, so any place can run its own: a house, a block, a co-op, a neighborhood."
+    },
+    "change": {
+      "type": "pr_merged",
+      "title": "Desktop sidebar, a slimmer phone home, and a faster home screen launch",
+      "url": "https://github.com/The-Relational-Technology-Project/neighborhood-agent/pull/18",
+      "significance": "mention"
+    },
+    "summary": "Knowy's neighborhood agent now has a cleaner phone experience and a persistent sidebar on larger screens, making it easier for neighbors to ask questions and find local information at any screen size. The home screen now loads from a saved copy on the device first, so the agent feels snappy even on slower connections, and live readings like tide, water, and air quality load after the page appears rather than holding it up. Builders working on place-based tools will find the layout pattern and offline-first loading approach worth borrowing for their own neighborhood projects.",
+    "tags": [
+      "neighborhood-agent",
+      "mobile-ux",
+      "offline-first",
+      "place-based-ai",
+      "performance",
+      "responsive-design"
+    ],
+    "matches": [],
+    "contributor": {
+      "login": "joshnesbit",
+      "url": "https://github.com/joshnesbit"
+    }
+  },
+  {
     "id": "knowy--a-neighborhood-agent-pr-merged-15",
     "timestamp": "2026-11-14T23:55:36+00:00",
     "entry_type": "change",
