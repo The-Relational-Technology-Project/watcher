@@ -3197,5 +3197,38 @@
       "login": "joshnesbit",
       "url": "https://github.com/joshnesbit"
     }
+  },
+  {
+    "id": "knowy--a-neighborhood-agent-pr-merged-22",
+    "timestamp": "2026-11-18T22:41:50+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "Knowy: a neighborhood agent",
+      "full_name": "The-Relational-Technology-Project/neighborhood-agent",
+      "url": "https://github.com/The-Relational-Technology-Project/neighborhood-agent",
+      "neighborhood": "Outer Sunset, San Francisco",
+      "builder": "Relational Technology Project with Outer Sunset neighbors",
+      "description": "An AI agent that acts on behalf of a place, not a person. Neighbors ask it anything, it answers from public neighborhood notes with sources, and every change it drafts waits for a steward. The code takes a place's notes as config, so any place can run its own: a house, a block, a co-op, a neighborhood."
+    },
+    "change": {
+      "type": "pr_merged",
+      "title": "Street cleaning: say which holidays are days off",
+      "url": "https://github.com/The-Relational-Technology-Project/neighborhood-agent/pull/22",
+      "significance": "mention"
+    },
+    "summary": "Knowy corrected a street cleaning answer that was telling neighbors the wrong days their block would be swept, by removing a 'not on city holidays' phrase that didn't match how SFMTA actually enforces the schedule. This matters because a downstream tool had already turned that wording into a list of eight incorrect skip days, showing how small answer-wording choices in a neighborhood agent can quietly cause real mistakes for people planning around street cleaning. The fix also adds a way for any place running Knowy to supply its own holiday note in config, so the answer can be localized without hardcoding assumptions.",
+    "tags": [
+      "neighborhood-agent",
+      "street-cleaning",
+      "data-accuracy",
+      "place-based-ai",
+      "civic-info",
+      "api-design"
+    ],
+    "matches": [],
+    "contributor": {
+      "login": "joshnesbit",
+      "url": "https://github.com/joshnesbit"
+    }
   }
 ]
