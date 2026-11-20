@@ -1,47 +1,5 @@
 {
   "repos": {
-    "kaddae/community-events-library": {
-      "full_name": "kaddae/community-events-library",
-      "url": "https://github.com/kaddae/community-events-library",
-      "description": "Built with Relational Builder",
-      "manifest": {
-        "version": 2,
-        "project": {
-          "name": "New Haven Community Events Lending Library",
-          "description": "A lending library for community event supplies \u2014 chairs, PA, tents, lights \u2014 stewarded by Civic Works and GROUP PROJECT in New Haven.",
-          "neighborhood": "New Haven",
-          "builder": "Kai Addae"
-        },
-        "tags": [],
-        "lineage": {
-          "remixed_from": "Local Supplies Sharing",
-          "remixed_from_url": "https://studio.relationaltechproject.org/library?item=dcb4d804-a256-4402-b785-00dabbf9635c"
-        },
-        "watch": {
-          "branches": [
-            "main",
-            "master"
-          ],
-          "signals": [
-            "releases",
-            "prs",
-            "commits"
-          ],
-          "threshold": "minor"
-        },
-        "preferences": {
-          "summarize_commits": true,
-          "summarize_readme": true,
-          "public_link": true,
-          "name_contributors": false
-        },
-        "interests": [],
-        "_has_manifest": true
-      },
-      "contact": null,
-      "last_checked": "2026-11-19T23:57:41.119400+00:00",
-      "first_seen": "2026-09-28T22:41:14.390833+00:00"
-    },
     "The-Relational-Technology-Project/neighborhood-agent": {
       "full_name": "The-Relational-Technology-Project/neighborhood-agent",
       "url": "https://github.com/The-Relational-Technology-Project/neighborhood-agent",
@@ -89,8 +47,50 @@
         "_has_manifest": true
       },
       "contact": null,
-      "last_checked": "2026-11-19T23:57:46.890656+00:00",
+      "last_checked": "2026-11-20T16:27:45.139963+00:00",
       "first_seen": "2026-11-10T00:55:29.573552+00:00"
+    },
+    "kaddae/community-events-library": {
+      "full_name": "kaddae/community-events-library",
+      "url": "https://github.com/kaddae/community-events-library",
+      "description": "Built with Relational Builder",
+      "manifest": {
+        "version": 2,
+        "project": {
+          "name": "New Haven Community Events Lending Library",
+          "description": "A lending library for community event supplies \u2014 chairs, PA, tents, lights \u2014 stewarded by Civic Works and GROUP PROJECT in New Haven.",
+          "neighborhood": "New Haven",
+          "builder": "Kai Addae"
+        },
+        "tags": [],
+        "lineage": {
+          "remixed_from": "Local Supplies Sharing",
+          "remixed_from_url": "https://studio.relationaltechproject.org/library?item=dcb4d804-a256-4402-b785-00dabbf9635c"
+        },
+        "watch": {
+          "branches": [
+            "main",
+            "master"
+          ],
+          "signals": [
+            "releases",
+            "prs",
+            "commits"
+          ],
+          "threshold": "minor"
+        },
+        "preferences": {
+          "summarize_commits": true,
+          "summarize_readme": true,
+          "public_link": true,
+          "name_contributors": false
+        },
+        "interests": [],
+        "_has_manifest": true
+      },
+      "contact": null,
+      "last_checked": "2026-11-20T16:27:50.177500+00:00",
+      "first_seen": "2026-09-28T22:41:14.390833+00:00"
     },
     "The-Relational-Technology-Project/sunset-wave-host-map": {
       "full_name": "The-Relational-Technology-Project/sunset-wave-host-map",
@@ -134,7 +134,7 @@
         "_has_manifest": true
       },
       "contact": null,
-      "last_checked": "2026-11-19T23:57:50.976147+00:00",
+      "last_checked": "2026-11-20T16:27:54.381670+00:00",
       "first_seen": "2026-11-10T22:37:01.508771+00:00"
     },
     "The-Relational-Technology-Project/outer-sunset-today": {
@@ -173,7 +173,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-11-19T23:57:55.070112+00:00",
+      "last_checked": "2026-11-20T16:27:58.666568+00:00",
       "first_seen": "2026-04-28T10:04:18.734562+00:00"
     },
     "The-Relational-Technology-Project/cozy-corner": {
@@ -212,7 +212,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-11-19T23:57:59.221556+00:00",
+      "last_checked": "2026-11-20T16:28:03.172788+00:00",
       "first_seen": "2026-04-28T10:04:37.850395+00:00"
     },
     "The-Relational-Technology-Project/neighboring-recipes": {
@@ -251,7 +251,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-11-19T23:58:04.481911+00:00",
+      "last_checked": "2026-11-20T16:28:07.422076+00:00",
       "first_seen": "2026-06-18T20:05:08.994046+00:00"
     },
     "The-Relational-Technology-Project/community-supplies": {
@@ -290,7 +290,7 @@
         "_has_manifest": false
       },
       "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
-      "last_checked": "2026-11-19T23:58:08.623718+00:00",
+      "last_checked": "2026-11-20T16:28:11.705170+00:00",
       "first_seen": "2026-04-28T10:04:29.766893+00:00"
     },
     "benvonwong-byte/New-Sunset-App": {
@@ -334,7 +334,7 @@
         "_has_manifest": true
       },
       "contact": null,
-      "last_checked": "2026-11-19T23:58:12.224502+00:00",
+      "last_checked": "2026-11-20T16:28:15.240454+00:00",
       "first_seen": "2026-10-10T14:01:41.594897+00:00"
     },
     "joshnesbit/sunset-delib": {
@@ -378,7 +378,7 @@
         "_has_manifest": true
       },
       "contact": null,
-      "last_checked": "2026-11-19T23:58:15.679808+00:00",
+      "last_checked": "2026-11-20T16:28:18.701679+00:00",
       "first_seen": "2026-09-24T12:57:23.996104+00:00"
     },
     "joshnesbit/sunset-wave": {
@@ -422,7 +422,7 @@
         "_has_manifest": true
       },
       "contact": null,
-      "last_checked": "2026-11-19T23:58:19.696154+00:00",
+      "last_checked": "2026-11-20T16:28:22.827501+00:00",
       "first_seen": "2026-09-19T12:06:12.663430+00:00"
     },
     "joshnesbit/sunset-commons-map": {
@@ -466,7 +466,7 @@
         "_has_manifest": true
       },
       "contact": null,
-      "last_checked": "2026-11-19T23:58:23.134739+00:00",
+      "last_checked": "2026-11-20T16:28:26.347904+00:00",
       "first_seen": "2026-09-09T12:31:40.580500+00:00"
     },
     "kaddae/rar-gear-library": {
@@ -510,7 +510,7 @@
         "_has_manifest": true
       },
       "contact": null,
-      "last_checked": "2026-11-19T23:58:26.601417+00:00",
+      "last_checked": "2026-11-20T16:28:29.901029+00:00",
       "first_seen": "2026-08-13T08:59:10.666317+00:00"
     },
     "joshnesbit/sunset-exchange": {
@@ -554,7 +554,7 @@
         "_has_manifest": true
       },
       "contact": null,
-      "last_checked": "2026-11-19T23:58:29.997438+00:00",
+      "last_checked": "2026-11-20T16:28:33.496470+00:00",
       "first_seen": "2026-08-02T09:46:43.364879+00:00"
     },
     "The-Relational-Technology-Project/community-guaranteed-income-club": {
@@ -593,7 +593,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-11-19T23:58:34.324927+00:00",
+      "last_checked": "2026-11-20T16:28:37.782703+00:00",
       "first_seen": "2026-06-11T12:01:07.685911+00:00"
     },
     "antler-browser/mini-app-starter": {
@@ -632,7 +632,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-11-19T23:58:38.355843+00:00",
+      "last_checked": "2026-11-20T16:28:42.015790+00:00",
       "first_seen": "2026-06-12T11:33:34.166027+00:00"
     },
     "antler-browser/local-first-auth": {
@@ -683,7 +683,7 @@
         "_has_manifest": true
       },
       "contact": null,
-      "last_checked": "2026-11-19T23:58:41.578661+00:00",
+      "last_checked": "2026-11-20T16:28:45.411787+00:00",
       "first_seen": "2026-04-28T10:04:57.532202+00:00"
     },
     "antler-browser/local-first-auth-simulator": {
@@ -722,7 +722,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-11-19T23:58:45.850393+00:00",
+      "last_checked": "2026-11-20T16:28:49.743191+00:00",
       "first_seen": "2026-04-28T10:04:54.416349+00:00"
     },
     "The-Relational-Technology-Project/sunsetpeople": {
@@ -761,7 +761,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-11-19T23:58:49.988784+00:00",
+      "last_checked": "2026-11-20T16:28:54.051425+00:00",
       "first_seen": "2026-04-28T10:04:46.244280+00:00"
     },
     "The-Relational-Technology-Project/buildirl": {
@@ -800,7 +800,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-11-19T23:58:54.676868+00:00",
+      "last_checked": "2026-11-20T16:28:58.932813+00:00",
       "first_seen": "2026-06-10T11:28:40.119555+00:00"
     },
     "The-Relational-Technology-Project/neighborhood-api": {
@@ -839,7 +839,7 @@
         "_has_manifest": false
       },
       "contact": "Josh Nesbit \u2013 co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.\nReach me by email: josh@relationaltechproject.org",
-      "last_checked": "2026-11-19T23:58:59.303042+00:00",
+      "last_checked": "2026-11-20T16:29:03.824390+00:00",
       "first_seen": "2026-04-28T10:04:41.912278+00:00"
     },
     "The-Relational-Technology-Project/sunset-walking-guide": {
@@ -878,7 +878,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-11-19T23:59:03.424338+00:00",
+      "last_checked": "2026-11-20T16:29:08.101140+00:00",
       "first_seen": "2026-04-28T10:04:50.340563+00:00"
     },
     "The-Relational-Technology-Project/tiny-times": {
@@ -917,7 +917,7 @@
         "_has_manifest": false
       },
       "contact": null,
-      "last_checked": "2026-11-19T23:59:07.643682+00:00",
+      "last_checked": "2026-11-20T16:29:12.569260+00:00",
       "first_seen": "2026-04-28T10:04:33.853920+00:00"
     }
   }
