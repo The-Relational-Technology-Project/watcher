@@ -3263,5 +3263,33 @@
       "login": "joshnesbit",
       "url": "https://github.com/joshnesbit"
     }
+  },
+  {
+    "id": "the-sunset-wave-commit-c3c5a92b",
+    "timestamp": "2026-11-24T04:28:59+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "The Sunset Wave",
+      "full_name": "The-Relational-Technology-Project/sunset-wave-host-map",
+      "url": "https://github.com/The-Relational-Technology-Project/sunset-wave-host-map",
+      "neighborhood": "The Sunset, San Francisco",
+      "builder": "Sunset Social Club",
+      "description": "A host map for a day of neighbor gatherings: 400 blocks, one afternoon, hosted by the neighbors."
+    },
+    "change": {
+      "type": "commit",
+      "title": "Map clarified host stretches and resolve location review",
+      "url": "https://github.com/The-Relational-Technology-Project/sunset-wave-host-map/commit/c3c5a92bb95cd7e74e7b44397e2441348c948af7",
+      "significance": "mention"
+    },
+    "summary": "The Sunset Wave updated their host map to more clearly show which stretches of blocks have confirmed hosts, and resolved a backlog of location reviews. This makes it easier for neighbors browsing the map to find gatherings near them and for organizers to see where coverage is strong or still needed across the 400-block network.",
+    "tags": [
+      "mapping",
+      "host-network",
+      "block-parties",
+      "location-data",
+      "gatherings"
+    ],
+    "matches": []
   }
 ]
