@@ -1,5 +1,33 @@
 [
   {
+    "id": "community-supplies-commit-group-889572c9",
+    "timestamp": "2026-11-26T04:57:24+00:00",
+    "entry_type": "change",
+    "repo": {
+      "name": "community-supplies",
+      "full_name": "The-Relational-Technology-Project/community-supplies",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Supplies sharing site for the Sunset and Richmond community"
+    },
+    "change": {
+      "type": "commit_group",
+      "title": "2 commits by lovable-dev[bot]",
+      "url": "https://github.com/The-Relational-Technology-Project/community-supplies/commit/9a0c366406bd2d86d96bf763f1a4bd732ca19ac1",
+      "significance": "mention"
+    },
+    "summary": "The community-supplies project for Sunset and Richmond now uses pre-saved catalog thumbnails instead of a paid image transformation service, and has added a north star document to guide the project's direction. Removing the paid image service lowers the cost of running the platform, which helps keep this kind of neighborhood resource-sharing tool sustainable over time. Other builders working on inventory or catalog tools might find the thumbnail approach useful for their own setups.",
+    "tags": [
+      "mutual-aid",
+      "resource-sharing",
+      "sustainability",
+      "image-handling",
+      "neighborhood-tools"
+    ],
+    "matches": []
+  },
+  {
     "id": "the-sunset-wave-commit-c3c5a92b",
     "timestamp": "2026-11-24T04:28:59+00:00",
     "entry_type": "change",
