@@ -3319,5 +3319,28 @@
       "neighborhood-tools"
     ],
     "matches": []
+  },
+  {
+    "id": "welcome-forest",
+    "timestamp": "2026-11-27T01:13:45.608005+00:00",
+    "entry_type": "welcome",
+    "repo": {
+      "name": "forest",
+      "full_name": "wu12345/forest",
+      "url": "https://github.com/wu12345/forest",
+      "neighborhood": null,
+      "builder": null,
+      "description": "Built with Relational Builder",
+      "lineage": {
+        "studio": "rt",
+        "studio_name": "Relational Tech Studio",
+        "note": "Built within Relational Tech Studio, with Relational Builder."
+      }
+    },
+    "summary": "Welcome **forest** to the relational tech network! \ud83c\udf32 We're so glad to have this Relational Builder project growing among us. Explore their work and show some love over at their [repository](https://github.com/wu12345/forest)!",
+    "tags": [
+      "community-tool"
+    ],
+    "matches": []
   }
 ]
